@@ -24,10 +24,10 @@ width=50%"/>
 | Alumnos                      |   Codigo   |
 |:-----------------------------|:----------:|
 | Williams Gongora Castillejos | U20221c186 |
-| - | - |
+| Piero Mendoza Pimentel | u201923446 |
 | Quispe Roldan Michael Fred   | U20221E734 |
 | Juan Pablo Ramos Mendoza     | U202019545 |
-| - | - |
+| Alejandro Eduardo Gray Hidalgo | u201618549 |
 
 
 <h5 style="text-align: center"> Ciclo 2025-20 </h5>
@@ -102,78 +102,46 @@ Github también presenta un timeline de las ramas principales y los procesos de 
    2.3.2. [User Task Matrix.](#2.3.2.)<br>
    2.3.3. [User Journey Mapping.](#2.3.3.)<br>
    2.3.4. [Empathy Mapping.](#2.3.4.)<br>
-   2.3.5. [As-is Scenario Mapping.](#2.3.5.)<br>
-   2.4. [Ubiquitous Language](#2.4.)<br>
+   2.4. [Big Picture EventStorming](#2.4.)<br>
+   2.5. [Ubiquitous Language](#2.5.)<br>
+   
 3. [**Capítulo III: Requirements Specification.**](#3.)<br>
-   3.1. [To-Be Scenario Mapping.](#3.1.)<br>
-   3.2. [User Stories.](#3.2.)<br>
+   3.1. [User Stories.](#3.1.)<br>
+   3.2. [Impact Mapping.](#3.2.)<br>
    3.3. [Product Backlog.](#3.3.)<br>
-   3.4. [Impact Mapping.](#3.4.)<br>
 
-4. [**Capítulo IV: Product Design.**](#4.)<br>
-   4.1. [Style Guidelines.](#4.1.)<br>
-   4.1.1. [General Style Guidelines.](#4.1.1.)<br>
-   4.1.2. [Web Style Guidelines.](#4.1.2.)<br>
-   4.1.3. [Mobile Style Guidelines.](#4.1.3.)<br>
-   4.1.3.1. [iOS Mobile Style Guidelines.](#4.1.3.1.)<br>
-   4.1.3.2. [Android Mobile Style Guidelines.](#4.1.3.2.)<br>
-   4.2. [Information Architecture.](#4.2.)<br>
-   4.2.1. [Organization Systems.](#4.2.1.)<br>
-   4.2.2. [Labeling Systems.](#4.2.2.)<br>
-   4.2.3. [SEO Tags and Meta Tags.](#4.2.3.)<br>
-   4.2.4. [Searching Systems.](#4.2.4.)<br>
-   4.2.5. [Navigation Systems.](#4.2.5.)<br>
-   4.3. [Landing Page UI Design.](#4.3.)<br>
-   4.3.1. [Landing Page Wireframe.](#4.3.1.)<br>
-   4.3.2. [Landing Page Mock-up.](#4.3.2.)<br>
-   4.4. [Mobile Applications UX/UI Design.](#4.4.)<br>
-   4.4.1. [Mobile Applications Wireframes.](#4.4.1.)<br>
-   4.4.2. [Mobile Applications Wireflow Diagrams.](#4.4.2.)<br>
-   4.4.3. [Mobile Applications Mock-ups.](#4.4.3.)<br>
-   4.4.4. [Mobile Applications User Flow Diagrams.](#4.4.4.)<br>
-   4.5. [Mobile Applications Prototyping.](#4.5.)<br>
-   4.5.1. [Android Mobile Applications Prototyping.](#4.5.1.)<br>
-   4.5.2. [iOS Mobile Applications Prototyping.](#4.5.2.)<br>
-   4.6. [Web Applications UX/UI Design.](#4.6.)<br>
-   4.6.1. [Web Applications Wireframes.](#4.6.1.)<br>
-   4.6.2. [Web Applications Wireflow Diagrams.](#4.6.2.)<br>
-   4.6.3. [Web Applications Mock-ups.](#4.6.3.)<br>
-   4.6.4. [Web Applications User Flow Diagrams.](#4.6.4.)<br>
-   4.7. [Web Applications Prototyping.](#4.7.)<br>
-   4.8. [Domain-Driven Software Architecture.](#4.8.)<br>
-   4.8.1. [Software Architecture Context Diagram.](#4.8.1.)<br>
-   4.8.2. [Software Architecture Container Diagrams.](#4.8.2.)<br>
-   4.8.3. [Software Architecture Components Diagrams.](#4.8.3.)<br>
-   4.9. [Software Object-Oriented Design.](#4.9.)<br>
-   4.9.1. [Class Diagrams.](#4.9.1.)<br>
-   4.9.2. [Class Dictionary.](#4.9.2.)<br>
-   4.10. [Database Design.](#4.10.)<br>
-   4.10.1. [Relational/Non-Relational Database Diagram.](#4.10.1.)<br>
+5. [**Capítulo IV: Solution Software Design.**](#4.)<br>
+   4.1. [Strategic-Level Domain-Driven Design.](#4.1.)<br>
+   4.1.1. [Design-Level EventStorming](#4.1.1.)<br>
+   4.1.1.1. [Candidate Context Discovery](#4.1.1.1.)<br>
+   4.1.1.2. [Domain Message Flows Modeling](#4.1.1.2.)<br>
+   4.1.1.3. [Bounded Context Canvases](#4.1.1.3.)<br>
+   4.1.2. [Context Mapping](#4.1.2.)<br>
+   4.1.3. [Software Architecture](#4.1.3.)<br>
+   4.1.3.1. [Software Architecture System Landscape Diagram.](#4.1.3.1.)<br>
+   4.1.3.2. [Software Architecture Context Level Diagrams.](#4.1.3.2.)<br>
+   4.1.3.3. [Software Architecture Container Level Diagrams.](#4.1.3.3.)<br>
+   4.1.3.4. [Software Architecture Deployment Diagrams.](#4.1.3.4.)<br>
+   4.2. [Tactical-Level Domain-Driven Design.](#4.2.)<br>
+   4.2.1. [Bounded Context: <Bounded Context Name>](#4.2.1.)<br>
+   4.2.1.1. [Domain Layer.](#4.2.1.1.)<br>
+   4.2.1.2. [Interface Layer.](#4.2.1.2.)<br>
+   4.2.1.3. [Application Layer.](#4.2.1.3.)<br>
+   4.2.1.4. [Infrastructure Layer.](#4.2.1.4.)<br>
+   4.2.1.5. [Bounded Context Software Architecture Component Level Diagrams](#4.2.1.5.)<br>
+   4.2.1.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.1.6.)<br>
+   4.2.1.6.1. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.1.6.1.)<br>
+   4.2.1.6.2. [Bounded Context Database Design Diagram.](#4.2.1.6.1.)<br>
+  
 
-5. [**Capítulo V: Product Implementation.**](#5.)<br>
-   5.1. [Software Configuration Management.](#5.1.)<br>
-   5.1.1. [Software Development Environment Configuration.](#5.1.1.)<br>
-   5.1.2. [Source Code Management.](#5.1.2.)<br>
-   5.1.3. [Source Code Style Guide & Conventions.](#5.1.3.)<br>
-   5.1.4. [Software Deployment Configuration.](#5.1.4.)<br>
-   5.2. [Product Implementation & Deployment.](#5.2.)<br>
-   5.2.1. [Sprint Backlogs.](#5.2.1.)<br>
-   5.2.2. [Implemented Landing Page Evidence.](#5.2.2.)<br>
-   5.2.3. [Implemented Frontend-Web Application Evidence.](#5.2.3.)<br>
-   5.2.4. [Implemented Native-Mobile Application Evidence.](#5.2.4.)<br>
-   5.2.5. [Implemented RESTful API and/or Serverless Backend Evidence.](#5.2.5.)<br>
-   5.2.6. [RESTful API documentation.](#5.2.6.)<br>
-   5.2.7. [Team Collaboration Insights.](#5.2.7.)<br>
-   5.3. [Video About-the-Product.](#5.3.)<br>
-
-6. [Conclusiones](#6.)<br>
-7. [Bibliografía](#7.)<br>
-8. [Anexo](#8.)<br>
+7. [Conclusiones](#6.)<br>
+8. [Bibliografía](#7.)<br>
+9. [Anexo](#8.)<br>
 
 # STUDENT OUTCOME
 
-**ABET – EAC - Student Outcome 4**<br>
-La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.
+**ABET – EAC - Student Outcome 5**<br><br>
+**Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 
 <table>
   <thead>
@@ -185,7 +153,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
   </thead>
   <tbody>
     <tr>
-      <td style="font-weight:bold">4.C.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</td>
+      <td style="font-weight:bold">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
       <td>
       </td>
       <td>
@@ -193,7 +161,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       </td>
     </tr>
     <tr>
-      <td  style="font-weight:bold">4.C.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td>
+      <td  style="font-weight:bold">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
       <td>
       </td>
       <td>
@@ -232,14 +200,14 @@ Como valor diferencial, OnControl integra sensores IoT que permiten medir parám
     <td>U20221C186</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/8da82869-3361-4bb6-97ec-51c98621bce8"></td>
-    <td>Mi es Quique Vladimir Jara Benites, soy estudiante de sexto ciclo de la carrera Ingenieria de Software, tengo conocimientos técnicos en Java, Js y python. Asimismo, para el desarrollo en equipo, cuento con habilidades como participación comunicativa, creatividad, resolución de problemas, adaptabilidad y toma de decisiones</td>
-    <td>U202022365</td>
+    <td><img src=""></td>
+    <td>-</td>
+    <td>-</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/17fbc67a-a19d-42c5-8c8d-6dc9d8ab9316"></td>
-    <td>Soy Oscar Garayar, estudiante de ingeniería de software de 6to ciclo. Tengo experiencia trabajando con distintos lenguajes de programación así como también en el trabajo en equipo. Me destaco por ser adaptable a la hora de trabajar y personalemente creo que me realto a la hora de realizar la ingeniería atrás del proyecto.</td>
-    <td>U202014115</td>
+    <td><img src=""></td>
+    <td>-</td>
+    <td>-</td>
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/fb07e471-36a2-4fa7-9234-178869d3d3b7"></td>
@@ -508,83 +476,36 @@ En esta sección se presenta el Lean UX Canvas de la propuesta, donde se detalla
 <div id='2.3.2.'><h4>2.3.2. User Task Matrix</h4></div>
 <div id='2.3.3.'><h4>2.3.3. User Journey Mapping</h4></div>
 <div id='2.3.4.'><h4>2.3.4. Empathy Mapping</h4></div>
-<div id='2.3.5.'><h4>2.3.5. As-is Scenario Mapping</h4></div>
 
-<div id='2.4.'><h3>2.4. Ubiquitous Language</h3></div>
+<div id='2.4.'><h3>2.4. Big Picture EventStorming</h3></div>
+<div id='2.5.'><h3>2.5. Ubiquitous Language</h3></div>
 
 <div id='3.'><h2>3. Capítulo III: Requirements Specification</h2></div>
 
-<div id='3.1.'><h3>3.1. To-Be Scenario Mapping</h3></div>
-<div id='3.2.'><h3>3.2. User Stories</h3></div>
+<div id='3.1.'><h3>3.1. User Stories</h3></div>
+<div id='3.2.'><h3>3.2. Impact Mapping</h3></div>
 <div id='3.3.'><h3>3.3. Product Backlog</h3></div>
-<div id='3.4.'><h3>3.4. Impact Mapping</h3></div>
 
-<div id='4.'><h2>4. Capítulo IV: Product Design</h2></div>
+<div id='4.'><h2>4. Capítulo IV: Solution Software Design</h2></div>
 
-<div id='4.1.'><h3>4.1. Style Guidelines</h3></div>
-<div id='4.1.1.'><h4>4.1.1. General Style Guidelines</h4></div>
-<div id='4.1.2.'><h4>4.1.2. Web Style Guidelines</h4></div>
-<div id='4.1.3.'><h4>4.1.3. Mobile Style Guidelines</h4></div>
-<div id='4.1.3.1.'><h5>4.1.3.1. iOS Mobile Style Guidelines</h5></div>
-<div id='4.1.3.2.'><h5>4.1.3.2. Android Mobile Style Guidelines</h5></div>
-
-<div id='4.2.'><h3>4.2. Information Architecture</h3></div>
-<div id='4.2.1.'><h4>4.2.1. Organization Systems</h4></div>
-<div id='4.2.2.'><h4>4.2.2. Labeling Systems</h4></div>
-<div id='4.2.3.'><h4>4.2.3. SEO Tags and Meta Tags</h4></div>
-<div id='4.2.4.'><h4>4.2.4. Searching Systems</h4></div>
-<div id='4.2.5.'><h4>4.2.5. Navigation Systems</h4></div>
-
-<div id='4.3.'><h3>4.3. Landing Page UI Design</h3></div>
-<div id='4.3.1.'><h4>4.3.1. Landing Page Wireframe</h4></div>
-<div id='4.3.2.'><h4>4.3.2. Landing Page Mock-up</h4></div>
-
-<div id='4.4.'><h3>4.4. Mobile Applications UX/UI Design</h3></div>
-<div id='4.4.1.'><h4>4.4.1. Mobile Applications Wireframes</h4></div>
-<div id='4.4.2.'><h4>4.4.2. Mobile Applications Wireflow Diagrams</h4></div>
-<div id='4.4.3.'><h4>4.4.3. Mobile Applications Mock-ups</h4></div>
-<div id='4.4.4.'><h4>4.4.4. Mobile Applications User Flow Diagrams</h4></div>
-
-<div id='4.5.'><h3>4.5. Mobile Applications Prototyping</h3></div>
-<div id='4.5.1.'><h4>4.5.1. Android Mobile Applications Prototyping</h4></div>
-<div id='4.5.2.'><h4>4.5.2. iOS Mobile Applications Prototyping</h4></div>
-
-<div id='4.6.'><h3>4.6. Web Applications UX/UI Design</h3></div>
-<div id='4.6.1.'><h4>4.6.1. Web Applications Wireframes</h4></div>
-<div id='4.6.2.'><h4>4.6.2. Web Applications Wireflow Diagrams</h4></div>
-<div id='4.6.3.'><h4>4.6.3. Web Applications Mock-ups</h4></div>
-<div id='4.6.4.'><h4>4.6.4. Web Applications User Flow Diagrams</h4></div>
-
-<div id='4.7.'><h3>4.7. Web Applications Prototyping</h3></div>
-
-<div id='4.8.'><h3>4.8. Domain-Driven Software Architecture</h3></div>
-<div id='4.8.1.'><h4>4.8.1. Software Architecture Context Diagram</h4></div>
-<div id='4.8.2.'><h4>4.8.2. Software Architecture Container Diagrams</h4></div>
-<div id='4.8.3.'><h4>4.8.3. Software Architecture Components Diagrams</h4></div>
-
-<div id='4.9.'><h3>4.9. Software Object-Oriented Design</h3></div>
-<div id='4.9.1.'><h4>4.9.1. Class Diagrams</h4></div>
-<div id='4.9.2.'><h4>4.9.2. Class Dictionary</h4></div>
-
-<div id='4.10.'><h3>4.10. Database Design</h3></div>
-<div id='4.10.1.'><h4>4.10.1. Relational/Non-Relational Database Diagram</h4></div>
-
-<div id='5.'><h2>5. Capítulo V: Product Implementation</h2></div>
-
-<div id='5.1.'><h3>5.1. Software Configuration Management</h3></div>
-<div id='5.1.1.'><h4>5.1.1. Software Development Environment Configuration</h4></div>
-<div id='5.1.2.'><h4>5.1.2. Source Code Management</h4></div>
-<div id='5.1.3.'><h4>5.1.3. Source Code Style Guide & Conventions</h4></div>
-<div id='5.1.4.'><h4>5.1.4. Software Deployment Configuration</h4></div>
-
-<div id='5.2.'><h3>5.2. Product Implementation & Deployment</h3></div>
-<div id='5.2.1.'><h4>5.2.1. Sprint Backlogs</h4></div>
-<div id='5.2.2.'><h4>5.2.2. Implemented Landing Page Evidence</h4></div>
-<div id='5.2.3.'><h4>5.2.3. Implemented Frontend-Web Application Evidence</h4></div>
-<div id='5.2.4.'><h4>5.2.4. Implemented Native-Mobile Application Evidence</h4></div>
-<div id='5.2.5.'><h4>5.2.5. Implemented RESTful API and/or Serverless Backend Evidence</h4></div>
-<div id='5.2.6.'><h4>5.2.6. RESTful API documentation</h4></div>
-<div id='5.2.7.'><h4>5.2.7. Team Collaboration Insights</h4></div>
-
-<div id='5.3.'><h3>5.3. Video About-the-Product</h3></div>
-
+<div id='4.1.'><h3>4.1. Strategic-Level Domain-Driven Design</h3></div>
+<div id='4.1.1.'><h4>4.1.1. Design-Level EventStorming</h4></div>
+<div id='4.1.1.1.'><h5>4.1.1.1. Candidate Context Discovery</h5></div>
+<div id='4.1.1.2.'><h5>4.1.1.2. Domain Message Flows Modeling</h5></div>
+<div id='4.1.1.3.'><h5>4.1.1.3. Bounded Context Canvases</h5></div>
+<div id='4.1.2.'><h4>4.1.2. Context Mapping</h4></div>
+<div id='4.1.3.'><h4>4.1.3. Software Architecture</h4></div>
+<div id='4.1.3.1.'><h5>4.1.3.1. Software Architecture System Landscape Diagram</h5></div>
+<div id='4.1.3.2.'><h5>4.1.3.2. Software Architecture Context Level Diagrams</h5></div>
+<div id='4.1.3.3.'><h5>4.1.3.3. Software Architecture Container Level Diagrams</h5></div>
+<div id='4.1.3.4.'><h5>4.1.3.4. Software Architecture Deployment Diagrams</h5></div>
+<div id='4.2.'><h3>4.2. Tactical-Level Domain-Driven Design</h3></div>
+<div id='4.2.1.'><h4>4.2.1. Bounded Context: <Bounded Context Name></h4></div>
+<div id='4.2.1.1.'><h5>4.2.1.1. Domain Layer</h5></div>
+<div id='4.2.1.2.'><h5>4.2.1.2. Interface Layer</h5></div>
+<div id='4.2.1.3.'><h5>4.2.1.3. Application Layer</h5></div>
+<div id='4.2.1.4.'><h5>4.2.1.4. Infrastructure Layer</h5></div>
+<div id='4.2.1.5.'><h5>4.2.1.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+<div id='4.2.1.6.'><h5>4.2.1.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
+<div id='4.2.1.6.1.'><h6>4.2.1.6.1. Bounded Context Software Architecture Code Level Diagrams</h6></div>
+<div id='4.2.1.6.2.'><h6>4.2.1.6.2. Bounded Context Database Design Diagram</h6></div>
