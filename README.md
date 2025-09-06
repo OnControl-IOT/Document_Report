@@ -11,13 +11,13 @@ width=50%"/>
 <h5 style="text-align: center"> Área: Ingeniería de Software </h5>
 
 <h5 style="text-align: center"> Curso: Desarrollo de Soluciones IOT  </h5>
-<h5 style="text-align: center"> NRC:  </h5>
+<h5 style="text-align: center"> NRC: 3414 </h5>
 
-<h5 style="text-align: center"> Docente:  </h5>
+<h5 style="text-align: center"> Docente: Marco Antonio Leon Baca </h5>
 
-<h5 style="text-align: center"> Startup:  </h5>
+<h5 style="text-align: center"> Startup: OnControl </h5>
 
-<h5 style="text-align: center"> Producto:  </h5>
+<h5 style="text-align: center"> Producto: OnControl </h5>
 
 ## Team members:
 
@@ -66,13 +66,14 @@ Para el desarrollo del informe perteneciente a la entrega TF, se dividió la imp
 
 Github también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones.
 
-Los integrantes son:
+|Integrante|User|
+|-|-|
+|Williams Gongora Castillejos |(WiJeGo)|
+|- |-|
+|Quispe Roldan Michael Fred   |(MQRF123)| 
+|Juan Pablo Ramos Mendoza     |(JJPPRRMM)|
+| -|-| 
 
-- l
-- Huanaco Huayta, Elizabeth Lucero (lucerohh)
-- Huapaya Cuevas, Anthony (AnthonyHuapaya)
-- Gongora Castillejos, Williams (WiJeGo)
-- Uribe Quispe, Jesús Guillermo(JesusU27)
 
 # Contenido
 
@@ -349,17 +350,6 @@ En esta sección se presenta el Lean UX Canvas de la propuesta, donde se detalla
 
 <div id='1.3.'><h3>1.3. Segmentos objetivo</h3></div>
 
-El segmento principal identificado son los **médicos oncólogos en el Perú**, quienes enfrentan una alta carga laboral al atender a múltiples pacientes en hospitales, clínicas y consultorios. Estos profesionales requieren herramientas que optimicen la **gestión de horarios, información clínica** y el **acceso a recursos actualizados**, con el fin de mejorar su eficiencia y reducir el riesgo de errores organizativos.
-
-| Característica             | Detalle                                                                    |
-| -------------------------- | -------------------------------------------------------------------------- |
-| Profesión                  | Médicos oncólogos                                                          |
-| Ámbito laboral             | Hospitales, clínicas oncológicas y consultorios privados                   |
-| Rango de edad predominante | 30 – 55 años                                                               |
-| Necesidades principales    | Gestión de pacientes, horarios y acceso a información confiable            |
-| Nivel tecnológico          | Familiarizados con dispositivos móviles y computadoras                     |
-
-
 <div id='2.'><h2>2. Capítulo II: Requirements Elicitation & Analysis</h2></div>
 
 <div id='2.1.'><h3>2.1. Competidores</h3></div>
@@ -509,49 +499,17 @@ El segmento principal identificado son los **médicos oncólogos en el Perú**, 
 
 <div id='2.2.'><h3>2.2. Entrevistas</h3></div>
 
-En esta sección se presentan las entrevistas diseñadas para médicos oncólogos, con el objetivo de comprender en profundidad sus necesidades, frustraciones y expectativas en relación con la gestión de pacientes oncológicos. Estas entrevistas permitirán identificar los principales desafíos en su práctica diaria y explorar cómo una solución digital podría optimizar la organización de citas, tratamientos y seguimientos, contribuyendo a reducir la sobrecarga laboral y mejorar la calidad del servicio.
-
 <div id='2.2.1.'><h4>2.2.1. Diseño de entrevistas</h4></div>
-
-### PREGUNTAS GENERALES
-
-#### Perfil Profesional
-
-* ¿Podría decirme su edad y años de experiencia como oncólogo?
-* ¿En qué institución trabaja actualmente (hospital, clínica privada, centro especializado)?
-* ¿Cuántos pacientes oncológicos atiende en promedio por semana/mes?
-
-#### Uso de Tecnología
-
-* ¿Qué dispositivos digitales utiliza con mayor frecuencia en su práctica profesional (computadora, tablet, smartphone)?
-* ¿Ha usado antes alguna herramienta digital para gestión de pacientes? ¿Cuál fue su experiencia?
-
-
-### PREGUNTAS ESPECÍFICAS PARA MÉDICOS ONCÓLOGOS
-
-#### Organización y Gestión de Pacientes
-
-* ¿Cómo organiza actualmente las citas, tratamientos y seguimientos de sus pacientes?
-* ¿Qué dificultades encuentra en este proceso (ej. exceso de carga, errores humanos, falta de integración de información)?
-
-#### Dolencias Digitales
-
-* ¿Qué le falta a las herramientas actuales que utiliza para sentirse realmente apoyado en la gestión de pacientes?
-* Si tuviera una solución digital que centralice calendarios, alarmas y seguimiento, ¿qué características le resultarían más valiosas?
-
-#### Expectativas sobre la Plataforma
-
-* ¿Qué espera de una aplicación o sistema diseñado específicamente para oncología?
-* ¿Qué tan útil sería para usted recibir reportes consolidados de sus pacientes (tratamientos, progresos, alarmas) en un solo lugar?
-* ¿Cómo mediría el éxito de una herramienta digital en su práctica diaria?
-
-
 <div id='2.2.2.'><h4>2.2.2. Registro de entrevistas</h4></div>
 <div id='2.2.3.'><h4>2.2.3. Análisis de entrevistas</h4></div>
 
 <div id='2.3.'><h3>2.3. Needfinding</h3></div>
 <div id='2.3.1.'><h4>2.3.1. User Personas</h4></div>
 <div id='2.3.2.'><h4>2.3.2. User Task Matrix</h4></div>
+<div id='2.3.3.'><h4>2.3.3. User Journey Mapping</h4></div>
+<div id='2.3.4.'><h4>2.3.4. Empathy Mapping</h4></div>
+<div id='2.3.5.'><h4>2.3.5. As-is Scenario Mapping</h4></div>
+
 <div id='2.4.'><h3>2.4. Ubiquitous Language</h3></div>
 
 <div id='3.'><h2>3. Capítulo III: Requirements Specification</h2></div>
@@ -630,7 +588,3 @@ En esta sección se presentan las entrevistas diseñadas para médicos oncólogo
 
 <div id='5.3.'><h3>5.3. Video About-the-Product</h3></div>
 
-
-<div id='2.3.3.'><h4>2.3.3. User Journey Mapping</h4></div>
-<div id='2.3.4.'><h4>2.3.4. Empathy Mapping</h4></div>
-<div id='2.3.5.'><h4>2.3.5. As-is Scenario Mapping</h4></div>
