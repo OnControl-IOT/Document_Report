@@ -1054,17 +1054,612 @@ En esta sección se presentan los requisitos del producto digital a partir del a
 <div id='4.1.1.3.'><h5>4.1.1.3. Bounded Context Canvases</h5></div>
 <div id='4.1.2.'><h4>4.1.2. Context Mapping</h4></div>
 <div id='4.1.3.'><h4>4.1.3. Software Architecture</h4></div>
+
+En esta sección mostraremos los diagramas del diseño de software de la aplicación OnControl, usando patrones de alto y bajo nivel:
+
 <div id='4.1.3.1.'><h5>4.1.3.1. Software Architecture System Landscape Diagram</h5></div>
+
+![Image](https://github.com/user-attachments/assets/53b88efc-5bb9-45ba-a540-553e6a2781bb)
+
 <div id='4.1.3.2.'><h5>4.1.3.2. Software Architecture Context Level Diagrams</h5></div>
+
+En este diagrama podemos observar el contexto de nuestra aplicación, identificando el sistema y las relaciones con los diferentes tipos de usuarios que este presenta, además de otros sistemas externos y de terceros que son de ayuda para el desarrollo.
+
+![Image](https://github.com/user-attachments/assets/53b88efc-5bb9-45ba-a540-553e6a2781bb)
+
 <div id='4.1.3.3.'><h5>4.1.3.3. Software Architecture Container Level Diagrams</h5></div>
+
+Este diagrama muestra los contenedores dentro del sistema de nuestra aplicación, con componentes de alto nivel que centra el enfoque hacia la arquitectura de nuestro software.
+
+![Image](https://github.com/user-attachments/assets/4ce8d409-ae71-4f31-9db0-9ad8083576b7)
+
 <div id='4.1.3.4.'><h5>4.1.3.4. Software Architecture Deployment Diagrams</h5></div>
+
+Finalmente, se presenta un diagrama de componentes, en este caso, centrado al componente de Login de nuestro sistema, mostrando las implementaciones de los distintos servicios y responsabilidades de cada uno de ellos.
+
+![Image](https://github.com/user-attachments/assets/b59fa339-5580-468b-88c9-8e64cbe76538)
+
 <div id='4.2.'><h3>4.2. Tactical-Level Domain-Driven Design</h3></div>
-<div id='4.2.1.'><h4>4.2.1. Bounded Context: <Bounded Context Name></h4></div>
+
+<div id='4.2.1.'><h4>4.2.1. Bounded Context: Chat</h4></div>
+
+Este Bounded Context (BC) encapsula la funcionalidad de mensajería directa entre médicos y pacientes dentro de la aplicación oncológica. Su responsabilidad principal es gestionar las conversaciones, los mensajes, los participantes y las notificaciones relacionadas, asegurando una comunicación fluida y registrada como soporte al seguimiento del tratamiento y la coordinación de cuidados.
+
 <div id='4.2.1.1.'><h5>4.2.1.1. Domain Layer</h5></div>
+
+Esta capa contiene el núcleo del modelo de negocio y las reglas específicas del dominio de Chat. Se compone de las siguientes clases y abstracciones:
+
+### Aggregates (Agregados) / Aggregate Roots
+
+* **`Conversation`** (Actúa como Aggregate Root)
+    * **Propósito:** Representa una única conversación entre un médico y un paciente. Es el punto de entrada principal para operaciones dentro de una conversación y asegura la consistencia.
+
+### Entities (Entidades)
+
+* **`Conversation`**
+    * **Propósito:** Representa una única conversación entre un médico y un paciente. Actúa como Aggregate Root.
+    * **Atributos:**
+        * `id` (UUID): Identificador único de la conversación. (PK)
+        * `doctorId` (UUID): Identificador del médico participante.
+        * `patientId` (UUID): Identificador del paciente participante.
+        * `createdAt` (DateTime): Fecha y hora de creación.
+        * `lastMessageAt` (DateTime): Fecha y hora del último mensaje enviado.
+        * `isActive` (Boolean): Indica si la conversación está activa o archivada.
+        * `patientUnreadCount` (Integer): Contador de mensajes no leídos por el paciente.
+        * `doctorUnreadCount` (Integer): Contador de mensajes no leídos por el médico.
+    * **Métodos:**
+        * `addMessage(message: Message)`: Añade un mensaje, actualiza `lastMessageAt` y contadores.
+        * `markAsReadBy(userId: UUID)`: Reinicia el contador de no leídos y actualiza mensajes.
+        * `archive()`: Marca la conversación como inactiva.
+        * `reactivate()`: Marca la conversación como activa.
+        * `canParticipate(userId: UUID)`: Verifica si un usuario es parte de esta conversación.
+
+* **`Message`**
+    * **Propósito:** Representa un único mensaje dentro de una `Conversation`.
+    * **Atributos:**
+        * `id` (UUID): Identificador único del mensaje. (PK)
+        * `conversationId` (UUID): ID de la `Conversation` a la que pertenece. (FK)
+        * `senderId` (UUID): ID del usuario (médico o paciente) que envió el mensaje.
+        * `content` (String): Contenido textual del mensaje.
+        * `sentAt` (DateTime): Fecha y hora de envío.
+        * `messageType` (MessageType): Tipo de mensaje (TEXT, IMAGE, DOCUMENT, etc.).
+        * `attachment` (Attachment?): Referencia opcional a un archivo adjunto.
+        * `readByPatient` (Boolean): Indica si el paciente ha leído el mensaje.
+        * `readByDoctor` (Boolean): Indica si el médico ha leído el mensaje.
+    * **Métodos:**
+        * `markAsReadBy(userId: UUID)`: Marca el mensaje como leído por el participante específico.
+        * `attachFile(attachment: Attachment)`: Asocia un archivo adjunto al mensaje.
+
+* **`Attachment`**
+    * **Propósito:** Representa un archivo adjunto a un `Message`.
+    * **Atributos:**
+        * `id` (UUID): Identificador único del adjunto. (PK)
+        * `messageId` (UUID): ID del `Message` al que está asociado. (FK)
+        * `fileName` (String): Nombre original del archivo.
+        * `fileType` (String): Tipo MIME del archivo (e.g., 'image/jpeg', 'application/pdf').
+        * `fileSize` (Long): Tamaño del archivo en bytes.
+        * `storageUrl` (String): URL o identificador para acceder al archivo en el sistema de almacenamiento.
+    * **Métodos:**
+        * `isImage()`: Devuelve true si el `fileType` corresponde a una imagen.
+        * `isDocument()`: Devuelve true si el `fileType` corresponde a un documento común.
+
+### Value Objects (Objetos de Valor)
+
+* **`MessageType`** (Enumeration)
+    * **Propósito:** Define los tipos posibles de mensajes para categorización y procesamiento diferencial.
+    * **Valores:** `TEXT`, `IMAGE`, `DOCUMENT`, `SYSTEM_INFO`, `TREATMENT_RELATED`, `APPOINTMENT_RELATED`, `URGENT`.
+
+### Domain Services (Servicios de Dominio)
+
+* **`ChatNotificationService`**
+    * **Propósito:** Orquesta la lógica de cuándo y cómo enviar notificaciones basadas en eventos del dominio, respetando reglas de negocio. Depende de interfaces de infraestructura para el envío real.
+* **`ConversationPolicy`**
+    * **Propósito:** Centraliza reglas de negocio complejas (ej. determinar urgencia, permitir inicio de conversación).
+
+### Repositories (Interfaces de Repositorios)
+
+* **`IConversationRepository`**
+    * **Propósito:** Define el contrato para la persistencia de entidades `Conversation`.
+    * **Métodos:** `save(conversation)`, `findById(id)`, `findByParticipantId(userId)`, `findActiveByParticipantId(userId)`.
+* **`IMessageRepository`**
+    * **Propósito:** Define el contrato para la persistencia de entidades `Message`.
+    * **Métodos:** `save(message)`, `findById(id)`, `findByConversationId(conversationId, page, limit)`, `markMessagesAsRead(messageIds, userId)`.
+* **`IAttachmentRepository`**
+    * **Propósito:** Define el contrato para la persistencia de entidades `Attachment`.
+    * **Métodos:** `save(attachment)`, `findById(id)`, `findByMessageId(messageId)`.
+
 <div id='4.2.1.2.'><h5>4.2.1.2. Interface Layer</h5></div>
+
+Esta capa expone la funcionalidad del Bounded Context al exterior, ya sea a través de APIs o consumiendo eventos de otros contextos.
+
+### Controllers (Controladores - para API REST)
+
+* **`ChatController`**
+    * **Propósito:** Maneja las solicitudes HTTP entrantes relacionadas con conversaciones y mensajes.
+    * **Métodos (Endpoints):**
+        * `GET /conversations`: Obtiene la lista de conversaciones para el usuario autenticado.
+        * `GET /conversations/{conversationId}/messages`: Obtiene los mensajes de una conversación específica (paginado).
+        * `POST /conversations/{conversationId}/messages`: Envía un nuevo mensaje.
+        * `POST /conversations/{conversationId}/messages/read`: Marca mensajes como leídos.
+        * `POST /conversations`: (Opcional) Inicia una nueva conversación.
+        * `POST /conversations/{conversationId}/archive`: Archiva una conversación.
+* **`AttachmentController`**
+    * **Propósito:** Maneja las solicitudes HTTP para la carga y descarga de archivos adjuntos.
+    * **Métodos (Endpoints):**
+        * `POST /messages/{messageId}/attachments`: Sube un archivo adjunto.
+        * `GET /attachments/{attachmentId}`: Descarga un archivo adjunto.
+
 <div id='4.2.1.3.'><h5>4.2.1.3. Application Layer</h5></div>
+
+Esta capa orquesta los casos de uso y flujos de trabajo, conectando la Interface Layer con el Domain Layer.
+
+### Command Handlers (Manejadores de Comandos)
+
+* **`SendMessageCommandHandler`**
+    * **Propósito:** Procesa el comando para enviar un mensaje.
+    * **Lógica:** Valida, crea `Message`, actualiza `Conversation`, guarda, publica `MessageSentEvent`.
+* **`MarkMessagesAsReadCommandHandler`**
+    * **Propósito:** Procesa el comando para marcar mensajes como leídos.
+    * **Lógica:** Actualiza `Message` y `Conversation`, guarda, publica `MessagesReadEvent`.
+* **`UploadAttachmentCommandHandler`**
+    * **Propósito:** Procesa el comando para adjuntar un archivo.
+    * **Lógica:** Guarda archivo (vía Infra), crea/actualiza `Attachment`, guarda.
+* **`ArchiveConversationCommandHandler`**
+    * **Propósito:** Procesa el comando para archivar una conversación.
+    * **Lógica:** Llama a `conversation.archive()`, guarda, publica `ConversationArchivedEvent`.
 <div id='4.2.1.4.'><h5>4.2.1.4. Infrastructure Layer</h5></div>
+
+Esta capa contiene las implementaciones concretas para interactuar con tecnologías externas (bases de datos, servicios de almacenamiento, colas de mensajes, etc.).
+
+### Repository Implementations (Implementaciones de Repositorios)
+
+* **`SqlConversationRepository`**: Implementa `IConversationRepository`.
+* **`SqlMessageRepository`**: Implementa `IMessageRepository`.
+* **`SqlAttachmentRepository`**: Implementa `IAttachmentRepository`.
+
+### External Service Implementations (Implementaciones de Servicios Externos)
+
+* **`DatabaseClient`**: Implementacion del cliente de BD.
+* **`FirebasePushNotificationSender` / `EmailNotificationSender`**: Implementa `INotificationSender`.
+* **`S3FileStorageService` / `LocalStorageFileStorageService`**: Implementa `IFileStorageService`.
+* **`KafkaEventConsumer` / `RabbitMqEventConsumer`**: Implementa lógica de suscripción y despacho de eventos externos.
+
 <div id='4.2.1.5.'><h5>4.2.1.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+
+Este diagrama ilustra la descomposición del Container del Chat en sus componentes principales y sus interacciones.
+
+![Component Level Diagrams](https://github.com/user-attachments/assets/3f0b6f9b-8b3b-4733-92d4-1178d683199e)
+
 <div id='4.2.1.6.'><h5>4.2.1.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
-<div id='4.2.1.6.1.'><h6>4.2.1.6.1. Bounded Context Software Architecture Code Level Diagrams</h6></div>
+
+Esta sección presenta diagramas que ofrecen un mayor nivel de detalle sobre la implementación de los componentes del Bounded Context de Chat.
+
+<div id='4.2.1.6.1.'><h6>4.2.1.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
+
+Este diagrama de clases del dominio proporciona una vista detallada de los elementos clave del modelo de negocio del Chat. Se representan las entidades con sus atributos y comportamientos, el objeto de valor `MessageType`, y las interfaces de los repositorios.
+
+![ClassDiagram_Chat](https://github.com/user-attachments/assets/571f6a04-45ae-4003-b36c-6fb4ab2c1db5)
+
 <div id='4.2.1.6.2.'><h6>4.2.1.6.2. Bounded Context Database Design Diagram</h6></div>
+
+Este diagrama de diseño de la base de datos detalla el esquema de persistencia para el Bounded Context de Chat. Se especifican las tablas requeridas para almacenar las conversaciones, los mensajes y los archivos adjuntos, así como sus columnas, tipos de datos, restricciones y las relaciones entre ellas.
+
+![BasedeDatos_Chat](https://github.com/user-attachments/assets/57870fa2-19ec-4bba-9042-682d30ee31fb)
+
+<div id='4.2.2.'><h4>4.2.2. Bounded Context: Usuario</h4></div>
+
+Este Bounded Context (BC) encapsula la funcionalidad relacionada con la gestión de usuarios dentro de la aplicación OnControl. Su responsabilidad principal es representar a los actores principales del sistema (médicos y pacientes), registrar sus datos personales y especializaciones, manejar su autenticación, y permitir funcionalidades clave como el registro de pacientes o la asignación de tratamientos por parte de los médicos. Este contexto también permite a los pacientes acceder y revisar su información médica.
+
+<div id='4.2.2.1.'><h5>4.2.2.1. Domain Layer</h5></div>
+
+### Aggregates / Aggregate Roots
+
+* **Usuario** (Aggregate Root)
+    * **Propósito:** Representa un usuario del sistema (médico o paciente). Contiene información común y opera como entrada principal de operaciones.
+
+### Entities
+
+* **Usuario**
+    * **Atributos:**
+        * `nombre` (String) - Nombre del usuario.
+        * `apellido` (String) - Apellido del usuario.
+        * `contrasenha` (String) - Contraseña encriptada del usuario.
+        * `numeroTelefono` (String) - Número de teléfono.
+        * `email` (String) - Correo electrónico del usuario.
+    * **Métodos:**
+        * `registrarCita(cita, nombre, apellido)`
+
+* **Paciente** (hereda de Usuario)
+    * **Métodos:**
+        * `revisarHistorial(historialMedico)`
+        * `agregarMedicamento(nombreMedicamento)`
+
+* **Medico** (hereda de Usuario)
+    * **Atributos:**
+        * `especializacion` (String)
+    * **Métodos:**
+        * `revisarHistorialPaciente(nombre, apellido)`
+        * `registrarPaciente(nombre, apellido)`
+        * `asignarMedicamentoPaciente(...)`
+        * `asignarTratamientoPaciente(...)`
+        * `asignarProcedimientoPaciente(...)`
+
+### Domain Services
+
+* **UsuarioPolicy**
+    * **Propósito:** Encapsular reglas de negocio como validación de identidad de usuario, rol o permisos de acceso.
+
+### Repositories
+
+* **IUsuarioRepository**
+    * `findById(id)`
+    * `add(usuario)`
+    * `update(usuario)`
+    * `remove(id)`
+
+<div id='4.2.2.2.'><h5>4.2.2.2. Interface Layer</h5></div>
+
+### Controllers
+
+* **UsuarioController**
+    * **Propósito:** Exponer la lógica relacionada al registro y administración de usuarios.
+    * **Endpoints:**
+        * `GET /usuarios`: Obtener lista de usuarios.
+        * `POST /usuarios`: Registrar nuevo usuario.
+        * `PUT /usuarios/{id}`: Actualizar datos de un usuario.
+        * `DELETE /usuarios/{id}`: Eliminar un usuario.
+
+<div id='4.2.2.3.'><h5>4.2.2.3. Application Layer</h5></div>
+
+### Command Handlers
+
+* **RegisterUsuarioCommandHandler**
+    * Procesa el registro de un usuario nuevo.
+
+* **LoginUsuarioCommandHandler**
+    * Procesa el inicio de sesión del usuario.
+
+* **LogoutUsuarioCommandHandler**
+    * Procesa el cierre de sesión del usuario.
+
+### Event Handlers
+
+* **UsuarioRegistradoEventHandler**
+    * Maneja el evento luego del registro de usuario.
+
+<div id='4.2.2.4.'><h5>4.2.2.4. Infrastructure Layer</h5></div>
+
+### Repository Implementations
+
+* **UsuarioRepository**: Implementación concreta de `IUsuarioRepository`.
+    * `ListByIdAsync()`
+    * `AddAsync()`
+    * `Update()`
+    * `Remove()`
+
+### External Infrastructure
+
+* **AppDbContext**
+    * `DbSet<Usuario>`: Tabla de usuarios.
+
+<div id='4.2.2.5.'><h5>4.2.2.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+
+![ComponentLevelDiagrams_usuario](https://github.com/user-attachments/assets/bbc7d312-aa98-43d9-a7cf-5a51f72e617a)
+
+<div id='4.2.2.6.'><h5>4.2.2.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
+
+Esta sección presenta diagramas que ofrecen un mayor nivel de detalle sobre la implementación de los componentes del Bounded Context de Usuario.
+
+<div id='4.2.2.6.1.'><h6>4.2.2.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
+
+![ClassDiagram_Usuario](https://github.com/user-attachments/assets/00a20a71-d7a5-4b45-97b2-83e9d05d69f9)
+
+<div id='4.2.2.6.2.'><h6>4.2.2.6.2. Bounded Context Database Design Diagram</h6></div>
+
+![BasedeDatos_Usuario](https://github.com/user-attachments/assets/70f2f5ec-2309-4da6-91ba-8131fe0853ce)
+
+<div id='4.2.3.'><h4>4.2.3. Bounded Context: Tratamiento</h4></div>
+
+Este Bounded Context (BC) gestiona la creación, seguimiento y modificación de tratamientos oncológicos, incluyendo asignación de terapias, control de medicamentos y coordinación entre profesionales médicos.
+
+<div id='4.2.3.1.'><h5>4.2.3.1. Domain Layer</h5></div>
+
+**Aggregates (Agregados)**  
+**Tratamiento** (Aggregate Root)  
+- **Propósito**: Coordina todas las entidades y reglas asociadas a un plan terapéutico.  
+- **Atributos**:  
+  - `id` (UUID): Identificador único (PK)  
+  - `pacienteId` (UUID): ID del paciente asociado  
+  - `medicoId` (UUID): ID del médico responsable  
+  - `tipo` (TipoTratamiento): Tipo de tratamiento (VO)  
+  - `estado` (EstadoTratamiento): Activo/Pausado/Completado (VO)  
+  - `fechaInicio` (DateTime): Fecha de inicio  
+  - `ultimaModificacion` (DateTime): Última actualización  
+- **Métodos**:  
+  - `agregarProcedimiento(procedimiento: Procedimiento)`: Añade un procedimiento al plan  
+  - `validarCompatibilidadMedicamentos()`: Detecta interacciones farmacológicas  
+  - `marcarComoCompletado()`: Cambia el estado a "Completado"  
+
+**Entities (Entidades)**  
+**Procedimiento**  
+- **Propósito**: Representa una intervención médica programada.  
+- **Atributos**:  
+  - `id` (UUID): Identificador único (PK)  
+  - `tratamientoId` (UUID): ID del tratamiento asociado (FK)  
+  - `tipo` (TipoProcedimiento): Quimioterapia/Radioterapia/etc. (VO)  
+  - `fechaProgramada` (DateTime): Fecha de ejecución  
+
+**Medicación**  
+- **Propósito**: Gestiona la administración de fármacos.  
+- **Atributos**:  
+  - `id` (UUID): Identificador único (PK)  
+  - `tratamientoId` (UUID): ID del tratamiento asociado (FK)  
+  - `dosis` (DosisVO): Cantidad y frecuencia (VO)  
+  - `viaAdministracion` (String): Oral/Intravenosa/etc.  
+
+**Value Objects (Objetos de Valor)**  
+- **TipoTratamiento**: `Quimioterapia`, `Radioterapia`, `Inmunoterapia`  
+- **EstadoTratamiento**: `Activo`, `Pausado`, `Completado`  
+- **DosisVO**:  
+  - `valor` (Decimal): Cantidad numérica  
+  - `unidad` (String): mg/ml/unidades  
+  - `frecuencia` (String): Diaria/Semanal  
+
+**Domain Services (Servicios de Dominio)**  
+- **ValidadorInteracciones**:  
+  - Verifica interacciones entre medicamentos usando bases farmacológicas.  
+- **GeneradorAlertas**:  
+  - Crea notificaciones automáticas por dosis incorrectas o cambios de estado.  
+
+**Repositories (Interfaces)**  
+- **ITratamientoRepository**:  
+  - `save(tratamiento: Tratamiento)`, `findById(id: UUID)`, `findByPacienteId(pacienteId: UUID)`  
+- **IProcedimientoRepository**:  
+  - `save(procedimiento: Procedimiento)`, `findByTratamientoId(tratamientoId: UUID)`  
+
+<div id='4.2.3.2.'><h5>4.2.3.2. Interface Layer</h5></div>
+
+**Controllers (API REST)**  
+**TratamientoController**  
+- **Endpoints**:  
+  - `POST /tratamientos`: Crea un nuevo tratamiento  
+  - `PUT /tratamientos/{id}/procedimientos`: Añade procedimiento al tratamiento  
+  - `PATCH /tratamientos/{id}/estado`: Actualiza estado (Activo/Pausado)  
+
+**Eventos Consumidos**  
+- **NuevaInteraccionFarmacologica**:  
+  - Actualiza tratamientos con medicamentos afectados.  
+- **HistorialMedicoActualizado**:  
+  - Recalcula restricciones de tratamiento.
+
+<div id='4.2.3.3.'><h5>4.2.3.3. Application Layer</h5></div>
+
+**Command Handlers**  
+- **ProgramarProcedimientoHandler**:  
+  1. Valida disponibilidad de recursos médicos  
+  2. Ejecuta `tratamiento.agregarProcedimiento()`  
+  3. Publica `ProcedimientoProgramadoEvent`  
+
+- **ActualizarDosisHandler**:  
+  1. Verifica rangos seguros de dosificación  
+  2. Actualiza entidad Medicación  
+  3. Genera alertas si hay anomalías  
+
+<div id='4.2.3.4.'><h5>4.2.3.4. Infrastructure Layer</h5></div>
+
+**Repository Implementations**  
+- **TratamientoPostgresRepository**:  
+  - Implementa `ITratamientoRepository` usando PostgreSQL.  
+- **ProcedimientoMongoRepository**:  
+  - Implementa `IProcedimientoRepository` usando MongoDB.  
+
+**External Services**  
+- **FarmaciaService**:  
+  - Consulta interacciones medicamentosas en tiempo real vía API.  
+- **SistemaArchivosMedicos**:  
+  - Almacena documentos clínicos relacionados con tratamientos.  
+
+<div id='4.2.3.5.'><h5>4.2.3.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+
+Este diagrama ilustra la descomposición del Container de Tratamiento en sus componentes principales y sus interacciones.
+
+![Component Level Diagrams](https://github.com/user-attachments/assets/e5258227-0d2d-45c2-af4f-ff66a6096a9e)
+
+<div id='4.2.3.6.'><h5>4.2.3.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
+
+Esta sección presenta diagramas que ofrecen un mayor nivel de detalle sobre la implementación de los componentes del Bounded Context de Tratamiento.
+
+<div id='4.2.3.6.1.'><h6>4.2.3.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
+
+Este diagrama de clases del dominio proporciona una vista detallada de los elementos clave del modelo de negocio del Tratamiento. Se representan las entidades con sus atributos y comportamientos y las interfaces de los repositorios.
+
+![ClassDiagram_Chat](https://github.com/user-attachments/assets/d8026949-3ea9-49a4-b19a-2dfcfcf4bee2)
+
+<div id='4.2.3.6.2.'><h6>4.2.3.6.2. Bounded Context Database Design Diagram</h6></div>
+
+Este diagrama de diseño de la base de datos detalla el esquema de persistencia para el Bounded Context de Tratamiento. Se especifican las tablas requeridas para almacenar los pacientes , los procedimientos, las medicaciones y los tratamientos, así como sus columnas, tipos de datos, restricciones y las relaciones entre ellas.
+
+![BasedeDatos_Chat](https://github.com/user-attachments/assets/7bfe88b8-5d68-464a-b465-c53f54beb213)
+
+<div id='4.2.4.'><h4>4.2.4. Bounded Context: Monitoreo</h4></div>
+
+Este Bounded Context (BC) encapsula la funcionalidad de monitoreo de signos vitales de los pacientes. Su responsabilidad principal es gestionar la recepción, almacenamiento, consulta y generación de alertas a partir de lecturas fisiológicas (frecuencia cardiaca, saturación de oxígeno y temperatura corporal) capturadas por dispositivos IoT conectados a la aplicación móvil, permitiendo al personal médico realizar un seguimiento remoto del estado del paciente.
+
+<div id='4.2.4.1.'><h5>4.2.4.1. Domain Layer</h5></div>
+
+Esta capa contiene el núcleo del modelo de negocio y las reglas específicas del dominio de Monitoreo. Se compone de las siguientes clases y abstracciones:
+
+#### Aggregates (Agregados) / Aggregate Roots
+
+**MonitoringProfile** *(Aggregate Root)*  
+**Propósito:** Define las reglas de monitoreo (umbrales, duración, ventanas de agregación) aplicables a un paciente.  
+**Atributos:**
+- id (UUID): Identificador único del perfil. (PK)
+- patientId (UUID): ID del paciente al que pertenece. (FK)
+- aggWindow (String): Ventana de agregación de lecturas (ej. "1m").
+- isActive (Boolean): Estado del perfil.
+- rules (List\<AlertRule\>): Reglas configuradas.  
+**Métodos:**
+- addRule(rule: AlertRule): Añade una nueva regla.
+- updateRule(ruleId: UUID, updated: AlertRule): Modifica una regla existente.
+- deactivate(): Desactiva el perfil.
+
+**TelemetryStream** *(Aggregate Root liviano)*  
+**Propósito:** Representa el flujo de lecturas fisiológicas provenientes de un dispositivo para un paciente.  
+**Atributos:**
+- id (UUID): Identificador único del stream. (PK)
+- patientId (UUID): ID del paciente. (FK)
+- deviceId (UUID): ID del dispositivo. (FK)
+- lastTs (DateTime): Marca de tiempo de la última lectura recibida.
+- onlineState (OnlineState): Estado actual (ONLINE, OFFLINE, DEGRADED).  
+**Métodos:**
+- updateLastTs(ts: DateTime): Actualiza la última lectura y estado online.
+- markOffline(): Cambia el estado a OFFLINE si expira el tiempo de gracia.
+
+**Alert** *(Aggregate Root)*  
+**Propósito:** Representa una alerta generada por la violación de una regla de monitoreo.  
+**Atributos:**
+- id (UUID): Identificador único de la alerta. (PK)
+- patientId (UUID): ID del paciente afectado. (FK)
+- ruleId (UUID): ID de la regla que disparó la alerta. (FK)
+- triggeredAt (DateTime): Fecha y hora de generación.
+- status (AlertStatus): Estado de la alerta (OPEN, ACKED, CLOSED).
+- metrics (Map\<String,Object\>): Valores de lectura que dispararon la alerta.
+- notes (String?): Notas médicas asociadas.  
+**Métodos:**
+- acknowledge(userId: UUID, note: String?): Marca la alerta como reconocida.
+- close(userId: UUID, note: String?): Cierra la alerta de forma definitiva.
+
+#### Entities (Entidades)
+
+**Reading**  
+**Propósito:** Representa una lectura individual de signos vitales.  
+**Atributos:**
+- id (UUID): Identificador único de la lectura. (PK)
+- patientId (UUID): ID del paciente. (FK)
+- deviceId (UUID): ID del dispositivo. (FK)
+- ts (DateTime): Marca temporal de la lectura.
+- hr (Integer?): Frecuencia cardiaca en bpm.
+- spo2 (Decimal?): Saturación de oxígeno en %.
+- temp (Decimal?): Temperatura corporal en °C.
+- siq (Decimal): Calidad de la señal (0..1).
+- lowQuality (Boolean): Marca si la lectura es de baja calidad.  
+**Métodos:**
+- isValid(): Retorna true si cumple umbrales básicos y siq ≥ 0.8.
+
+**AlertRule**  
+**Propósito:** Define una condición de monitoreo que puede disparar una alerta.  
+**Atributos:**
+- id (UUID): Identificador único de la regla. (PK)
+- type (RuleType): Tipo de regla (HR_HIGH, HR_LOW, SPO2_LOW, TEMP_HIGH, TEMP_LOW)
+- threshold (Decimal): Umbral numérico.
+- durationMs (Long): Tiempo sostenido para considerar la violación.
+- siqMin (Decimal): Calidad mínima requerida.
+- hysteresis (Decimal): Margen de recuperación para cerrar la alerta.
+
+#### Value Objects (Objetos de Valor)
+- **RuleType (Enumeration)** — Valores: HR_HIGH, HR_LOW, SPO2_LOW, TEMP_HIGH, TEMP_LOW.
+- **OnlineState (Enumeration)** — Valores: ONLINE, OFFLINE, DEGRADED.
+- **SignalQuality** — Valor decimal 0..1 que representa la confianza en la lectura.
+- **MetricValue** — Contiene valor, unidad y precisión.
+- **TimeWindow** — Define un intervalo (from, to) para agregaciones.
+
+#### Domain Services (Servicios de Dominio)
+
+**RuleEvaluationService**  
+**Propósito:** Evalúa las nuevas lecturas contra las reglas configuradas en el perfil, aplicando lógica de duración e histeresis para evitar falsos positivos.
+
+**AggregationService**  
+**Propósito:** Calcula métricas agregadas (promedios, min, max, percentiles) sobre las lecturas en ventanas temporales definidas.
+
+#### Repositories (Interfaces de Repositorios)
+
+**IMonitoringProfileRepository**  
+- save(profile), findByPatientId(patientId), update(profile).
+
+**ITelemetryStreamRepository**  
+- save(stream), findByPatientAndDevice(patientId, deviceId), updateLastTs(id, ts).
+
+**IAlertRepository**  
+- save(alert), findById(id), findOpenByPatient(patientId), updateStatus(id, status).
+
+**IReadingRepository**  
+- saveBatch(readings), findByPatientId(patientId, from, to, agg).
+
+<div id='4.2.4.2.'><h5>4.2.4.2. Interface Layer</h5></div>
+
+Esta capa expone la funcionalidad del Bounded Context al exterior, ya sea a través de APIs REST o publicando eventos de dominio.
+
+#### Controllers (Controladores - para API REST)
+
+**ReadingsController**  
+**Propósito:** Maneja el ingreso y consulta de lecturas.  
+**Métodos (Endpoints):**
+- POST `/api/patients/{patientId}/readings:batch`: Ingesta de lecturas.
+- GET `/api/patients/{patientId}/readings?from=&to=&agg=`: Consulta de lecturas agregadas.
+- GET `/api/patients/{patientId}/latest`: Obtiene la última lectura recibida.
+
+**MonitoringProfileController**  
+**Propósito:** Gestiona las reglas de monitoreo de un paciente.  
+**Métodos:**
+- PUT `/api/patients/{patientId}/monitoring-profile`: Crear o actualizar el perfil.
+- GET `/api/patients/{patientId}/monitoring-profile`: Obtener el perfil actual.
+
+**AlertsController**  
+**Propósito:** Gestiona las alertas generadas por el sistema de monitoreo.  
+**Métodos:**
+- GET `/api/patients/{patientId}/alerts?status=OPEN|ACKED|CLOSED`
+- POST `/api/alerts/{alertId}/ack`
+- POST `/api/alerts/{alertId}/close`
+
+<div id='4.2.4.3.'><h5>4.2.4.3. Application Layer</h5></div>
+
+Esta capa orquesta los casos de uso y flujos de trabajo, conectando la Interface Layer con el Domain Layer.
+
+#### Command Handlers (Manejadores de Comandos)
+
+**IngestReadingsCommandHandler**  
+**Propósito:** Procesa la ingesta de un lote de lecturas.  
+**Lógica:** Valida formato y calidad, persiste lecturas, actualiza `TelemetryStream`, publica evento `ReadingIngested`.
+
+**EvaluateRulesCommandHandler**  
+**Propósito:** Evalúa las reglas activas ante nuevas lecturas.  
+**Lógica:** Ejecuta `RuleEvaluationService`, abre/actualiza `Alert` y publica `AlertOpened`.
+
+**CreateOrUpdateMonitoringProfileCommandHandler**  
+**Propósito:** Registra o modifica un perfil de monitoreo.  
+**Lógica:** Valida reglas, guarda `MonitoringProfile` y sus `AlertRule`.
+
+**AcknowledgeAlertCommandHandler**  
+**Propósito:** Reconoce una alerta activa.  
+**Lógica:** Cambia estado a ACKED, registra nota y usuario, publica `AlertAcknowledged`.
+
+**CloseAlertCommandHandler**  
+**Propósito:** Cierra una alerta.  
+**Lógica:** Cambia estado a CLOSED y registra auditoría.
+
+<div id='4.2.4.4.'><h5>4.2.4.4. Infrastructure Layer</h5></div>
+
+Esta capa contiene las implementaciones concretas para interactuar con tecnologías externas (bases de datos, colas de eventos, etc.).
+
+#### Repository Implementations (Implementaciones de Repositorios)
+- `SqlMonitoringProfileRepository` — Implementa `IMonitoringProfileRepository`.
+- `SqlTelemetryStreamRepository` — Implementa `ITelemetryStreamRepository`.
+- `SqlAlertRepository` — Implementa `IAlertRepository`.
+- `TimescaleReadingRepository` — Implementa `IReadingRepository` usando TimescaleDB.
+
+#### External Service Implementations (Implementaciones de Servicios Externos)
+- `DatabaseClient`: Cliente relacional para PostgreSQL.  
+- `EventPublisher`: Publica `AlertOpened` y `AlertClosed` hacia el BC de Notificaciones.  
+- `MetricsAggregator`: Servicio batch/stream para agregaciones históricas.  
+- `SecurityContext`: Inyecta `patientId` del token JWT y valida permisos (rol **MEDICO** o **PACIENTE**).
+
+<div id='4.2.4.5.'><h5>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+
+![ClassDiagram_Chat](https://cdn.discordapp.com/attachments/302292068330504205/1418143978125135973/structurizr-bc_monitoreo_simple.png?ex=68cd0d00&is=68cbbb80&hm=fef2bc2c0b164c4ae835e997da506833394e2346f3c83221e0650e87dcf6ecaf)
+
+<div id='4.2.4.6.'><h5>4.2.4.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
+<div id='4.2.4.6.1.'><h6>4.2.4.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
+
+![ClassDiagram_Chat](https://cdn.discordapp.com/attachments/302292068330504205/1418143965961785399/Bounded_Context_Domain_Layer_Class_Diagrams.png?ex=68cd0cfd&is=68cbbb7d&hm=734fcd33d93c718c520f19f46a54cf70d1d0e4ccb76c9b03226e7610091a0c62)
+
