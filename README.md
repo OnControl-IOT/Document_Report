@@ -72,7 +72,7 @@ Github también presenta un timeline de las ramas principales y los procesos de 
 |- |-|
 |Quispe Roldan Michael Fred   |(MQRF123)| 
 |Juan Pablo Ramos Mendoza     |(JJPPRRMM)|
-| -|-| 
+|Alejandro Eduardo Gray Hidalgo|-| 
 
 
 # Contenido
