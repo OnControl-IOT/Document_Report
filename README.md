@@ -212,7 +212,7 @@ Como valor diferencial, OnControl integra sensores IoT que permiten medir parám
     <td>U201923446</td>
   </tr>
   <tr>
-    <td><img src=""></td>
+    <td><img src="https://github.com/user-attachments/assets/d17f16ec-ad0c-48aa-affc-592b619dd633"></td>
     <td>Soy Alejandro Gray, me encuentro en el octavo ciclo de Ingeniería de Software. Sé programar en varios lenguajes como JavaScript, Python y C#, además de usar frameworks de frontend y backend. Anteriormente estudié Ingeniería Mecatrónica lo que me ayudará a aportar conocimiento al trabajo de este curso.</td>
     <td>U201618549</td>
   </tr>
