@@ -1059,19 +1059,17 @@ En esta sección mostraremos los diagramas del diseño de software de la aplicac
 
 <div id='4.1.3.1.'><h5>4.1.3.1. Software Architecture System Landscape Diagram</h5></div>
 
-![Image](https://github.com/user-attachments/assets/53b88efc-5bb9-45ba-a540-553e6a2781bb)
-
 <div id='4.1.3.2.'><h5>4.1.3.2. Software Architecture Context Level Diagrams</h5></div>
 
 En este diagrama podemos observar el contexto de nuestra aplicación, identificando el sistema y las relaciones con los diferentes tipos de usuarios que este presenta, además de otros sistemas externos y de terceros que son de ayuda para el desarrollo.
 
-![Image](https://github.com/user-attachments/assets/53b88efc-5bb9-45ba-a540-553e6a2781bb)
+![Image](https://cdn.discordapp.com/attachments/302292068330504205/1418481467847348286/Captura_de_pantalla_2025-09-19_011740.png?ex=68ce4750&is=68ccf5d0&hm=9e67462449b68c189ed31b8fbab4a75867f9a223b90db02ef661d05212d614db)
 
 <div id='4.1.3.3.'><h5>4.1.3.3. Software Architecture Container Level Diagrams</h5></div>
 
 Este diagrama muestra los contenedores dentro del sistema de nuestra aplicación, con componentes de alto nivel que centra el enfoque hacia la arquitectura de nuestro software.
 
-![Image](https://github.com/user-attachments/assets/4ce8d409-ae71-4f31-9db0-9ad8083576b7)
+![Image](https://cdn.discordapp.com/attachments/302292068330504205/1418481483584376862/Captura_de_pantalla_2025-09-19_011749.png?ex=68ce4753&is=68ccf5d3&hm=3e8e99052df8d37a397954be3583b6d095cddc768e5b2488615bbae6399b4c57)
 
 <div id='4.1.3.4.'><h5>4.1.3.4. Software Architecture Deployment Diagrams</h5></div>
 
@@ -1494,68 +1492,62 @@ Esta capa contiene el núcleo del modelo de negocio y las reglas específicas de
 **MonitoringProfile** *(Aggregate Root)*  
 **Propósito:** Define las reglas de monitoreo (umbrales, duración, ventanas de agregación) aplicables a un paciente.  
 **Atributos:**
-- id (UUID): Identificador único del perfil. (PK)
-- patientId (UUID): ID del paciente al que pertenece. (FK)
-- aggWindow (String): Ventana de agregación de lecturas (ej. "1m").
-- isActive (Boolean): Estado del perfil.
-- rules (List\<AlertRule\>): Reglas configuradas.  
+- `id` (UUID): Identificador único del perfil. (PK)
+- `patientId `(UUID): ID del paciente al que pertenece. (FK)
+- `aggWindow`(String): Ventana de agregación de lecturas (ej. "1m").
+- `isActive` (Boolean): Estado del perfil.
+- `rules` (List\<AlertRule\>): Reglas configuradas.  
 **Métodos:**
-- addRule(rule: AlertRule): Añade una nueva regla.
-- updateRule(ruleId: UUID, updated: AlertRule): Modifica una regla existente.
-- deactivate(): Desactiva el perfil.
+- `addRule`(rule: AlertRule): Añade una nueva regla.
+- `updateRule`(ruleId: UUID, updated: AlertRule): Modifica una regla existente.
 
 **TelemetryStream** *(Aggregate Root liviano)*  
 **Propósito:** Representa el flujo de lecturas fisiológicas provenientes de un dispositivo para un paciente.  
 **Atributos:**
-- id (UUID): Identificador único del stream. (PK)
-- patientId (UUID): ID del paciente. (FK)
-- deviceId (UUID): ID del dispositivo. (FK)
-- lastTs (DateTime): Marca de tiempo de la última lectura recibida.
-- onlineState (OnlineState): Estado actual (ONLINE, OFFLINE, DEGRADED).  
+- `id` (UUID): Identificador único del stream. (PK)
+- `patientId` (UUID): ID del paciente. (FK)
+- `deviceId` (UUID): ID del dispositivo. (FK)
+- `lastTs` (DateTime): Marca de tiempo de la última lectura recibida.
+- `onlineState` (OnlineState): Estado actual (ONLINE, OFFLINE, DEGRADED).  
 **Métodos:**
-- updateLastTs(ts: DateTime): Actualiza la última lectura y estado online.
-- markOffline(): Cambia el estado a OFFLINE si expira el tiempo de gracia.
+- `updateLastTs`(ts: DateTime): Actualiza la última lectura y estado online.
+- `markOffline`(): Cambia el estado a OFFLINE si expira el tiempo de gracia.
 
 **Alert** *(Aggregate Root)*  
 **Propósito:** Representa una alerta generada por la violación de una regla de monitoreo.  
 **Atributos:**
-- id (UUID): Identificador único de la alerta. (PK)
-- patientId (UUID): ID del paciente afectado. (FK)
-- ruleId (UUID): ID de la regla que disparó la alerta. (FK)
-- triggeredAt (DateTime): Fecha y hora de generación.
-- status (AlertStatus): Estado de la alerta (OPEN, ACKED, CLOSED).
-- metrics (Map\<String,Object\>): Valores de lectura que dispararon la alerta.
-- notes (String?): Notas médicas asociadas.  
+- `id `(UUID): Identificador único de la alerta. (PK)
+- `patientId` (UUID): ID del paciente afectado. (FK)
+- `ruleId` (UUID): ID de la regla que disparó la alerta. (FK)
+- `triggeredAt` (DateTime): Fecha y hora de generación.
+- `status `(AlertStatus): Estado de la alerta (OPEN, ACKED, CLOSED).
+- `metrics` (Map\<String,Object\>): Valores de lectura que dispararon la alerta.
+
 **Métodos:**
-- acknowledge(userId: UUID, note: String?): Marca la alerta como reconocida.
-- close(userId: UUID, note: String?): Cierra la alerta de forma definitiva.
+- `close`(userId: UUID, note: String): Cierra la alerta de forma definitiva.
 
 #### Entities (Entidades)
 
 **Reading**  
 **Propósito:** Representa una lectura individual de signos vitales.  
 **Atributos:**
-- id (UUID): Identificador único de la lectura. (PK)
-- patientId (UUID): ID del paciente. (FK)
-- deviceId (UUID): ID del dispositivo. (FK)
-- ts (DateTime): Marca temporal de la lectura.
-- hr (Integer?): Frecuencia cardiaca en bpm.
-- spo2 (Decimal?): Saturación de oxígeno en %.
-- temp (Decimal?): Temperatura corporal en °C.
-- siq (Decimal): Calidad de la señal (0..1).
-- lowQuality (Boolean): Marca si la lectura es de baja calidad.  
+- `id `(UUID): Identificador único de la lectura. (PK)
+- `patientId `(UUID): ID del paciente. (FK)
+- `deviceId `(UUID): ID del dispositivo. (FK)
+- `ts `(DateTime): Marca temporal de la lectura.
+- `hr `(Integer): Frecuencia cardiaca en bpm.
+- `spo2` (Decimal): Saturación de oxígeno en %.
+- `temp` (Decimal): Temperatura corporal en °C.
+
 **Métodos:**
-- isValid(): Retorna true si cumple umbrales básicos y siq ≥ 0.8.
+- `isValid()`: Retorna true si cumple umbrales básicos y siq ≥ 0.8.
 
 **AlertRule**  
 **Propósito:** Define una condición de monitoreo que puede disparar una alerta.  
 **Atributos:**
-- id (UUID): Identificador único de la regla. (PK)
-- type (RuleType): Tipo de regla (HR_HIGH, HR_LOW, SPO2_LOW, TEMP_HIGH, TEMP_LOW)
-- threshold (Decimal): Umbral numérico.
-- durationMs (Long): Tiempo sostenido para considerar la violación.
-- siqMin (Decimal): Calidad mínima requerida.
-- hysteresis (Decimal): Margen de recuperación para cerrar la alerta.
+- `id` (UUID): Identificador único de la regla. (PK)
+- `type` (RuleType): Tipo de regla (HR_HIGH, HR_LOW, SPO2_LOW, TEMP_HIGH, TEMP_LOW)
+- `siqMin `(Decimal): Calidad mínima requerida.
 
 #### Value Objects (Objetos de Valor)
 - **RuleType (Enumeration)** — Valores: HR_HIGH, HR_LOW, SPO2_LOW, TEMP_HIGH, TEMP_LOW.
