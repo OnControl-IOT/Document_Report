@@ -72,7 +72,7 @@ Github también presenta un timeline de las ramas principales y los procesos de 
 |- |-|
 |Quispe Roldan Michael Fred   |(MQRF123)| 
 |Juan Pablo Ramos Mendoza     |(JJPPRRMM)|
-|Alejandro Eduardo Gray Hidalgo|-| 
+|Alejandro Eduardo Gray Hidalgo|(alexgrayh)| 
 
 
 # Contenido
@@ -206,8 +206,8 @@ Como valor diferencial, OnControl integra sensores IoT que permiten medir parám
   </tr>
   <tr>
     <td><img src=""></td>
-    <td>-</td>
-    <td>-</td>
+    <td>Soy Alejandro Gray, me encuentro en el octavo ciclo de Ingeniería de Software. Sé programar en varios lenguajes como JavaScript, Python y C#, además de usar frameworks de frontend y backend. Anteriormente estudié Ingeniería Mecatrónica lo que me ayudará a aportar conocimiento al trabajo de este curso.</td>
+    <td>U201618549</td>
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/fb07e471-36a2-4fa7-9234-178869d3d3b7"></td>
