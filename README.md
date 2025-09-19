@@ -56,11 +56,6 @@ URL del repositorio para el reporte del proyecto:
   <img src="" alt="insights">
 </div>
 
-Para el desarrollo del informe perteneciente a la entrega TF, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
-
-| Integrante | Tareas Asignadas |
-| ---------- | ---------------- |
-| a          | a                |
 
 **Github Collaboration Insights**
 
@@ -155,6 +150,8 @@ Github también presenta un timeline de las ramas principales y los procesos de 
     <tr>
       <td style="font-weight:bold">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
       <td>
+      <strong>Gongora Castillejos, Williams</strong> <br>
+      <strong>TB1:</strong> <p align="justify">En el desarrollo de los capítulos 1 y 2 participé activamente en la elaboración del Startup Profile, Solution Profile y análisis de entrevistas, trabajando en conjunto con mi equipo para organizar ideas, distribuir responsabilidades y tomar decisiones de manera colaborativa, contribuyendo así al liderazgo compartido en el proyecto. </p><br>   
       </td>
       <td>
         <!--conclusion -->
@@ -163,6 +160,8 @@ Github también presenta un timeline de las ramas principales y los procesos de 
     <tr>
       <td  style="font-weight:bold">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
       <td>
+        <strong>Gongora Castillejos, Williams</strong> <br>
+      <strong>TB1:</strong> <p align="justify">Durante el desarrollo del proyecto, contribuí a crear un entorno colaborativo e inclusivo, participando en la definición de metas, planificación de tareas y cumplimiento de los objetivos, asegurando una dinámica de trabajo en equipo efectiva. </p><br>  
       </td>
       <td>
         <!-- conclusion -->
@@ -1043,6 +1042,19 @@ En esta sección se presentan los requisitos del producto digital a partir del a
 
 
 <div id='3.2.'><h3>3.2. Impact Mapping</h3></div>
+
+En esta sección se elaboró el impact mapping, tomando como punto de partida las metas comerciales definidas para cada user persona. A partir de ello, se identificaron los impactos esperados, los entregables requeridos y se estableció la relación con las historias de usuario correspondientes.
+
+Segmento objetivo: Pacientes y familiares
+
+<img src="https://github.com/user-attachments/assets/3aa5f839-07f7-4c58-80f3-f4f6b9d007b7" >
+
+
+Segmento objetivo: Oncólogos
+
+
+<img src="https://github.com/user-attachments/assets/59b450d1-59c0-4f12-9870-d5696374a1b0">
+
 <div id='3.3.'><h3>3.3. Product Backlog</h3></div>
 
 <div id='4.'><h2>4. Capítulo IV: Solution Software Design</h2></div>
