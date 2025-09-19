@@ -1057,6 +1057,48 @@ Segmento objetivo: Oncólogos
 
 <div id='3.3.'><h3>3.3. Product Backlog</h3></div>
 
+
+| Orden | User Story ID | Título                            | Descripción                                                                                   | Story Points |
+| ----- | ------------- | --------------------------------- | --------------------------------------------------------------------------------------------- | ------------ |
+| 1     | US01          | Registrar cuenta                  | Como usuario general quiero registrarme para acceder a la aplicación OnControl                | 5            |
+| 2     | US03          | Iniciar sesión                    | Como usuario general quiero iniciar sesión para acceder a las funciones de la app             | 3            |
+| 3     | US04          | Cerrar sesión                     | Como usuario general quiero cerrar mi sesión para proteger mi cuenta tras usar la app         | 2            |
+| 4     | US05          | Recuperación de cuenta            | Como usuario general quiero recuperar mi cuenta para no perder mis datos registrados          | 5            |
+| 5     | US02          | Configurar pagos                  | Como usuario general quiero añadir métodos de pago para acceder a servicios adicionales       | 8            |
+| 6     | US06          | Cambio de número telefónico       | Como usuario general quiero actualizar mi número de teléfono para recibir notificaciones      | 3            |
+| 7     | US07          | Cambio de contraseña              | Como usuario general quiero cambiar mi contraseña para mantener segura mi cuenta              | 3            |
+| 8     | US08          | Actualizar foto de perfil         | Como usuario general quiero cambiar mi foto de perfil para mantener mi información al día     | 2            |
+| 9     | US09          | Mandar solicitud de cita          | Como médico quiero registrar fecha y hora de cita para coordinar atención con mis pacientes   | 5            |
+| 10    | US10          | Aceptar cita                      | Como paciente quiero aceptar una cita para confirmar mi disponibilidad                        | 3            |
+| 11    | US11          | Cancelar cita                     | Como paciente quiero cancelar una cita confirmada para reorganizar mi agenda                  | 3            |
+| 12    | US12          | Reprogramar cita                  | Como paciente quiero reprogramar una cita para ajustarla a mi disponibilidad                  | 5            |
+| 13    | US13          | Mandar solicitud de tratamiento   | Como médico quiero enviar una solicitud de tratamiento para iniciar o modificar el plan       | 5            |
+| 14    | US14          | Aceptar/Rechazar tratamiento      | Como paciente quiero decidir sobre cambios en mi tratamiento para mantener control de mi plan | 5            |
+| 15    | US15          | Personalizar fecha de inicio      | Como paciente quiero definir la fecha de inicio de mi tratamiento para adaptarlo a mi rutina  | 3            |
+| 16    | US16          | Marcar cumplimiento               | Como paciente quiero marcar mi cumplimiento diario para llevar seguimiento de mi progreso     | 5            |
+| 17    | US17          | Asignar especialista              | Como médico quiero derivar a un paciente a un especialista para asegurar la mejor atención    | 8            |
+| 18    | US18          | Enviar síntomas                   | Como paciente quiero reportar mis síntomas para que el doctor haga seguimiento clínico        | 5            |
+| 19    | US19          | Revisar síntomas                  | Como doctor quiero ver los síntomas reportados para evaluar la evolución del tratamiento      | 3            |
+| 20    | US20          | Consultar medicamento             | Como paciente quiero consultar composición y reacciones para identificar efectos adversos     | 5            |
+| 21    | US21          | Notificaciones de cambios         | Como paciente quiero recibir avisos de cambios para estar siempre informado                   | 5            |
+| 22    | US22          | Notificación de fin               | Como doctor quiero recibir aviso de finalización para agendar cita de cierre                  | 3            |
+| 23    | US23          | Consulta a doctor                 | Como paciente quiero hacer consultas via chat para resolver dudas sobre mi tratamiento        | 8            |
+| 24    | US24          | Agregar paciente                  | Como doctor quiero invitar a un paciente por usuario para añadirlo a mi lista                 | 5            |
+| 25    | US25          | Crear procedimiento               | Como doctor quiero definir procedimientos médicos para estructurar el plan de tratamiento     | 5            |
+| 26    | US26          | Resumen de tratamiento            | Como paciente quiero ver un resumen de mi tratamiento para conocer fechas y medicación        | 5            |
+| 27    | US27          | Configurar procedimiento          | Como doctor quiero ajustar duración y frecuencia para adaptar cada procedimiento al caso      | 5            |
+| 28    | US28          | Modificar fecha de inicio         | Como paciente quiero cambiar la fecha de inicio para prepararme                               | 3            |
+| 29    | US29          | Configurar recordatorios          | Como usuario general quiero personalizar mis notificaciones para adaptarlas a mi rutina       | 5            |
+| 30    | US30          | Aviso de cambios en sistema       | Como usuario general quiero recibir notificaciones de cambios en citas y ajustes              | 5            |
+| 31    | US31          | Eliminar paciente                 | Como médico quiero eliminar pacientes finalizados para mantener organizada mi lista           | 3            |
+| 32    | US32          | Contactar con soporte             | Como usuario general quiero contactar con el equipo de soporte para resolver dudas o errores  | 3            |
+| 33    | US33          | Lista de pacientes                | Como médico quiero ver mi lista de pacientes para acceder a sus tratamientos y progreso       | 3            |
+| 34    | US34          | Revisar historial de tratamientos | Como médico quiero ver el historial de tratamientos para tener visión cronológica             | 5            |
+| 35    | US35          | Lista de procedimientos           | Como paciente quiero ver los procedimientos del día para cumplir mi tratamiento               | 3            |
+| 36    | US36          | Visualizar landing page           | Como usuario general quiero ver la landing page para entender la propuesta de valor           | 2            |
+| 37    | US37          | Acceso a la app                   | Como usuario quiero ser redirigido a la tienda de apps para descargar OnControl               | 2            |
+| 38    | US38          | Recibir info por correo           | Como usuario general quiero recibir mis registros por email para tener respaldo               | 3            |
+
 <div id='4.'><h2>4. Capítulo IV: Solution Software Design</h2></div>
 
 <div id='4.1.'><h3>4.1. Strategic-Level Domain-Driven Design</h3></div>
