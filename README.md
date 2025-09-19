@@ -200,9 +200,9 @@ Como valor diferencial, OnControl integra sensores IoT que permiten medir parám
     <td>U20221C186</td>
   </tr>
   <tr>
-    <td><img src=""></td>
-    <td>-</td>
-    <td>-</td>
+    <td><img src="https://github.com/auto-fx/report/blob/main/img/perfil_piero.jpg?raw=true"></td>
+    <td>Soy estudiante de Ingeniería de Software. Mi carrera se basa en los conocimientos y técnicas científicas para crear un programa informático. Tengo experiencia con el trabajo en equipo, creación de proyectos y creación de programas básicos. Aportaré al equipo mi creatividad, compromiso de trabajo en equipo, puntualidad y responsabilidad. Además, las metas, sean grupales o individuales, son muy importantes para mí, porque permiten que nos esforcemos al máximo para lograrlas.</td>
+    <td>U201923446</td>
   </tr>
   <tr>
     <td><img src=""></td>
