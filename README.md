@@ -153,7 +153,9 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>Gongora Castillejos, Williams</strong> <br>
       <strong>TB1:</strong> <p align="justify">En el desarrollo de los capítulos 1 y 2 participé activamente en la elaboración del Startup Profile, Solution Profile y análisis de entrevistas, trabajando en conjunto con mi equipo para organizar ideas, distribuir responsabilidades y tomar decisiones de manera colaborativa, contribuyendo así al liderazgo compartido en el proyecto. </p><br>
       <strong>Ramos Mendoza, Juan Pablo</strong><br>
-      <strong>TB1:</strong> <p align="justify">Para nuestra primera entrega del trabajo, me aseguré de que el grupo tenga indicaciones claras para poder trabajar de forma colectiva, tneiendo en cuenta las ideas y planes de cada uno de los miembros para formar el mejor producto posible.</p><br>   
+      <strong>TB1:</strong> <p align="justify">Para nuestra primera entrega del trabajo, me aseguré de que el grupo tenga indicaciones claras para poder trabajar de forma colectiva, tneiendo en cuenta las ideas y planes de cada uno de los miembros para formar el mejor producto posible.</p><br>
+      <strong>Gray Hidalgo, Alejandro Eduardo</strong><br>
+      <strong>TB1:</strong> <p align="justify">Para esta primera entrega revisé que lo que habíamos hecho en el trabajo del otro curso estuviera correcto para no tener que hacer trabajo extra para este curso</p>
       </td>
       <td>
         <!--conclusion -->
@@ -165,7 +167,9 @@ Github también presenta un timeline de las ramas principales y los procesos de 
         <strong>Gongora Castillejos, Williams</strong> <br>
       <strong>TB1:</strong> <p align="justify">Durante el desarrollo del proyecto, contribuí a crear un entorno colaborativo e inclusivo, participando en la definición de metas, planificación de tareas y cumplimiento de los objetivos, asegurando una dinámica de trabajo en equipo efectiva. </p><br>  
       <strong>Ramos Mendoza, Juan Pablo</strong><br>
-      <strong>TB1:</strong> <p align="justify">Al tener nuestros objetivos claros desde un inicio, tenemos una buena base de nuestro proyecto lo que nos servirá para el proceso del resto del trabajo, con cada entrega siendo una mejora continua del trabajo en sí.</p><br> 
+      <strong>TB1:</strong> <p align="justify">Al tener nuestros objetivos claros desde un inicio, tenemos una buena base de nuestro proyecto lo que nos servirá para el proceso del resto del trabajo, con cada entrega siendo una mejora continua del trabajo en sí.</p><br>
+      <strong>Gray Hidalgo, Alejandro Eduardo</strong><br>
+      <strong>TB1:</strong> <p align="justify">Hemos realizado correcciones al trabajo anterior que habían realizado algunos miembros de este grupo, y lo seguiremos mejorando a lo largo de este curso</p>
       </td>
       <td>
         <!-- conclusion -->
