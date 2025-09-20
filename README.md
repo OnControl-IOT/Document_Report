@@ -1113,8 +1113,6 @@ Segmento objetivo: Oncólogos
 <div id='4.1.1.'><h4>4.1.1. Design-Level EventStorming</h4></div>
 
 Mediante la tecnica del event storming definimos los siguientes bounded context los cuales son principales dentro del proyecto:
-El diagrama completo se encuentra en el siguiente enlace:
-[Enlace](https://miro.com/welcomeonboard/RENPaXdVZVRsdU1xOTNOYXFVcmY4ZzBpKzFwb2Y4cUN1TmdLZkQvQ0pudVZsNWZKaG5DL1poeU0wV2ptem55SWtSVStLOXpBZ3J3cVN1MUswRjIzQW9XTkpIa2ROOTk0TEVTM21kR29MOWdSVnBaUFd1SFpWdEpJOHZ3Z3ZGc2h3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=994329467841)
 
 ### Account Managed
 ![Image](https://github.com/user-attachments/assets/e8c31e5f-ddf1-4f51-8720-32d5cc9e9bb4)
@@ -1127,6 +1125,11 @@ El diagrama completo se encuentra en el siguiente enlace:
 
 ### Calendar Managed
 ![Image](https://github.com/user-attachments/assets/44e2a840-14dd-4aeb-8d7d-dda4fc9c9da8)
+
+### Monitoring Managed
+
+![IoT - Frame 1](https://github.com/user-attachments/assets/5dce869e-6253-479c-875c-8b03e3b7d470)
+
 
 <il><h3><a href="./content/chapter-4/chapter-4.md">4.1.1.1. Candidate Context Discovery</a></h3></il>
 
