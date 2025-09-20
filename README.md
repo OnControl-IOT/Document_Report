@@ -158,6 +158,8 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>TB1:</strong> <p align="justify">Para esta primera entrega revisé que lo que habíamos hecho en el trabajo del otro curso estuviera correcto para no tener que hacer trabajo extra para este curso</p>
       <strong>Quispe Roldan, Michael Fred</strong><br>
       <strong>TB1:</strong> <p align="justify">Lideré la integración del BC Monitoreo (perfil, ingesta, reglas y alertas) y preparé el Event Storming/Context Mapping para incluirlo. Ademas de revisar el documento y el trabajo en equipo. </p>
+      <strong>Piero Mendoza</strong><br>
+      <strong>TB1:</strong> <p align="justify">Diseñe las bases para crear la arquitectura de nuestro sistema en funcion a las necesidades de los usuarios, ademas de plantear las primeras versiones del diagrama de contexto. </p>
       </td>
       <td>
         <!--conclusion -->
@@ -174,6 +176,8 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>TB1:</strong> <p align="justify">Hemos realizado correcciones al trabajo anterior que habían realizado algunos miembros de este grupo, y lo seguiremos mejorando a lo largo de este curso</p>
       <strong>Quispe Roldan, Michael Fred</strong><br>
       <strong>TB1:</strong> <p align="justify">Facilité el Event Storming y el Context Mapping, definí roles por subdominio y una Definition of Done común; promoví acuerdos asincrónicos y lenguaje ubicuo para reducir ambigüedad. </p>
+      <strong>Piero Mendoza</strong><br>
+      <strong>TB1:</strong> <p align="justify">Lidere las bases implementar los diagramas C4, de clase y base de datos de la nueva funcion IOT y ademas de pensar en como podemos aportar algo nuevo. </p>
       </td>
       <td>
         <!-- conclusion -->
