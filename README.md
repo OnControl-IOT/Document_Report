@@ -64,7 +64,7 @@ Github también presenta un timeline de las ramas principales y los procesos de 
 |Integrante|User|
 |-|-|
 |Williams Gongora Castillejos |(WiJeGo)|
-|- |-|
+|Piero Mendoza Pimentel |PieroM1|
 |Quispe Roldan Michael Fred   |(MQRF123)| 
 |Juan Pablo Ramos Mendoza     |(JJPPRRMM)|
 |Alejandro Eduardo Gray Hidalgo|(alexgrayh)| 
