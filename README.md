@@ -156,6 +156,8 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>TB1:</strong> <p align="justify">Para nuestra primera entrega del trabajo, me aseguré de que el grupo tenga indicaciones claras para poder trabajar de forma colectiva, tneiendo en cuenta las ideas y planes de cada uno de los miembros para formar el mejor producto posible.</p><br>
       <strong>Gray Hidalgo, Alejandro Eduardo</strong><br>
       <strong>TB1:</strong> <p align="justify">Para esta primera entrega revisé que lo que habíamos hecho en el trabajo del otro curso estuviera correcto para no tener que hacer trabajo extra para este curso</p>
+      <strong>Quispe Roldan, Michael Fred</strong><br>
+      <strong>TB1:</strong> <p align="justify">Lideré la integración del BC Monitoreo (perfil, ingesta, reglas y alertas) y preparé el Event Storming/Context Mapping para incluirlo. Ademas de revisar el documento y el trabajo en equipo. </p>
       </td>
       <td>
         <!--conclusion -->
@@ -170,6 +172,8 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>TB1:</strong> <p align="justify">Al tener nuestros objetivos claros desde un inicio, tenemos una buena base de nuestro proyecto lo que nos servirá para el proceso del resto del trabajo, con cada entrega siendo una mejora continua del trabajo en sí.</p><br>
       <strong>Gray Hidalgo, Alejandro Eduardo</strong><br>
       <strong>TB1:</strong> <p align="justify">Hemos realizado correcciones al trabajo anterior que habían realizado algunos miembros de este grupo, y lo seguiremos mejorando a lo largo de este curso</p>
+      <strong>Quispe Roldan, Michael Fred</strong><br>
+      <strong>TB1:</strong> <p align="justify">Facilité el Event Storming y el Context Mapping, definí roles por subdominio y una Definition of Done común; promoví acuerdos asincrónicos y lenguaje ubicuo para reducir ambigüedad. </p>
       </td>
       <td>
         <!-- conclusion -->
