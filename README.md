@@ -40,7 +40,9 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :-----: | :---: | :---: | --------------------------- |
-|    a    |   a   |   a   | a                           |
+|    0.0    |   28/08/25   |   Grupo   | Creación del repositorio |
+|    0.1    |   28/08/25   |   Grupo   | Estructura del reporte |
+|    1.0    |   20/09/25   |   Grupo   | Finalización de TB1 |
 
 # Project Report Collaboration Insights
 
@@ -158,7 +160,8 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>TB1:</strong> <p align="justify">Diseñe las bases para crear la arquitectura de nuestro sistema en funcion a las necesidades de los usuarios, ademas de plantear las primeras versiones del diagrama de contexto. </p>
       </td>
       <td>
-        <!--conclusion -->
+        <strong>TB1:</strong><br>
+        Hemos trabajado todos de forma grupal siguiendo las indicaciones y restricciones que nos hemos puesto para realizar la estructura del reporte y todas sus partes, además de la colaboración de todos los miembros para cada una de las partes del informe.
       </td>
     </tr>
     <tr>
@@ -176,7 +179,8 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>TB1:</strong> <p align="justify">Lidere las bases implementar los diagramas C4, de clase y base de datos de la nueva funcion IOT y ademas de pensar en como podemos aportar algo nuevo. </p>
       </td>
       <td>
-        <!-- conclusion -->
+        <strong>TB1:</strong><br>
+        Establecer metas para cada semana nos permitió realizar un avance constante en el reporte, revisando y asegurándonos que todos los miembros del grupo hayan cumplido sus objetivos planificados.
       </td>
     </tr>
   </tbody>
