@@ -44,16 +44,12 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 
 # Project Report Collaboration Insights
 
-URL del repositorio para el reporte del proyecto:
+URL del repositorio para el reporte del proyecto: https://github.com/OnControl-IOT/Document_Report/
 
 **TB1**
 
 <div align="center">
-  <img src="" alt="insights">
-</div>
-
-<div align="center">
-  <img src="" alt="insights">
+  <img src="https://github.com/user-attachments/assets/1de75326-c8d6-448d-9c95-85009f775fc3" alt="insights">
 </div>
 
 
