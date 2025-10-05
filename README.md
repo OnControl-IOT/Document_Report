@@ -1,4 +1,4 @@
-<div align="center">
+![4](https://github.com/user-attachments/assets/adb5c567-1cf3-4ee7-9aca-076971d8e38b)<div align="center">
 <h1 style="text-align: center;"> Informe del Trabajo Final </h1>
 <h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
 
@@ -1884,45 +1884,130 @@ Esta sección muestra el mock-up de la landing page de EMSafe. A diferencia del 
 
 * **Sección Inicio**
 
-![Image](<img width="1321" height="936" alt="Captura de pantalla 2025-10-04 201058" src="https://github.com/user-attachments/assets/41ad3d5f-b51f-4514-9037-039e6d863512" />)
+<img width="1321" height="936" alt="Captura de pantalla 2025-10-04 201058" src="https://github.com/user-attachments/assets/41ad3d5f-b51f-4514-9037-039e6d863512" />
 
 * **Sección Caracteristicas**
 
-![Image](<img width="1580" height="921" alt="Captura de pantalla 2025-10-04 201200" src="https://github.com/user-attachments/assets/e709ec32-8568-4d0d-8513-2dfe3d9b1740" />)
+<img width="1580" height="921" alt="Captura de pantalla 2025-10-04 201200" src="https://github.com/user-attachments/assets/e709ec32-8568-4d0d-8513-2dfe3d9b1740" />
 
 * **Sección Beneficios**
 
-![Image](<img width="1519" height="701" alt="Captura de pantalla 2025-10-04 201223" src="https://github.com/user-attachments/assets/71c11f0d-4555-4dd9-b9fa-520a7ce41051" />)
+<img width="1519" height="701" alt="Captura de pantalla 2025-10-04 201223" src="https://github.com/user-attachments/assets/71c11f0d-4555-4dd9-b9fa-520a7ce41051" />
 
 * **Sección Problema**
 
-![Image](<img width="1429" height="834" alt="image" src="https://github.com/user-attachments/assets/6ec524cb-f028-4c68-9a01-b17ff68f5427" />)
+<img width="1429" height="834" alt="image" src="https://github.com/user-attachments/assets/6ec524cb-f028-4c68-9a01-b17ff68f5427" />
 
 * **Sección Acerca De**
 
-![Image](<img width="1490" height="925" alt="image" src="https://github.com/user-attachments/assets/ec2081c8-e3d6-4e75-a4f2-1ea4ef31fee2" />)
+<img width="1490" height="925" alt="image" src="https://github.com/user-attachments/assets/ec2081c8-e3d6-4e75-a4f2-1ea4ef31fee2" />
 
 * **Sección Testimonio**
 
-![Image](<img width="1397" height="759" alt="image" src="https://github.com/user-attachments/assets/0ffc53a2-ee1e-416f-9352-7d1be148c360" />)
+<img width="1397" height="759" alt="image" src="https://github.com/user-attachments/assets/0ffc53a2-ee1e-416f-9352-7d1be148c360" />
 
 * **Sección Contacto**
 
-![Image](<img width="1562" height="944" alt="Captura de pantalla 2025-10-04 201953" src="https://github.com/user-attachments/assets/352878c2-efae-478a-93ab-a89638a1b320" />)
+<img width="1562" height="944" alt="Captura de pantalla 2025-10-04 201953" src="https://github.com/user-attachments/assets/352878c2-efae-478a-93ab-a89638a1b320" />
 
 * **Sección Descarga y Footer**
 
-![Image](<img width="1439" height="943" alt="image" src="https://github.com/user-attachments/assets/2e02a41d-79cd-444a-bcd6-fc9b1cec3813" />)
+<img width="1439" height="943" alt="image" src="https://github.com/user-attachments/assets/2e02a41d-79cd-444a-bcd6-fc9b1cec3813" />
 
 Figma: [Enlace Figma](https://www.figma.com/design/Q6qOeWezIbHOmzR6j1iWoX/Oncontigo-Mockups--Copia-?node-id=0-1&t=n4MWl8U3TC54ga3v-1)
 
 <div id='5.4.'><h3>5.4. Applications UX/UI Design</h3></div>
+
+Esta sección presenta y desarrolla la propuesta integral de diseño visual y de interacción para las aplicaciones que conforman la experiencia de usuario con los productos digitales del proyecto. Aquí se detallan los fundamentos, criterios y soluciones específicas que definen la interfaz y la usabilidad de las plataformas desarrolladas.
+
 <div id='5.4.1.'><h4>5.4.1. Applications Wireframes</h4></div>
 <div id='5.4.2.'><h4>5.4.2. Applications Wireflow Diagrams</h4></div>
 <div id='5.4.3.'><h4>5.4.3. Applications Mock-ups</h4></div>
+
+Esta sección presenta los mock-ups de las aplicaciones, donde se materializa visualmente la propuesta de diseño. Los diseños reflejan la aplicación coherente de los principios de diseño establecidos, la arquitectura de información y el Design System definido para los productos digitales, garantizando alineación con los objetivos de usabilidad e inclusividad.
+
+* **Sección Inicio de Sesión**
+<img width="1499" height="941" alt="1" src="https://github.com/user-attachments/assets/d50bde98-cdcc-493f-b1b2-7699b9c2b2e6" />
+
+* **Sección Registro de Oncólogo**
+<img width="1419" height="937" alt="2" src="https://github.com/user-attachments/assets/339155af-790f-45a2-9162-539fb7a27d5c" />
+
+* **Sección Dashboard Principal**
+<img width="1512" height="951" alt="3" src="https://github.com/user-attachments/assets/d06c9408-58e5-4a33-b999-9db5dce4650e" />
+
+* **Sección Monitoreo de Signos Vitales**
+<img width="1500" height="944" alt="5" src="https://github.com/user-attachments/assets/d83cac61-8920-4b8d-af9d-3a85225e6c65" />
+
+* **Sección Lista de Pacientes**
+<img width="1400" height="915" alt="6" src="https://github.com/user-attachments/assets/31de480d-0826-403e-8714-cbd4fd8f760c" />
+
+* **Sección Perfil de Paciente de Signos Vitales**
+<img width="1382" height="915" alt="9" src="https://github.com/user-attachments/assets/327f2f29-ea3e-47f1-a78c-aa6e78d602e3" />
+
+* **Sección Gestión de Citas**
+<img width="1271" height="945" alt="13" src="https://github.com/user-attachments/assets/f0fba529-3082-47cb-bf38-eb3767e64380" />
+
+* **Sección Administración de Tratamientos**
+<img width="1390" height="943" alt="17" src="https://github.com/user-attachments/assets/55d3c062-a96b-44bc-8c0c-5a583c6ebfc8" />
+
+* **Sección Sistema de Alertas IoT**
+<img width="1479" height="945" alt="22" src="https://github.com/user-attachments/assets/cb09ee70-a23c-4ad9-813b-a9c22604691c" />
+
+* **Sección Centro de Notificaciones**
+<img width="1330" height="944" alt="28" src="https://github.com/user-attachments/assets/c10f570f-4a87-4f04-af35-876b0f91757d" />
+
+* **Sección Configuración de Perfil**
+<img width="1319" height="947" alt="24" src="https://github.com/user-attachments/assets/bdd90435-74ee-4cca-89e5-1b53190920fb" />
+
 <div id='5.4.4.'><h4>5.4.4. Applications User Flow Diagrams</h4></div>
 
+Aquí se detallan los diagramas de flujo de usuario, representando tanto el "happy path" como las rutas alternativas para cada objetivo de usuario. Cada flujo se acompaña de una explicación clara de las interacciones, condiciones y su correspondencia con los wireflows predefinidos, asegurando consistencia y una experiencia intuitiva para los distintos perfiles de usuario.
+
+* **User Flow: Autenticación y Dashboard**
+
+Este flujo gestiona el acceso al sistema y la visualización del estado general. Comienza con el login, donde el usuario ingresa sus credenciales. Tras una autenticación exitosa, accede al dashboard principal que muestra métricas clave: citas del día, pacientes activos, alertas críticas y sensores IoT conectados.
+El flujo principal permite una navegación directa hacia la gestión de alertas médicas, mientras las rutas alternativas manejan escenarios comunes como credenciales incorrectas o usuarios nuevos que requieren registro previo. El diseño asegura que el usuario acceda rápidamente a la información crítica del sistema.
+
+![1](https://github.com/user-attachments/assets/c365e0d6-76f1-4450-b881-02a1928642fc)
+
+* **User Flow: Interacción con Minisecciones del Dashboard**
+
+Este flujo permite la interacción con las minisecciones del dashboard mediante un sistema de modales overlay. Al hacer clic en cualquier minisección (Alertas, Monitoreo IoT, Signos Vitales o Próximos Pacientes), se despliega un modal con información detallada específica, manteniendo al usuario en el contexto principal del dashboard. El diseño garantiza que la visualización de detalles expandidos no interrumpa la experiencia general, permitiendo un acceso rápido a información complementaria sin necesidad de navegar a pantallas separadas. Los modales se cierran fácilmente, retornando siempre al estado inicial del dashboard.
+
+![2](https://github.com/user-attachments/assets/c15405e2-d3b7-4c4a-bebe-262d881aa0e8)
+
+* **User Flow: Gestión de Pacientes**
+
+Este flujo organiza la gestión de pacientes mediante una estructura de pestañas que permite navegar de manera cohesiva entre las secciones de Historial, Documentos, Laboratorios y Evolución. Desde la lista principal de pacientes, el usuario puede seleccionar cualquier registro para acceder a su perfil completo, donde encuentra información personal, historial de consultas, documentos médicos, resultados de laboratorio y monitoreo de signos vitales en gráficas temporales. Los botones de "Nuevo Paciente", "Agendar Cita" y "Editar" proporcionan acceso inmediato a las funciones administrativas esenciales, manteniendo una experiencia integrada y evitando la navegación entre múltiples pantallas.
+
+![3](https://github.com/user-attachments/assets/d51cca88-1fba-45d5-916d-30fd6664903f)
+
+* **User Flow: Gestión de Citas**
+
+Este flujo organiza la administración de citas médicas a través de dos vistas principales: calendario semanal y listado cronológico. Desde la vista semanal, el usuario puede visualizar la distribución horaria de las citas, identificar disponibilidades y programar nuevas citas mediante un formulario integrado que incluye selección de paciente, tipo de cita y observaciones. La vista de listado permite una gestión masiva con capacidad de edición rápida de horarios, estados (confirmada/pendiente) y detalles de cada cita. El sistema mantiene un resumen actualizado del total de citas, su estado de confirmación y proporciona acceso inmediato a funciones de creación y modificación, optimizando la gestión del tiempo médico.
+
+![Image](https://github.com/user-attachments/assets/e5fcd849-2aab-4199-8cbf-562812cb5fb8)
+
+* **User Flow: Gestión de Tratamientos**
+
+Este flujo organiza la administración integral de tratamientos oncológicos mediante un sistema que combina la planificación médica con el seguimiento continuo del paciente. Comienza con la creación de nuevos tratamientos donde se define el protocolo médico, objetivos terapéuticos y duración estimada. Desde la vista principal de tratamientos activos, clasificados por estado (nuevo, en progreso, crítico), se accede a las subsecciones de Plan para detalle de medicamentos y controles, Timeline para visualizar la evolución histórica, y Síntomas para reportar y monitorear efectos secundarios. La actualización periódica del progreso y el reporte de síntomas permiten ajustes en tiempo real al protocolo de tratamiento, manteniendo un ciclo continuo de evaluación y optimización de la terapia oncológica.
+
+![5](https://github.com/user-attachments/assets/b5866bf8-412d-4f1f-b6e6-973e61016768)
+
+* **User Flow: Sistema de Alertas y Configuración**
+
+Este flujo integra la monitorización en tiempo real de pacientes con la gestión proactiva de alertas médicas. El sistema muestra las alertas activas generadas por los sensores IoT, organizadas por criticidad y tiempo de detección, permitiendo al personal médico reconocer, verificar y resolver cada incidencia con acceso directo al perfil del paciente. Simultáneamente, el módulo de configuración de umbrales ofrece control personalizado sobre los rangos normales de signos vitales (temperatura, ritmo cardíaco, oxígeno), permitiendo ajustar la sensibilidad del sistema de notificaciones según las necesidades clínicas específicas de cada paciente y optimizando el balance entre detección temprana y falsas alarmas.
+
+![6](https://github.com/user-attachments/assets/7a016989-f119-4be5-9c68-5db2d7c68ab4)
+
+
 <div id='5.5.'><h3>5.5. Applications Prototyping</h3></div>
+
+Esta sección introduce los prototipos interactivos desarrollados para navegadores web en escritorio y dispositivos móviles. Se explican los criterios de interacción y navegación adoptados, junto con su relación con la arquitectura de información. Incluye capturas y enlaces a videos que demuestran los flujos de interacción clave, validando la usabilidad y eficacia de la propuesta.
+
+<img width="1512" height="951" alt="3" src="https://github.com/user-attachments/assets/5f67f32c-ca79-4f68-afbc-6be892cda305" />
+
+Link: [Applications Prototyping OnControl](https://drive.google.com/file/d/1K3aS0c6qkvcI4jvKs8c5SBguF8tUycp5/view?usp=sharing)
 
 <div id='6.'><h2>6. Capítulo VI: Product Implementation, Validation & Deployment</h2></div>
 
