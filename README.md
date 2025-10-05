@@ -1884,45 +1884,88 @@ Esta sección muestra el mock-up de la landing page de EMSafe. A diferencia del 
 
 * **Sección Inicio**
 
-![Image](<img width="1321" height="936" alt="Captura de pantalla 2025-10-04 201058" src="https://github.com/user-attachments/assets/41ad3d5f-b51f-4514-9037-039e6d863512" />)
+<img width="1321" height="936" alt="Captura de pantalla 2025-10-04 201058" src="https://github.com/user-attachments/assets/41ad3d5f-b51f-4514-9037-039e6d863512" />
 
 * **Sección Caracteristicas**
 
-![Image](<img width="1580" height="921" alt="Captura de pantalla 2025-10-04 201200" src="https://github.com/user-attachments/assets/e709ec32-8568-4d0d-8513-2dfe3d9b1740" />)
+<img width="1580" height="921" alt="Captura de pantalla 2025-10-04 201200" src="https://github.com/user-attachments/assets/e709ec32-8568-4d0d-8513-2dfe3d9b1740" />
 
 * **Sección Beneficios**
 
-![Image](<img width="1519" height="701" alt="Captura de pantalla 2025-10-04 201223" src="https://github.com/user-attachments/assets/71c11f0d-4555-4dd9-b9fa-520a7ce41051" />)
+<img width="1519" height="701" alt="Captura de pantalla 2025-10-04 201223" src="https://github.com/user-attachments/assets/71c11f0d-4555-4dd9-b9fa-520a7ce41051" />
 
 * **Sección Problema**
 
-![Image](<img width="1429" height="834" alt="image" src="https://github.com/user-attachments/assets/6ec524cb-f028-4c68-9a01-b17ff68f5427" />)
+<img width="1429" height="834" alt="image" src="https://github.com/user-attachments/assets/6ec524cb-f028-4c68-9a01-b17ff68f5427" />
 
 * **Sección Acerca De**
 
-![Image](<img width="1490" height="925" alt="image" src="https://github.com/user-attachments/assets/ec2081c8-e3d6-4e75-a4f2-1ea4ef31fee2" />)
+<img width="1490" height="925" alt="image" src="https://github.com/user-attachments/assets/ec2081c8-e3d6-4e75-a4f2-1ea4ef31fee2" />
 
 * **Sección Testimonio**
 
-![Image](<img width="1397" height="759" alt="image" src="https://github.com/user-attachments/assets/0ffc53a2-ee1e-416f-9352-7d1be148c360" />)
+<img width="1397" height="759" alt="image" src="https://github.com/user-attachments/assets/0ffc53a2-ee1e-416f-9352-7d1be148c360" />
 
 * **Sección Contacto**
 
-![Image](<img width="1562" height="944" alt="Captura de pantalla 2025-10-04 201953" src="https://github.com/user-attachments/assets/352878c2-efae-478a-93ab-a89638a1b320" />)
+<img width="1562" height="944" alt="Captura de pantalla 2025-10-04 201953" src="https://github.com/user-attachments/assets/352878c2-efae-478a-93ab-a89638a1b320" />
 
 * **Sección Descarga y Footer**
 
-![Image](<img width="1439" height="943" alt="image" src="https://github.com/user-attachments/assets/2e02a41d-79cd-444a-bcd6-fc9b1cec3813" />)
+<img width="1439" height="943" alt="image" src="https://github.com/user-attachments/assets/2e02a41d-79cd-444a-bcd6-fc9b1cec3813" />
 
 Figma: [Enlace Figma](https://www.figma.com/design/Q6qOeWezIbHOmzR6j1iWoX/Oncontigo-Mockups--Copia-?node-id=0-1&t=n4MWl8U3TC54ga3v-1)
 
 <div id='5.4.'><h3>5.4. Applications UX/UI Design</h3></div>
+
+Esta sección presenta y desarrolla la propuesta integral de diseño visual y de interacción para las aplicaciones que conforman la experiencia de usuario con los productos digitales del proyecto. Aquí se detallan los fundamentos, criterios y soluciones específicas que definen la interfaz y la usabilidad de las plataformas desarrolladas.
+
 <div id='5.4.1.'><h4>5.4.1. Applications Wireframes</h4></div>
 <div id='5.4.2.'><h4>5.4.2. Applications Wireflow Diagrams</h4></div>
 <div id='5.4.3.'><h4>5.4.3. Applications Mock-ups</h4></div>
+
+Esta sección presenta los mock-ups de las aplicaciones, donde se materializa visualmente la propuesta de diseño. Los diseños reflejan la aplicación coherente de los principios de diseño establecidos, la arquitectura de información y el Design System definido para los productos digitales, garantizando alineación con los objetivos de usabilidad e inclusividad.
+
+* **Sección Inicio de Sesión**
+<img width="1499" height="941" alt="1" src="https://github.com/user-attachments/assets/d50bde98-cdcc-493f-b1b2-7699b9c2b2e6" />
+
+* **Sección Registro de Oncólogo**
+<img width="1419" height="937" alt="2" src="https://github.com/user-attachments/assets/339155af-790f-45a2-9162-539fb7a27d5c" />
+
+* **Sección Dashboard Principal**
+<img width="1512" height="951" alt="3" src="https://github.com/user-attachments/assets/d06c9408-58e5-4a33-b999-9db5dce4650e" />
+
+* **Sección Monitoreo de Signos Vitales**
+<img width="1500" height="944" alt="5" src="https://github.com/user-attachments/assets/d83cac61-8920-4b8d-af9d-3a85225e6c65" />
+
+* **Sección Lista de Pacientes**
+<img width="1400" height="915" alt="6" src="https://github.com/user-attachments/assets/31de480d-0826-403e-8714-cbd4fd8f760c" />
+
+* **Sección Perfil de Paciente de Signos Vitales**
+<img width="1382" height="915" alt="9" src="https://github.com/user-attachments/assets/327f2f29-ea3e-47f1-a78c-aa6e78d602e3" />
+
+* **Sección Gestión de Citas**
+<img width="1271" height="945" alt="13" src="https://github.com/user-attachments/assets/f0fba529-3082-47cb-bf38-eb3767e64380" />
+
+* **Sección Administración de Tratamientos**
+<img width="1390" height="943" alt="17" src="https://github.com/user-attachments/assets/55d3c062-a96b-44bc-8c0c-5a583c6ebfc8" />
+
+* **Sección Sistema de Alertas IoT**
+<img width="1479" height="945" alt="22" src="https://github.com/user-attachments/assets/cb09ee70-a23c-4ad9-813b-a9c22604691c" />
+
+* **Sección Centro de Notificaciones**
+<img width="1330" height="944" alt="28" src="https://github.com/user-attachments/assets/c10f570f-4a87-4f04-af35-876b0f91757d" />
+
+* **Sección Configuración de Perfil**
+<img width="1319" height="947" alt="24" src="https://github.com/user-attachments/assets/bdd90435-74ee-4cca-89e5-1b53190920fb" />
+
 <div id='5.4.4.'><h4>5.4.4. Applications User Flow Diagrams</h4></div>
 
+Aquí se detallan los diagramas de flujo de usuario, representando tanto el "happy path" como las rutas alternativas para cada objetivo de usuario. Cada flujo se acompaña de una explicación clara de las interacciones, condiciones y su correspondencia con los wireflows predefinidos, asegurando consistencia y una experiencia intuitiva para los distintos perfiles de usuario.
+
 <div id='5.5.'><h3>5.5. Applications Prototyping</h3></div>
+
+Esta sección introduce los prototipos interactivos desarrollados para navegadores web en escritorio y dispositivos móviles. Se explican los criterios de interacción y navegación adoptados, junto con su relación con la arquitectura de información. Incluye capturas y enlaces a videos que demuestran los flujos de interacción clave, validando la usabilidad y eficacia de la propuesta.
 
 <div id='6.'><h2>6. Capítulo VI: Product Implementation, Validation & Deployment</h2></div>
 
