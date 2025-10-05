@@ -1,4 +1,4 @@
-![4](https://github.com/user-attachments/assets/adb5c567-1cf3-4ee7-9aca-076971d8e38b)<div align="center">
+<div align="center">
 <h1 style="text-align: center;"> Informe del Trabajo Final </h1>
 <h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
 
@@ -188,6 +188,7 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <td>
       <strong>Gongora Castillejos, Williams</strong> <br>
       <strong>TB1:</strong> <p align="justify">En el desarrollo de los capítulos 1 y 2 participé activamente en la elaboración del Startup Profile, Solution Profile y análisis de entrevistas, trabajando en conjunto con mi equipo para organizar ideas, distribuir responsabilidades y tomar decisiones de manera colaborativa, contribuyendo así al liderazgo compartido en el proyecto. </p><br>
+      <strong>TP:</strong> <p align="justify">En el desarrollo del prototipo de OnControl, participé activamente en el diseño de los User Flow Diagrams y la arquitectura de interacción, trabajando en conjunto con mi equipo para estructurar flujos de usuario, definir criterios de navegación y validar la coherencia entre los mock-ups y las necesidades médicas reales, fomentando un liderazgo compartido que integró perspectivas técnicas, clínicas y de experiencia de usuario para garantizar una solución centrada en el paciente oncológico. </p><br>
       <strong>Ramos Mendoza, Juan Pablo</strong><br>
       <strong>TB1:</strong> <p align="justify">Para nuestra primera entrega del trabajo, me aseguré de que el grupo tenga indicaciones claras para poder trabajar de forma colectiva, tneiendo en cuenta las ideas y planes de cada uno de los miembros para formar el mejor producto posible.</p><br>
       <strong>Gray Hidalgo, Alejandro Eduardo</strong><br>
@@ -206,7 +207,8 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <td  style="font-weight:bold">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
       <td>
         <strong>Gongora Castillejos, Williams</strong> <br>
-      <strong>TB1:</strong> <p align="justify">Durante el desarrollo del proyecto, contribuí a crear un entorno colaborativo e inclusivo, participando en la definición de metas, planificación de tareas y cumplimiento de los objetivos, asegurando una dinámica de trabajo en equipo efectiva. </p><br>  
+      <strong>TB1:</strong> <p align="justify">Durante el desarrollo del proyecto, contribuí a crear un entorno colaborativo e inclusivo, participando en la definición de metas, planificación de tareas y cumplimiento de los objetivos, asegurando una dinámica de trabajo en equipo efectiva. </p><br>
+        <strong>TB1:</strong> <p align="justify">En el desarrollo del prototipo de OnControl, establecí un entorno colaborativo mediante la organización de sesiones de diseño participativas donde se integraron perspectivas técnicas y médicas, definiendo metas claras para los user flows y planificando tareas específicas de prototipado que aseguraron el cumplimiento de los objetivos de usabilidad y precisión clínica dentro de los plazos establecidos, demostrando así mi capacidad para gestionar proyectos de forma inclusiva y orientada a resultados.</p><br>  
       <strong>Ramos Mendoza, Juan Pablo</strong><br>
       <strong>TB1:</strong> <p align="justify">Al tener nuestros objetivos claros desde un inicio, tenemos una buena base de nuestro proyecto lo que nos servirá para el proceso del resto del trabajo, con cada entrega siendo una mejora continua del trabajo en sí.</p><br>
       <strong>Gray Hidalgo, Alejandro Eduardo</strong><br>
