@@ -72,64 +72,102 @@ Github también presenta un timeline de las ramas principales y los procesos de 
 
 1. [**Capítulo I: Introducción.**](#1.) <br>
    1.1. [Startup Profile.](#1.1.) <br>
-   1.1.1. [Descripción del startup.](#1.1.1.)<br>
-   1.1.2.[Perfiles de los integrantes del equipo.](#1.1.2.)<br>
+      1.1.1. [Descripción del startup.](#1.1.1.)<br>
+      1.1.2. [Perfiles de los integrantes del equipo.](#1.1.2.)<br>
    1.2. [Solution Profile.](#1.2.)<br>
-   1.2.1. [Antecedentes y Problemática.](#1.2.1.)<br>
-   1.2.2. [Lean UX Process.](#1.2.2.)<br>
-   1.2.2.1 [Lean UX Problem Statements.](#1.2.2.1.)<br>
-   1.2.2.2. [Lean UX Assumptions.](#1.2.2.2.)<br>
-   1.2.2.3 [Lean UX Hypothesis Statements.](#1.2.2.3.)<br>
-   1.2.2.4 [Lean UX Canvas.](#1.2.2.4.)<br>
+      1.2.1. [Antecedentes y Problemática.](#1.2.1.)<br>
+      1.2.2. [Lean UX Process.](#1.2.2.)<br>
+         1.2.2.1. [Lean UX Problem Statements.](#1.2.2.1.)<br>
+         1.2.2.2. [Lean UX Assumptions.](#1.2.2.2.)<br>
+         1.2.2.3. [Lean UX Hypothesis Statements.](#1.2.2.3.)<br>
+         1.2.2.4. [Lean UX Canvas.](#1.2.2.4.)<br>
    1.3. [Segmentos objetivo.](#1.3.)<br>
+
 2. [**Capítulo II: Requirements Elicitation & Analysis.**](#2.)<br>
    2.1. [Competidores.](#2.1.)<br>
-   2.1.1. [Análisis competitivo.](#2.1.1.)<br>
-   2.1.2. [Estrategias y tácticas frente a competidores.](#2.1.2.)<br>
+      2.1.1. [Análisis competitivo.](#2.1.1.)<br>
+      2.1.2. [Estrategias y tácticas frente a competidores.](#2.1.2.)<br>
    2.2. [Entrevistas.](#2.2.)<br>
-   2.2.1. [Diseño de entrevistas.](#2.2.1.)<br>
-   2.2.2. [Registro de entrevistas.](#2.2.2.)<br>
-   2.2.3. [Análisis de entrevistas.](#2.2.3.)<br>
+      2.2.1. [Diseño de entrevistas.](#2.2.1.)<br>
+      2.2.2. [Registro de entrevistas.](#2.2.2.)<br>
+      2.2.3. [Análisis de entrevistas.](#2.2.3.)<br>
    2.3. [Needfinding.](#2.3.)<br>
-   2.3.1. [User Personas.](#2.3.1.)<br>
-   2.3.2. [User Task Matrix.](#2.3.2.)<br>
-   2.3.3. [User Journey Mapping.](#2.3.3.)<br>
-   2.3.4. [Empathy Mapping.](#2.3.4.)<br>
-   2.4. [Big Picture EventStorming](#2.4.)<br>
-   2.5. [Ubiquitous Language](#2.5.)<br>
-   
+      2.3.1. [User Personas.](#2.3.1.)<br>
+      2.3.2. [User Task Matrix.](#2.3.2.)<br>
+      2.3.3. [User Journey Mapping.](#2.3.3.)<br>
+      2.3.4. [Empathy Mapping.](#2.3.4.)<br>
+   2.4. [Big Picture EventStorming.](#2.4.)<br>
+   2.5. [Ubiquitous Language.](#2.5.)<br>
+
 3. [**Capítulo III: Requirements Specification.**](#3.)<br>
    3.1. [User Stories.](#3.1.)<br>
    3.2. [Impact Mapping.](#3.2.)<br>
    3.3. [Product Backlog.](#3.3.)<br>
 
-5. [**Capítulo IV: Solution Software Design.**](#4.)<br>
+4. [**Capítulo IV: Solution Software Design.**](#4.)<br>
    4.1. [Strategic-Level Domain-Driven Design.](#4.1.)<br>
-   4.1.1. [Design-Level EventStorming](#4.1.1.)<br>
-   4.1.1.1. [Candidate Context Discovery](#4.1.1.1.)<br>
-   4.1.1.2. [Domain Message Flows Modeling](#4.1.1.2.)<br>
-   4.1.1.3. [Bounded Context Canvases](#4.1.1.3.)<br>
-   4.1.2. [Context Mapping](#4.1.2.)<br>
-   4.1.3. [Software Architecture](#4.1.3.)<br>
-   4.1.3.1. [Software Architecture System Landscape Diagram.](#4.1.3.1.)<br>
-   4.1.3.2. [Software Architecture Context Level Diagrams.](#4.1.3.2.)<br>
-   4.1.3.3. [Software Architecture Container Level Diagrams.](#4.1.3.3.)<br>
-   4.1.3.4. [Software Architecture Deployment Diagrams.](#4.1.3.4.)<br>
+      4.1.1. [Design-Level EventStorming.](#4.1.1.)<br>
+         4.1.1.1. [Candidate Context Discovery.](#4.1.1.1.)<br>
+         4.1.1.2. [Domain Message Flows Modeling.](#4.1.1.2.)<br>
+         4.1.1.3. [Bounded Context Canvases.](#4.1.1.3.)<br>
+      4.1.2. [Context Mapping.](#4.1.2.)<br>
+      4.1.3. [Software Architecture.](#4.1.3.)<br>
+         4.1.3.1. [Software Architecture System Landscape Diagram.](#4.1.3.1.)<br>
+         4.1.3.2. [Software Architecture Context Level Diagrams.](#4.1.3.2.)<br>
+         4.1.3.3. [Software Architecture Container Level Diagrams.](#4.1.3.3.)<br>
+         4.1.3.4. [Software Architecture Deployment Diagrams.](#4.1.3.4.)<br>
    4.2. [Tactical-Level Domain-Driven Design.](#4.2.)<br>
-   4.2.1. [Bounded Context: <Bounded Context Name>](#4.2.1.)<br>
-   4.2.1.1. [Domain Layer.](#4.2.1.1.)<br>
-   4.2.1.2. [Interface Layer.](#4.2.1.2.)<br>
-   4.2.1.3. [Application Layer.](#4.2.1.3.)<br>
-   4.2.1.4. [Infrastructure Layer.](#4.2.1.4.)<br>
-   4.2.1.5. [Bounded Context Software Architecture Component Level Diagrams](#4.2.1.5.)<br>
-   4.2.1.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.1.6.)<br>
-   4.2.1.6.1. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.1.6.1.)<br>
-   4.2.1.6.2. [Bounded Context Database Design Diagram.](#4.2.1.6.1.)<br>
-  
+      4.2.1. [Bounded Context: <Bounded Context Name>.](#4.2.1.)<br>
+         4.2.1.1. [Domain Layer.](#4.2.1.1.)<br>
+         4.2.1.2. [Interface Layer.](#4.2.1.2.)<br>
+         4.2.1.3. [Application Layer.](#4.2.1.3.)<br>
+         4.2.1.4. [Infrastructure Layer.](#4.2.1.4.)<br>
+         4.2.1.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.1.5.)<br>
+         4.2.1.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.1.6.)<br>
+            4.2.1.6.1. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.1.6.1.)<br>
+            4.2.1.6.2. [Bounded Context Database Design Diagram.](#4.2.1.6.2.)<br>
 
-7. [Conclusiones](#6.)<br>
-8. [Bibliografía](#7.)<br>
-9. [Anexo](#8.)<br>
+5. [**Capítulo V: Solution UI/UX Design.**](#5.)<br>
+   5.1. [Style Guidelines.](#5.1.)<br>
+      5.1.1. [General Style Guidelines.](#5.1.1.)<br>
+      5.1.2. [Web, Mobile and IoT Style Guidelines.](#5.1.2.)<br>
+   5.2. [Information Architecture.](#5.2.)<br>
+      5.2.1. [Organization Systems.](#5.2.1.)<br>
+      5.2.2. [Labeling Systems.](#5.2.2.)<br>
+      5.2.3. [SEO Tags and Meta Tags.](#5.2.3.)<br>
+      5.2.4. [Searching Systems.](#5.2.4.)<br>
+      5.2.5. [Navigation Systems.](#5.2.5.)<br>
+   5.3. [Landing Page UI Design.](#5.3.)<br>
+      5.3.1. [Landing Page Wireframe.](#5.3.1.)<br>
+      5.3.2. [Landing Page Mock-up.](#5.3.2.)<br>
+   5.4. [Applications UX/UI Design.](#5.4.)<br>
+      5.4.1. [Applications Wireframes.](#5.4.1.)<br>
+      5.4.2. [Applications Wireflow Diagrams.](#5.4.2.)<br>
+      5.4.3. [Applications Mock-ups.](#5.4.3.)<br>
+      5.4.4. [Applications User Flow Diagrams.](#5.4.4.)<br>
+   5.5. [Applications Prototyping.](#5.5.)<br>
+
+6. [**Capítulo VI: Product Implementation, Validation & Deployment.**](#6.)<br>
+   6.1. [Software Configuration Management.](#6.1.)<br>
+      6.1.1. [Software Development Environment Configuration.](#6.1.1.)<br>
+      6.1.2. [Source Code Management.](#6.1.2.)<br>
+      6.1.3. [Source Code Style Guide & Conventions.](#6.1.3.)<br>
+      6.1.4. [Software Deployment Configuration.](#6.1.4.)<br>
+   6.2. [Landing Page, Services & Applications Implementation.](#6.2.)<br>
+      6.2.1. [Sprint 1.](#6.2.1.)<br>
+         6.2.1.1. [Sprint Planning 1.](#6.2.1.1.)<br>
+         6.2.1.2. [Aspect Leaders and Collaborators.](#6.2.1.2.)<br>
+         6.2.1.3. [Sprint Backlog 1.](#6.2.1.3.)<br>
+         6.2.1.4. [Development Evidence for Sprint Review.](#6.2.1.4.)<br>
+         6.2.1.5. [Testing Suite Evidence for Sprint Review.](#6.2.1.5.)<br>
+         6.2.1.6. [Execution Evidence for Sprint Review.](#6.2.1.6.)<br>
+         6.2.1.7. [Services Documentation Evidence for Sprint Review.](#6.2.1.7.)<br>
+         6.2.1.8. [Software Deployment Evidence for Sprint Review.](#6.2.1.8.)<br>
+         6.2.1.9. [Team Collaboration Insights during Sprint.](#6.2.1.9.)<br>
+
+7. [**Conclusiones.**](#7.)<br>
+8. [**Bibliografía.**](#8.)<br>
+9. [**Anexo.**](#9.)<br>
 
 # STUDENT OUTCOME
 
@@ -1795,4 +1833,141 @@ Esta capa contiene las implementaciones concretas para interactuar con tecnolog�
 <div id='4.2.4.6.1.'><h6>4.2.4.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
 
 ![ClassDiagram_Chat](https://cdn.discordapp.com/attachments/302292068330504205/1418143965961785399/Bounded_Context_Domain_Layer_Class_Diagrams.png?ex=68cd0cfd&is=68cbbb7d&hm=734fcd33d93c718c520f19f46a54cf70d1d0e4ccb76c9b03226e7610091a0c62)
+
+
+<div id='5.'><h2>5. Capítulo V: Solution UI/UX Design</h2></div>
+
+<div id='5.1.'><h3>5.1. Style Guidelines</h3></div>
+<div id='5.1.1.'><h4>5.1.1. General Style Guidelines</h4></div>
+<div id='5.1.2.'><h4>5.1.2. Web, Mobile and IoT Style Guidelines</h4></div>
+
+<div id='5.2.'><h3>5.2. Information Architecture</h3></div>
+<div id='5.2.1.'><h4>5.2.1. Organization Systems</h4></div>
+<div id='5.2.2.'><h4>5.2.2. Labeling Systems</h4></div>
+<div id='5.2.3.'><h4>5.2.3. SEO Tags and Meta Tags</h4></div>
+<div id='5.2.4.'><h4>5.2.4. Searching Systems</h4></div>
+<div id='5.2.5.'><h4>5.2.5. Navigation Systems</h4></div>
+
+<div id='5.3.'><h3>5.3. Landing Page UI Design</h3></div>
+
+Con el objetivo de maximizar la conversión de visitantes, hemos desarrollado una Landing Page adaptable. El diseño para ordenadores se centra en una experiencia intuitiva y sin fricciones, presentando la información clave de forma visual y concisa. Una barra de navegación siempre visible facilita el acceso continuo a todas las secciones.
+
+<div id='5.3.1.'><h4>5.3.1. Landing Page Wireframe</h4></div>
+
+En esta sección se presentarán los wireframes de la versión de la versión con menos exactitud del Landing Page.
+
+* **Sección Inicio y Caracteristicas**
+
+![Image](https://github.com/user-attachments/assets/0eb45035-16a5-43ec-9d3c-e3d0804f8f2e)
+
+* **Sección Beneficios**
+
+![Image](https://github.com/user-attachments/assets/402f71a5-8e20-4a1d-a88e-0bd3e1e82e64)
+
+* **Sección Problema y Testimonios**
+
+![Image](https://github.com/user-attachments/assets/f0bd95a9-1022-4c72-8071-0c74a404571f)
+
+* **Sección Contacto**
+ 
+![Image](https://github.com/user-attachments/assets/25e3440d-18e0-48ad-8d87-75f5c3439a20)
+
+* **Sección Descargas y Footer**
+
+![Image](https://github.com/user-attachments/assets/09051eb1-96b2-4581-821e-d6d3a93cd809)
+
+Figma: [Enlace Figma](https://www.figma.com/design/Q6qOeWezIbHOmzR6j1iWoX/Oncontigo-Mockups--Copia-?node-id=0-1&t=n4MWl8U3TC54ga3v-1)
+
+<div id='5.3.2.'><h4>5.3.2. Landing Page Mock-up</h4></div>
+
+Esta sección muestra el mock-up de la landing page de EMSafe. A diferencia del wireframe, este diseño incorpora la identidad visual completa (colores, tipografías, gráficos) para ofrecer una representación fiel del producto final. Su propósito es comunicar los beneficios clave del sistema, el problema que resuelve, su ubicación y facilitar el contacto con clientes potenciales.
+
+* **Sección Inicio**
+
+![Image](<img width="1321" height="936" alt="Captura de pantalla 2025-10-04 201058" src="https://github.com/user-attachments/assets/41ad3d5f-b51f-4514-9037-039e6d863512" />)
+
+* **Sección Caracteristicas**
+
+![Image](<img width="1580" height="921" alt="Captura de pantalla 2025-10-04 201200" src="https://github.com/user-attachments/assets/e709ec32-8568-4d0d-8513-2dfe3d9b1740" />)
+
+* **Sección Beneficios**
+
+![Image](<img width="1519" height="701" alt="Captura de pantalla 2025-10-04 201223" src="https://github.com/user-attachments/assets/71c11f0d-4555-4dd9-b9fa-520a7ce41051" />)
+
+* **Sección Problema**
+
+![Image](<img width="1429" height="834" alt="image" src="https://github.com/user-attachments/assets/6ec524cb-f028-4c68-9a01-b17ff68f5427" />)
+
+* **Sección Acerca De**
+
+![Image](<img width="1490" height="925" alt="image" src="https://github.com/user-attachments/assets/ec2081c8-e3d6-4e75-a4f2-1ea4ef31fee2" />)
+
+* **Sección Testimonio**
+
+![Image](<img width="1397" height="759" alt="image" src="https://github.com/user-attachments/assets/0ffc53a2-ee1e-416f-9352-7d1be148c360" />)
+
+* **Sección Contacto**
+
+![Image](<img width="1562" height="944" alt="Captura de pantalla 2025-10-04 201953" src="https://github.com/user-attachments/assets/352878c2-efae-478a-93ab-a89638a1b320" />)
+
+* **Sección Descarga y Footer**
+
+![Image](<img width="1439" height="943" alt="image" src="https://github.com/user-attachments/assets/2e02a41d-79cd-444a-bcd6-fc9b1cec3813" />)
+
+Figma: [Enlace Figma](https://www.figma.com/design/Q6qOeWezIbHOmzR6j1iWoX/Oncontigo-Mockups--Copia-?node-id=0-1&t=n4MWl8U3TC54ga3v-1)
+
+<div id='5.4.'><h3>5.4. Applications UX/UI Design</h3></div>
+<div id='5.4.1.'><h4>5.4.1. Applications Wireframes</h4></div>
+<div id='5.4.2.'><h4>5.4.2. Applications Wireflow Diagrams</h4></div>
+<div id='5.4.3.'><h4>5.4.3. Applications Mock-ups</h4></div>
+<div id='5.4.4.'><h4>5.4.4. Applications User Flow Diagrams</h4></div>
+
+<div id='5.5.'><h3>5.5. Applications Prototyping</h3></div>
+
+<div id='6.'><h2>6. Capítulo VI: Product Implementation, Validation & Deployment</h2></div>
+
+<div id='6.1.'><h3>6.1. Software Configuration Management</h3></div>
+<div id='6.1.1.'><h4>6.1.1. Software Development Environment Configuration</h4></div>
+<div id='6.1.2.'><h4>6.1.2. Source Code Management</h4></div>
+<div id='6.1.3.'><h4>6.1.3. Source Code Style Guide & Conventions</h4></div>
+<div id='6.1.4.'><h4>6.1.4. Software Deployment Configuration</h4></div>
+
+<div id='6.2.'><h3>6.2. Landing Page, Services & Applications Implementation</h3></div>
+<div id='6.2.1.'><h4>6.2.1. Sprint 1</h4></div>
+<div id='6.2.1.1.'><h4>6.2.1.1. Sprint Planning 1</h4></div>
+<div id='6.2.1.2.'><h4>6.2.1.2. Aspect Leaders and Collaborators</h4></div>
+<div id='6.2.1.3.'><h4>6.2.1.3. Sprint Backlog 1</h4></div>
+<div id='6.2.1.4.'><h4>6.2.1.4. Development Evidence for Sprint Review</h4></div>
+<div id='6.2.1.5.'><h4>6.2.1.5. Testing Suite Evidence for Sprint Review</h4></div>
+<div id='6.2.1.6.'><h4>6.2.1.6. Execution Evidence for Sprint Review</h4></div>
+<div id='6.2.1.7.'><h4>6.2.1.7. Services Documentation Evidence for Sprint Review</h4></div>
+<div id='6.2.1.8.'><h4>6.2.1.8. Software Deployment Evidence for Sprint Review</h4></div>
+<div id='6.2.1.9.'><h4>6.2.1.9. Team Collaboration Insights during Sprint</h4></div>
+
+<div id='7.'><h2>7. Conclusiones</h2></div>
+
+
+1. **Ecosistema Integral con Modelo Sostenible:** OnControl trasciende una simple aplicación al integrar gestión médica, acompañamiento emocional y herramientas de autocontrol bajo un modelo freemium que balancea accesibilidad para pacientes con valor tangible para profesionales, asegurando viabilidad económica.
+
+2. **Experiencia de Usuario Empática y Técnicamente Sólida:** El diseño prioriza interfaces intuitivas y reducción de carga cognitiva para pacientes oncológicos, respaldado por una arquitectura escalable con Flutter, microservicios en Spring Boot e infraestructura cloud que garantiza seguridad, rendimiento y cumplimiento normativo.
+
+3. **Desarrollo Ágil con Enfoque Estratégico:** La metodología Scrum permite entregas incrementales validadas continuamente, mientras que el backlog priorizado mediante story points asegura que el desarrollo avance sobre funcionalidades críticas primero, manteniendo flexibilidad y enfoque en el valor central.
+
+4. **Seguridad Integrada y Confianza del Usuario:** La protección de datos médicos sensibles se incorpora desde el diseño inicial mediante cifrado y adherencia a estándares HIPAA y GDPR, generando la confianza necesaria para que pacientes y médicos adopten la plataforma.
+
+5. **Impacto Transformador en Telemedicina Oncológica:** La plataforma democratiza el acceso a especialistas y optimiza el manejo de tratamientos mediante tecnología, equilibrando soluciones técnicas avanzadas con sensibilidad humana para mejorar genuinamente la calidad de vida durante el proceso oncológico.
+
+<div id='8.'><h2>8. Bibliografía</h2></div>
+
+- Congreso de la República del Perú. (2011, 3 de julio). Ley N.° 29733, Ley de Protección de Datos Personales. Diario Oficial El Peruano. https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/243470-29733
+
+
+- Presidencia de la República del Perú. (2013, 22 de marzo). Decreto Supremo N.° 003-2013-JUS que aprueba el Reglamento de la Ley N.° 29733, Ley de Protección de Datos Personales. Diario Oficial El Peruano. https://www.minjus.gob.pe/wp-content/uploads/2013/04/LEY-29733.pdf
+  
+
+- Congreso de la República del Perú. (1997, 20 de julio). Ley N.° 26842, Ley General de Salud. Diario Oficial El Peruano. https://www.minsa.gob.pe/Recursos/OGTI/SINADEF/Ley-29733.pdf
+
+<div id='9.'><h2>9. Anexo</h2></div>
+
+
 
