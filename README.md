@@ -1946,6 +1946,7 @@ Figma: [Enlace Figma](https://www.figma.com/design/Q6qOeWezIbHOmzR6j1iWoX/Oncont
 
 <div id='7.'><h2>7. Conclusiones</h2></div>
 
+
 1. **Ecosistema Integral con Modelo Sostenible:** OnControl trasciende una simple aplicación al integrar gestión médica, acompañamiento emocional y herramientas de autocontrol bajo un modelo freemium que balancea accesibilidad para pacientes con valor tangible para profesionales, asegurando viabilidad económica.
 
 2. **Experiencia de Usuario Empática y Técnicamente Sólida:** El diseño prioriza interfaces intuitivas y reducción de carga cognitiva para pacientes oncológicos, respaldado por una arquitectura escalable con Flutter, microservicios en Spring Boot e infraestructura cloud que garantiza seguridad, rendimiento y cumplimiento normativo.
@@ -1966,5 +1967,7 @@ Figma: [Enlace Figma](https://www.figma.com/design/Q6qOeWezIbHOmzR6j1iWoX/Oncont
 
 - Congreso de la República del Perú. (1997, 20 de julio). Ley N.° 26842, Ley General de Salud. Diario Oficial El Peruano. https://www.minsa.gob.pe/Recursos/OGTI/SINADEF/Ley-29733.pdf
 
-
 <div id='9.'><h2>9. Anexo</h2></div>
+
+
+
