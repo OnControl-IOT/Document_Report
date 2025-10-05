@@ -1,4 +1,4 @@
-<div align="center">
+![4](https://github.com/user-attachments/assets/adb5c567-1cf3-4ee7-9aca-076971d8e38b)<div align="center">
 <h1 style="text-align: center;"> Informe del Trabajo Final </h1>
 <h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
 
@@ -1963,9 +1963,51 @@ Esta sección presenta los mock-ups de las aplicaciones, donde se materializa vi
 
 Aquí se detallan los diagramas de flujo de usuario, representando tanto el "happy path" como las rutas alternativas para cada objetivo de usuario. Cada flujo se acompaña de una explicación clara de las interacciones, condiciones y su correspondencia con los wireflows predefinidos, asegurando consistencia y una experiencia intuitiva para los distintos perfiles de usuario.
 
+* **User Flow: Autenticación y Dashboard**
+
+Este flujo gestiona el acceso al sistema y la visualización del estado general. Comienza con el login, donde el usuario ingresa sus credenciales. Tras una autenticación exitosa, accede al dashboard principal que muestra métricas clave: citas del día, pacientes activos, alertas críticas y sensores IoT conectados.
+El flujo principal permite una navegación directa hacia la gestión de alertas médicas, mientras las rutas alternativas manejan escenarios comunes como credenciales incorrectas o usuarios nuevos que requieren registro previo. El diseño asegura que el usuario acceda rápidamente a la información crítica del sistema.
+
+![1](https://github.com/user-attachments/assets/c365e0d6-76f1-4450-b881-02a1928642fc)
+
+* **User Flow: Interacción con Minisecciones del Dashboard**
+
+Este flujo permite la interacción con las minisecciones del dashboard mediante un sistema de modales overlay. Al hacer clic en cualquier minisección (Alertas, Monitoreo IoT, Signos Vitales o Próximos Pacientes), se despliega un modal con información detallada específica, manteniendo al usuario en el contexto principal del dashboard. El diseño garantiza que la visualización de detalles expandidos no interrumpa la experiencia general, permitiendo un acceso rápido a información complementaria sin necesidad de navegar a pantallas separadas. Los modales se cierran fácilmente, retornando siempre al estado inicial del dashboard.
+
+![2](https://github.com/user-attachments/assets/c15405e2-d3b7-4c4a-bebe-262d881aa0e8)
+
+* **User Flow: Gestión de Pacientes**
+
+Este flujo organiza la gestión de pacientes mediante una estructura de pestañas que permite navegar de manera cohesiva entre las secciones de Historial, Documentos, Laboratorios y Evolución. Desde la lista principal de pacientes, el usuario puede seleccionar cualquier registro para acceder a su perfil completo, donde encuentra información personal, historial de consultas, documentos médicos, resultados de laboratorio y monitoreo de signos vitales en gráficas temporales. Los botones de "Nuevo Paciente", "Agendar Cita" y "Editar" proporcionan acceso inmediato a las funciones administrativas esenciales, manteniendo una experiencia integrada y evitando la navegación entre múltiples pantallas.
+
+![3](https://github.com/user-attachments/assets/d51cca88-1fba-45d5-916d-30fd6664903f)
+
+* **User Flow: Gestión de Citas**
+
+Este flujo organiza la administración de citas médicas a través de dos vistas principales: calendario semanal y listado cronológico. Desde la vista semanal, el usuario puede visualizar la distribución horaria de las citas, identificar disponibilidades y programar nuevas citas mediante un formulario integrado que incluye selección de paciente, tipo de cita y observaciones. La vista de listado permite una gestión masiva con capacidad de edición rápida de horarios, estados (confirmada/pendiente) y detalles de cada cita. El sistema mantiene un resumen actualizado del total de citas, su estado de confirmación y proporciona acceso inmediato a funciones de creación y modificación, optimizando la gestión del tiempo médico.
+
+![Image](https://github.com/user-attachments/assets/e5fcd849-2aab-4199-8cbf-562812cb5fb8)
+
+* **User Flow: Gestión de Tratamientos**
+
+Este flujo organiza la administración integral de tratamientos oncológicos mediante un sistema que combina la planificación médica con el seguimiento continuo del paciente. Comienza con la creación de nuevos tratamientos donde se define el protocolo médico, objetivos terapéuticos y duración estimada. Desde la vista principal de tratamientos activos, clasificados por estado (nuevo, en progreso, crítico), se accede a las subsecciones de Plan para detalle de medicamentos y controles, Timeline para visualizar la evolución histórica, y Síntomas para reportar y monitorear efectos secundarios. La actualización periódica del progreso y el reporte de síntomas permiten ajustes en tiempo real al protocolo de tratamiento, manteniendo un ciclo continuo de evaluación y optimización de la terapia oncológica.
+
+![5](https://github.com/user-attachments/assets/b5866bf8-412d-4f1f-b6e6-973e61016768)
+
+* **User Flow: Sistema de Alertas y Configuración**
+
+Este flujo integra la monitorización en tiempo real de pacientes con la gestión proactiva de alertas médicas. El sistema muestra las alertas activas generadas por los sensores IoT, organizadas por criticidad y tiempo de detección, permitiendo al personal médico reconocer, verificar y resolver cada incidencia con acceso directo al perfil del paciente. Simultáneamente, el módulo de configuración de umbrales ofrece control personalizado sobre los rangos normales de signos vitales (temperatura, ritmo cardíaco, oxígeno), permitiendo ajustar la sensibilidad del sistema de notificaciones según las necesidades clínicas específicas de cada paciente y optimizando el balance entre detección temprana y falsas alarmas.
+
+![6](https://github.com/user-attachments/assets/7a016989-f119-4be5-9c68-5db2d7c68ab4)
+
+
 <div id='5.5.'><h3>5.5. Applications Prototyping</h3></div>
 
 Esta sección introduce los prototipos interactivos desarrollados para navegadores web en escritorio y dispositivos móviles. Se explican los criterios de interacción y navegación adoptados, junto con su relación con la arquitectura de información. Incluye capturas y enlaces a videos que demuestran los flujos de interacción clave, validando la usabilidad y eficacia de la propuesta.
+
+<img width="1512" height="951" alt="3" src="https://github.com/user-attachments/assets/5f67f32c-ca79-4f68-afbc-6be892cda305" />
+
+Link: [Applications Prototyping OnControl](https://drive.google.com/file/d/1K3aS0c6qkvcI4jvKs8c5SBguF8tUycp5/view?usp=sharing)
 
 <div id='6.'><h2>6. Capítulo VI: Product Implementation, Validation & Deployment</h2></div>
 
