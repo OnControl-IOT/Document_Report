@@ -2899,10 +2899,355 @@ https://oncontrol-iot.github.io/LandingPage/
 En esta sección se muestra el avance correspondiente al Sprint 1, donde se planifica el desarrollo de la Landing Page y el Frontend de la startup
 
 <div id='6.2.1.1.'><h4>6.2.1.1. Sprint Planning 1</h4></div>
+<table>
+    <tr>
+        <th>Sprint 1</th>
+        <td>Sprint 1</td>
+    </tr>
+    <tr>
+        <th>Sprint Planning Date</th>
+        <td>2025-20-09</td>
+    </tr>
+    <tr>
+        <th>Time</th>
+        <td>8:00 PM</td>
+    </tr>
+    <tr>
+        <th>Location</th>
+        <td>Meet</td>
+    </tr>
+    <tr>
+        <th>Prepared By</th>
+        <td>Williams Gongora Castillejos</td>
+    </tr>
+    <tr>
+        <th>Attendees</th>
+        <td>Williams Gongora Castillejos / Piero Mendoza Pimentel / Quispe Roldan Michael Fred / Juan Pablo Ramos Mendoza / Alejandro Eduardo Gray Hidalgo</td>
+    </tr>
+    <tr>
+        <th>Sprint Goal</th>
+        <td>Implementar y demostrar la Landing Page (secciones: Inicio, Características, Beneficios, Problema, Acerca de, Testimonio, Contacto y Descarga/Footer) y avanzar el Frontend inicial (Inicio de Sesión, Registro de Oncólogo, Dashboard, Monitoreo de Signos Vitales, Lista de Pacientes, Perfil de Paciente, Gestión de Citas, Administración de Tratamientos, Sistema de Alertas IoT, Centro de Notificaciones y Configuración de Perfil).</td>
+    </tr>
+    <tr>
+        <th>Sprint Velocity</th>
+        <td>5</td>
+    </tr>
+    <tr>
+        <th>Sum of Story Points</th>
+        <td>18</td>
+    </tr>
+</table>
+
+<br>
+
 <div id='6.2.1.2.'><h4>6.2.1.2. Aspect Leaders and Collaborators</h4></div>
+
+| Team Member (Last Name, First Name)               | GitHub Username | **Documentación (L/C)** | **Front end (L/C)** | **Landing Page (L/C)** |
+| ------------------------------------------------- | --------------- | ----------------------- | ------------------- | ---------------------- |
+| **Gongora Castillejos, Williams (Sprint Leader)** | WiJeGo          | C                       | **L**               | **L**                  |
+| **Mendoza Pimentel, Piero**                       | PieroM1         | C                       | C                   | C                      |
+| **Ramos Mendoza, Juan Pablo**                     | JJPPRRMM        | C                       | C                   | C                      |
+| **Quispe Roldan, Michael Fred**                   | MQRF123         | **L**                   | C                   | C                      |
+| **Gray Hidalgo, Alejandro Eduardo**               | alexgrayh       | **L**                   | C                   | C                      |
+
 <div id='6.2.1.3.'><h4>6.2.1.3. Sprint Backlog 1</h4></div>
+
+<br>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Título</th>
+            <th>Épica</th>
+            <th>Responsable</th>
+            <th>Puntos</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>US36</td>
+            <td>Visualizar landing page</td>
+            <td>Landing Page (EP07)</td>
+            <td>Williams Gongora Castillejos</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>US37</td>
+            <td>Acceso a la app</td>
+            <td>Landing Page (EP07)</td>
+            <td>Williams Gongora Castillejos</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>US38</td>
+            <td>Recibir información por correo</td>
+            <td>Landing Page (EP07)</td>
+            <td>Alejandro Eduardo Gray Hidalgo</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>US01</td>
+            <td>Registrar cuenta</td>
+            <td>Autenticación (EP01)</td>
+            <td>Piero Mendoza Pimentel</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>US03</td>
+            <td>Iniciar sesión</td>
+            <td>Autenticación (EP01)</td>
+            <td>Juan Pablo Ramos Mendoza</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>US04</td>
+            <td>Cerrar sesión</td>
+            <td>Autenticación (EP01)</td>
+            <td>Quispe Roldan Michael Fred</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>US05</td>
+            <td>Recuperación de cuenta</td>
+            <td>Autenticación (EP01)</td>
+            <td>Juan Pablo Ramos Mendoza</td>
+            <td>5</td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+
+<table border="1">
+    <tr>
+        <th>Sprint #</th>
+        <th>User Story</th>
+        <th>Work-item/Task</th>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Estimation (Hours)</th>
+        <th>Assigned To</th>
+        <th>Status</th>
+    </tr>
+    <!-- US36 -->
+    <tr>
+        <td rowspan="3">Sprint 1</td>
+        <td rowspan="3">US36: Visualizar landing page</td>
+        <td>TA01</td>
+        <td>#2025100801</td>
+        <td>Wireframe & Mockup (Figma)</td>
+        <td>Diseñar la landing (secciones principales) según el estilo del proyecto y dejar prototipo navegable.</td>
+        <td>6</td>
+        <td>Williams Gongora Castillejos</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TA02</td>
+        <td>#2025100802</td>
+        <td>Implementación responsive</td>
+        <td>Desarrollar la landing (HTML/CSS/JS) con cabecera, navegación por anclas y footer de contacto.</td>
+        <td>12</td>
+        <td>Williams Gongora Castillejos</td>
+        <td>To Do</td>
+    </tr>
+    <tr>
+        <td>TA03</td>
+        <td>#2025100803</td>
+        <td>SEO & Accesibilidad básica</td>
+        <td>Agregar meta tags, títulos, descripciones y mejoras de accesibilidad (alt, roles, focus).</td>
+        <td>6</td>
+        <td>Williams Gongora Castillejos</td>
+        <td>To Do</td>
+    </tr>
+    <!-- US37 -->
+    <tr>
+        <td rowspan="2">Sprint 1</td>
+        <td rowspan="2">US37: Acceso a la app</td>
+        <td>TA04</td>
+        <td>#2025100804</td>
+        <td>CTA “Acceder a la app”</td>
+        <td>Agregar botón/CTA que dirija a la sección de descarga/uso y explicar requisitos (Android/iOS).</td>
+        <td>4</td>
+        <td>Williams Gongora Castillejos</td>
+        <td>To Do</td>
+    </tr>
+    <tr>
+        <td>TA05</td>
+        <td>#2025100805</td>
+        <td>Sección Descarga/Acceso</td>
+        <td>Crear sección con enlaces y pasos para instalar/abrir la app (APK/TestFlight o guía).</td>
+        <td>6</td>
+        <td>Williams Gongora Castillejos</td>
+        <td>To Do</td>
+    </tr>
+    <!-- US38 -->
+    <tr>
+        <td rowspan="2">Sprint 1</td>
+        <td rowspan="2">US38: Recibir información por correo</td>
+        <td>TA06</td>
+        <td>#2025100806</td>
+        <td>Formulario de suscripción</td>
+        <td>Implementar formulario (email) en la landing con validación y confirmación visual.</td>
+        <td>6</td>
+        <td>Alejandro Eduardo Gray Hidalgo</td>
+        <td>To Do</td>
+    </tr>
+    <tr>
+        <td>TA07</td>
+        <td>#2025100807</td>
+        <td>API de suscripciones (MVP)</td>
+        <td>Exponer endpoint simple para almacenar suscripciones y preparar documentación en Swagger.</td>
+        <td>8</td>
+        <td>Piero Mendoza Pimentel</td>
+        <td>To Do</td>
+    </tr>
+    <!-- US01 -->
+    <tr>
+        <td rowspan="2">Sprint 1</td>
+        <td rowspan="2">US01: Registrar cuenta</td>
+        <td>TA08</td>
+        <td>#2025100808</td>
+        <td>POST /auth/register</td>
+        <td>Crear endpoint de registro con validaciones y manejo de errores (duplicados, 4xx).</td>
+        <td>10</td>
+        <td>Piero Mendoza Pimentel</td>
+        <td>To Do</td>
+    </tr>
+    <tr>
+        <td>TA09</td>
+        <td>#2025100809</td>
+        <td>Pantalla Registro (Flutter)</td>
+        <td>Construir UI con validación de campos y flujo de éxito/error; integración con la API.</td>
+        <td>10</td>
+        <td>Quispe Roldan Michael Fred</td>
+        <td>To Do</td>
+    </tr>
+    <!-- US03 -->
+    <tr>
+        <td rowspan="2">Sprint 1</td>
+        <td rowspan="2">US03: Iniciar sesión</td>
+        <td>TA10</td>
+        <td>#2025100810</td>
+        <td>POST /auth/login</td>
+        <td>Crear endpoint de login con emisión de token y manejo de credenciales inválidas (401).</td>
+        <td>8</td>
+        <td>Juan Pablo Ramos Mendoza</td>
+        <td>To Do</td>
+    </tr>
+    <tr>
+        <td>TA11</td>
+        <td>#2025100811</td>
+        <td>Pantalla Login (Flutter)</td>
+        <td>Construir UI de login con almacenamiento seguro del token y estados de carga/errores.</td>
+        <td>8</td>
+        <td>Williams Gongora Castillejos</td>
+        <td>To Do</td>
+    </tr>
+    <!-- US04 -->
+    <tr>
+        <td>Sprint 1</td>
+        <td>US04: Cerrar sesión</td>
+        <td>TA12</td>
+        <td>#2025100812</td>
+        <td>Logout (Flutter)</td>
+        <td>Implementar limpieza de sesión (token/estado) y redirección al login.</td>
+        <td>4</td>
+        <td>Quispe Roldan Michael Fred</td>
+        <td>To Do</td>
+    </tr>
+    <!-- US05 -->
+    <tr>
+        <td rowspan="2">Sprint 1</td>
+        <td rowspan="2">US05: Recuperación de cuenta</td>
+        <td>TA13</td>
+        <td>#2025100813</td>
+        <td>POST /auth/forgot-password</td>
+        <td>Exponer endpoint para solicitar recuperación con envío de código/correo.</td>
+        <td>10</td>
+        <td>Piero Mendoza Pimentel</td>
+        <td>To Do</td>
+    </tr>
+    <tr>
+        <td>TA14</td>
+        <td>#2025100814</td>
+        <td>Pantalla Recuperar cuenta (Flutter)</td>
+        <td>Crear flujo de ingreso de email/código y cambio de contraseña; manejo de errores.</td>
+        <td>8</td>
+        <td>Juan Pablo Ramos Mendoza</td>
+        <td>To Do</td>
+    </tr>
+</table>
+
 <div id='6.2.1.4.'><h4>6.2.1.4. Development Evidence for Sprint Review</h4></div>
+
+<table border="1">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on</th>
+  </tr>
+
+  <!-- Documentación -->
+  <tr>
+    <td>Document_Report</td>
+    <td>feature/sprint-1-docs</td>
+    <td>d1e2f3g</td>
+    <td>docs: Sprint 1 – Planning, LACX y Backlog</td>
+    <td>Se agregó la tabla de Sprint Planning, la matriz de líderes/colaboradores y el Sprint Backlog del proyecto.</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Document_Report</td>
+    <td>feature/wireframes-guidelines</td>
+    <td>h2i3j4k</td>
+    <td>docs: lineamientos de wireframes</td>
+    <td>Definición: TITULO en encabezados, Lorem ipsum para textos, imágenes con “X” y paleta en escala de grises.</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Document_Report</td>
+    <td>develop</td>
+    <td>p5q6r7s</td>
+    <td>chore: estructura de documentos</td>
+    <td>Organización de carpetas /docs y enlaces desde el README para evidencias del Sprint.</td>
+    <td>2025-10-08</td>
+  </tr>
+
+  <!-- Landing Page -->
+  <tr>
+    <td>OnControl-Front</td>
+    <td>feature/wireframes</td>
+    <td>a7b8c9d</td>
+    <td>feat: wireframes landing (web)</td>
+    <td>Estructura inicial de secciones (Inicio, Características, Beneficios, Problema, Acerca de, Testimonio, Contacto, Descarga/Footer) con placeholders.</td>
+    <td>2025-10-04</td>
+  </tr>
+  <tr>
+    <td>OnControl-Front</td>
+    <td>feature/header-navbar</td>
+    <td>e1f2a3b</td>
+    <td>feat: header y navbar responsivo</td>
+    <td>Navegación por anclas entre secciones y comportamiento responsive básico.</td>
+    <td>2025-10-04</td>
+  </tr>
+  <tr>
+    <td>OnControl-Front</td>
+    <td>develop</td>
+    <td>m0n1o2p</td>
+    <td>fix: copy y acentos</td>
+    <td>Correcciones de textos (p. ej., “Características”), consistencia de TITULO y limpieza de estilos.</td>
+    <td>2025-10-04</td>
+  </tr>
+</table>
+
 <div id='6.2.1.5.'><h4>6.2.1.5. Testing Suite Evidence for Sprint Review</h4></div>
+
+
 <div id='6.2.1.6.'><h4>6.2.1.6. Execution Evidence for Sprint Review</h4></div>
 
 En este primer Sprint del proyecto hemos logrado implementar y desplegar una Landing Page que comunica nuestra propuesta de valor, y el Frontend que permite iniciar sesión o crear una cuenta y muestra al usuario las diferentes actividades que puede realizar en nuestra aplicación
