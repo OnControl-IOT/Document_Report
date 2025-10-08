@@ -2541,7 +2541,45 @@ Figma: [Enlace Figma](https://www.figma.com/design/Q6qOeWezIbHOmzR6j1iWoX/Oncont
 Esta sección presenta y desarrolla la propuesta integral de diseño visual y de interacción para las aplicaciones que conforman la experiencia de usuario con los productos digitales del proyecto. Aquí se detallan los fundamentos, criterios y soluciones específicas que definen la interfaz y la usabilidad de las plataformas desarrolladas.
 
 <div id='5.4.1.'><h4>5.4.1. Applications Wireframes</h4></div>
+
+Esta sección presenta los wireframes de las aplicaciones, donde se materializa visualmente la propuesta de diseño. Los diseños reflejan la aplicación coherente de los principios de diseño establecidos, la arquitectura de información y el Design System definido para los productos digitales, garantizando alineación con los objetivos de usabilidad e inclusividad.
+
+* **Sección Inicio de Sesión**
+<img width="2888" height="2048" alt="image" src="https://github.com/user-attachments/assets/7ed2c174-4900-4643-95eb-0b982dc6c8ad" />
+
+* **Sección Registro de Oncólogo**
+<img width="2888" height="2048" alt="image" src="https://github.com/user-attachments/assets/386514a5-ac09-4420-8889-ef0b41820c20" />
+
+* **Sección Dashboard Principal**
+<img width="2888" height="2048" alt="image" src="https://github.com/user-attachments/assets/96c60791-7efe-4fc4-8811-031215f25c09" />
+
+* **Sección Monitoreo de Signos Vitales**
+<img width="2888" height="2048" alt="image" src="https://github.com/user-attachments/assets/835374c4-57a5-4dcf-acea-52f802aeb358" />
+
+* **Sección Lista de Pacientes**
+<img width="2888" height="2048" alt="image" src="https://github.com/user-attachments/assets/49613af6-c0b9-4d17-aaaa-8c9d98b268e6" />
+
+* **Sección Perfil de Paciente de Signos Vitales**
+<img width="2642" height="1992" alt="image" src="https://github.com/user-attachments/assets/cd32d4c1-b034-40b3-a01d-ea7c93e86eeb" />
+
+* **Sección Gestión de Citas**
+<img width="2888" height="2048" alt="image" src="https://github.com/user-attachments/assets/17d2dc7f-06e4-401b-92cb-019e7613f22f" />
+
+* **Sección Administración de Tratamientos**
+<img width="2888" height="2048" alt="image" src="https://github.com/user-attachments/assets/98d130ab-4450-4a94-8e5e-289742683877" />
+
+* **Sección Sistema de Alertas IoT**
+<img width="2888" height="2048" alt="image" src="https://github.com/user-attachments/assets/f0f360c8-103d-45b2-99c1-11c1a8833e0d" />
+
+* **Sección Centro de Notificaciones**
+<img width="2888" height="2048" alt="image" src="https://github.com/user-attachments/assets/e3c379e0-eb3a-4afd-929c-dc4e74d9b097" />
+
+* **Sección Configuración de Perfil**
+<img width="2888" height="2048" alt="image" src="https://github.com/user-attachments/assets/bec72d08-aeac-4b07-b171-bb7e494cd111" />
+
 <div id='5.4.2.'><h4>5.4.2. Applications Wireflow Diagrams</h4></div>
+
+
 <div id='5.4.3.'><h4>5.4.3. Applications Mock-ups</h4></div>
 
 Esta sección presenta los mock-ups de las aplicaciones, donde se materializa visualmente la propuesta de diseño. Los diseños reflejan la aplicación coherente de los principios de diseño establecidos, la arquitectura de información y el Design System definido para los productos digitales, garantizando alineación con los objetivos de usabilidad e inclusividad.
