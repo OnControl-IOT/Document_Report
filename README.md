@@ -2578,6 +2578,35 @@ Esta sección presenta los wireframes de las aplicaciones, donde se materializa 
 <img width="2888" height="2048" alt="image" src="https://github.com/user-attachments/assets/bec72d08-aeac-4b07-b171-bb7e494cd111" />
 
 <div id='5.4.2.'><h4>5.4.2. Applications Wireflow Diagrams</h4></div>
+Aquí se detallan los diagramas de flujo de usuario, representando tanto el "happy path" como las rutas alternativas para cada objetivo de usuario. Cada flujo se acompaña de una explicación clara de las interacciones, condiciones y su correspondencia con los wireflows predefinidos, asegurando consistencia y una experiencia intuitiva para los distintos perfiles de usuario.
+
+* **Autenticación y Dashboard**
+
+![IoT](https://github.com/user-attachments/assets/abbe4b35-981b-45f4-9fb7-45fc6264978c)
+
+
+* **Interacción con Minisecciones del Dashboard**
+
+![IoT (1)](https://github.com/user-attachments/assets/0e912616-44bb-4592-a88f-4a681339b89c)
+
+
+* **Gestión de Pacientes**
+
+![IoT (2)](https://github.com/user-attachments/assets/3163f190-b112-4407-a3b9-a8ad67429801)
+
+
+* **Gestión de Citas**
+
+![IoT (3)](https://github.com/user-attachments/assets/d1b6d0a9-8b3f-40f1-8b34-8195e70cd439)
+
+* **Gestión de Tratamientos**
+
+![IoT (4)](https://github.com/user-attachments/assets/7b98abe3-fb4f-4971-8413-947447520b51)
+
+
+* **Sistema de Alertas y Configuración**
+
+![IoT (5)](https://github.com/user-attachments/assets/258b7d60-32ef-4712-9751-3627dd9a13f1)
 
 
 <div id='5.4.3.'><h4>5.4.3. Applications Mock-ups</h4></div>
