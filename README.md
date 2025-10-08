@@ -815,6 +815,16 @@ En esta sección se presenta un glosario de términos que forman parte del domin
 En esta sección se presentan los requisitos del producto digital a partir del análisis de la información recopilada en las investigaciones previas. El objetivo es transformar las necesidades de los usuarios y de los stakeholders en requisitos claros y estructurados que guíen el diseño y desarrollo de la solución. Para ello, se incluyen artefactos que permiten comprender la situación futura deseada, las tareas clave de los usuarios y la priorización del trabajo.
 <div id='3.1.'><h3>3.1. User Stories</h3></div>
 
+| Epic ID | Título | Descripción |
+|---------|--------|-------------|
+| **EP01** | **Gestión de Cuenta y Autenticación** | Como usuario general<br>Quiero gestionar mi cuenta y credenciales<br>Para acceder y mantener segura mi información |
+| **EP02** | **Gestión de Perfil** | Como usuario general<br>Quiero gestionar mi información personal<br>Para mantener mi perfil actualizado y seguro |
+| **EP03** | **Gestión de Tratamientos y Citas** | Como paciente y médico<br>Quiero gestionar tratamientos, citas y procedimientos<br>Para coordinar la atención médica efectivamente |
+| **EP04** | **Monitoreo de Salud en Tiempo Real (IoT)** | Como paciente y sistema<br>Quiero monitorear signos vitales mediante sensores<br>Para detectar y alertar sobre condiciones críticas |
+| **EP05** | **Comunicación y Soporte** | Como usuario general<br>Quiero comunicarme con médicos y soporte<br>Para resolver dudas y recibir atención |
+| **EP06** | **Seguimiento de Síntomas y Medicamentos** | Como paciente y médico<br>Quiero gestionar síntomas y medicamentos<br>Para realizar seguimiento clínico adecuado |
+| **EP07** | **Información y Marketing** | Como usuario general<br>Quiero acceder a información de la aplicación<br>Para conocer sus beneficios y funcionalidades |
+
 
 <table border="1" class="dataframe">
   <thead>
@@ -852,14 +862,14 @@ En esta sección se presentan los requisitos del producto digital a partir del a
       <td>US04</td>
       <td>Cerrar sesión</td>
       <td>Como usuario general<br>Quiero cerrar mi sesión<br>Para proteger mi cuenta tras usar la app</td>
-      <td><strong>E01 – Cierre exitoso:</strong> Dado que el usuario está autenticado Cuando selecciona “Cerrar sesión” Entonces el sistema lo redirige a la landing page.<br><br><strong>E02 – Prevención de acceso:</strong> Dado que el usuario cierra sesión Cuando intenta navegar con la sesión cerrada Entonces el sistema lo obliga a loguearse de nuevo.</td>
+      <td><strong>E01 – Cierre exitoso:</strong> Dado que el usuario está autenticado Cuando selecciona "Cerrar sesión" Entonces el sistema lo redirige a la landing page.<br><br><strong>E02 – Prevención de acceso:</strong> Dado que el usuario cierra sesión Cuando intenta navegar con la sesión cerrada Entonces el sistema lo obliga a loguearse de nuevo.</td>
       <td>EP01</td>
     </tr>
     <tr>
       <td>US05</td>
       <td>Recuperación de cuenta</td>
       <td>Como usuario general<br>Quiero recuperar mi cuenta<br>Para no perder mis datos registrados</td>
-      <td><strong>E01 – Recuperación por email:</strong> Dado que el usuario no recuerda su contraseña Cuando elige “Recuperar por email” Entonces el sistema envía un enlace de restablecimiento.<br><br><strong>E02 – Recuperación por SMS:</strong> Dado que el usuario no recuerda su contraseña Cuando elige “Recuperar por SMS” Entonces el sistema envía un código de verificación al móvil.</td>
+      <td><strong>E01 – Recuperación por email:</strong> Dado que el usuario no recuerda su contraseña Cuando elige "Recuperar por email" Entonces el sistema envía un enlace de restablecimiento.<br><br><strong>E02 – Recuperación por SMS:</strong> Dado que el usuario no recuerda su contraseña Cuando elige "Recuperar por SMS" Entonces el sistema envía un código de verificación al móvil.</td>
       <td>EP01</td>
     </tr>
     <tr>
@@ -894,14 +904,14 @@ En esta sección se presentan los requisitos del producto digital a partir del a
       <td>US10</td>
       <td>Aceptar cita</td>
       <td>Como paciente<br>Quiero aceptar una cita<br>Para confirmar mi disponibilidad</td>
-      <td><strong>E01 – Cita confirmada:</strong> Dado que el paciente recibe la solicitud Cuando pulsa “Aceptar” Entonces la cita se añade a su calendario.<br><br><strong>E02 – Cita expirada:</strong> Dado que la fecha ya pasó Cuando intenta aceptar Entonces el sistema informa que no es posible.</td>
+      <td><strong>E01 – Cita confirmada:</strong> Dado que el paciente recibe la solicitud Cuando pulsa "Aceptar" Entonces la cita se añade a su calendario.<br><br><strong>E02 – Cita expirada:</strong> Dado que la fecha ya pasó Cuando intenta aceptar Entonces el sistema informa que no es posible.</td>
       <td>EP03</td>
     </tr>
     <tr>
       <td>US11</td>
       <td>Cancelar cita</td>
       <td>Como paciente<br>Quiero cancelar una cita confirmada<br>Para reorganizar mi agenda</td>
-      <td><strong>E01 – Cancelación exitosa:</strong> Dado que la cita está activa Cuando pulsa “Cancelar” Entonces se elimina y el médico recibe notificación.<br><br><strong>E02 – Cita no cancelable:</strong> Dado que la cita ya fue atendida o cancelada Cuando intenta cancelarla de nuevo Entonces el sistema muestra un mensaje de error.</td>
+      <td><strong>E01 – Cancelación exitosa:</strong> Dado que la cita está activa Cuando pulsa "Cancelar" Entonces se elimina y el médico recibe notificación.<br><br><strong>E02 – Cita no cancelable:</strong> Dado que la cita ya fue atendida o cancelada Cuando intenta cancelarla de nuevo Entonces el sistema muestra un mensaje de error.</td>
       <td>EP03</td>
     </tr>
     <tr>
@@ -915,14 +925,14 @@ En esta sección se presentan los requisitos del producto digital a partir del a
       <td>US13</td>
       <td>Mandar solicitud de tratamiento</td>
       <td>Como médico<br>Quiero enviar una solicitud de tratamiento<br>Para iniciar o modificar el plan del paciente</td>
-      <td><strong>E01 – Solicitud enviada:</strong> Dado que el médico completa el formulario Cuando pulsa “Enviar” Entonces el paciente recibe notificación con detalles.<br><br><strong>E02 – Campos vacíos:</strong> Dado que faltan datos obligatorios Cuando intenta enviar Entonces el sistema bloquea la acción y muestra error.</td>
+      <td><strong>E01 – Solicitud enviada:</strong> Dado que el médico completa el formulario Cuando pulsa "Enviar" Entonces el paciente recibe notificación con detalles.<br><br><strong>E02 – Campos vacíos:</strong> Dado que faltan datos obligatorios Cuando intenta enviar Entonces el sistema bloquea la acción y muestra error.</td>
       <td>EP03</td>
     </tr>
     <tr>
       <td>US14</td>
       <td>Aceptar/Rechazar cambios en tratamiento</td>
       <td>Como paciente<br>Quiero decidir sobre cambios en mi tratamiento<br>Para mantener control de mi plan</td>
-      <td><strong>E01 – Aceptar cambio:</strong> Dado que recibe la solicitud Cuando pulsa “Aceptar” Entonces el cambio se aplica y notifica al médico.<br><br><strong>E02 – Rechazar cambio:</strong> Dado que revisa la solicitud Cuando pulsa “Rechazar” Entonces el cambio no se aplica y el médico recibe notificación.</td>
+      <td><strong>E01 – Aceptar cambio:</strong> Dado que recibe la solicitud Cuando pulsa "Aceptar" Entonces el cambio se aplica y notifica al médico.<br><br><strong>E02 – Rechazar cambio:</strong> Dado que revisa la solicitud Cuando pulsa "Rechazar" Entonces el cambio no se aplica y el médico recibe notificación.</td>
       <td>EP03</td>
     </tr>
     <tr>
@@ -950,21 +960,21 @@ En esta sección se presentan los requisitos del producto digital a partir del a
       <td>US18</td>
       <td>Enviar síntomas</td>
       <td>Como paciente<br>Quiero reportar mis síntomas<br>Para que el doctor haga seguimiento clínico</td>
-      <td><strong>E01 – Reporte exitoso:</strong> Dado que el paciente completa el formulario Cuando envía Entonces el síntoma queda registrado en el panel del médico.<br><br><strong>E02 – Sin tratamiento activo:</strong> Dado que no hay tratamiento asociado Cuando intenta reportar Entonces el sistema muestra un mensaje para seleccionar uno.</td>
+      <td><strong>E01 – Reporte exitoso:</strong> Dado que el paciente completa el formulario Cuando envía Entonces el síntoma queda registrado en el panel del médico.<br><br><strong>E02 – Sin tratamiento activo:</strong> Dado que no hay tratamiento asociado Cuando intenta reportar Entonces el sistema muestra un mensaje para seleccionar uno.<br><br><strong>E03 – Síntomas con datos IoT:</strong> Dado que el paciente reporta síntomas Cuando envía el reporte Entonces el sistema incluye automáticamente los datos de los sensores del momento.</td>
       <td>EP06</td>
     </tr>
     <tr>
       <td>US19</td>
       <td>Revisar síntomas</td>
       <td>Como doctor<br>Quiero ver los síntomas reportados<br>Para evaluar la evolución del tratamiento</td>
-      <td><strong>E01 – Síntomas disponibles:</strong> Dado que el paciente ha reportado síntomas Cuando el doctor accede al historial Entonces ve la lista ordenada por fecha.<br><br><strong>E02 – Sin reportes:</strong> Dado que no hay registros Cuando el doctor accede Entonces el sistema muestra un mensaje indicándolo.</td>
+      <td><strong>E01 – Síntomas disponibles:</strong> Dado que el paciente ha reportado síntomas Cuando el doctor accede al historial Entonces ve la lista ordenada por fecha.<br><br><strong>E02 – Sin reportes:</strong> Dado que no hay registros Cuando el doctor accede Entonces el sistema muestra un mensaje indicándolo.<br><br><strong>E03 – Correlación con sensores:</strong> Dado que hay síntomas reportados Cuando el doctor los revisa Entonces puede ver los valores de los sensores en el momento del reporte.</td>
       <td>EP06</td>
     </tr>
     <tr>
       <td>US20</td>
       <td>Consultar medicamento</td>
       <td>Como paciente<br>Quiero consultar composición y reacciones<br>Para identificar efectos adversos</td>
-      <td><strong>E01 – Detalles mostrados:</strong> Dado que el paciente selecciona un medicamento asignado Cuando abre su ficha Entonces ve ingredientes, dosis y advertencias.<br><br><strong>E02 – Reportar reacción:</strong> Dado que detecta un efecto adverso Cuando pulsa “Reportar” Entonces el sistema notifica al médico con detalles.</td>
+      <td><strong>E01 – Detalles mostrados:</strong> Dado que el paciente selecciona un medicamento asignado Cuando abre su ficha Entonces ve ingredientes, dosis y advertencias.<br><br><strong>E02 – Reportar reacción:</strong> Dado que detecta un efecto adverso Cuando pulsa "Reportar" Entonces el sistema notifica al médico con detalles.</td>
       <td>EP06</td>
     </tr>
     <tr>
@@ -985,7 +995,7 @@ En esta sección se presentan los requisitos del producto digital a partir del a
       <td>US23</td>
       <td>Consulta a doctor</td>
       <td>Como paciente<br>Quiero hacer consultas via chat<br>Para resolver dudas sobre mi tratamiento</td>
-      <td><strong>E01 – Envío de mensaje:</strong> Dado que el paciente redactor un mensaje Cuando pulsa “Enviar” Entonces el doctor recibe la consulta y queda registrada.<br><br><strong>E02 – Respuesta en tiempo real:</strong> Dado que el doctor responde Cuando publica la respuesta Entonces el paciente la ve inmediatamente.</td>
+      <td><strong>E01 – Envío de mensaje:</strong> Dado que el paciente redacta un mensaje Cuando pulsa "Enviar" Entonces el doctor recibe la consulta y queda registrada.<br><br><strong>E02 – Respuesta en tiempo real:</strong> Dado que el doctor responde Cuando publica la respuesta Entonces el paciente la ve inmediatamente.</td>
       <td>EP05</td>
     </tr>
     <tr>
@@ -1006,7 +1016,7 @@ En esta sección se presentan los requisitos del producto digital a partir del a
       <td>US26</td>
       <td>Resumen de tratamiento</td>
       <td>Como paciente<br>Quiero ver un resumen de mi tratamiento<br>Para conocer fechas, medicación y procedimientos</td>
-      <td><strong>E01 – Vista previa completa:</strong> Dado que el paciente accede antes de aceptar Cuando abre el resumen Entonces ve todos los detalles del plan.<br><br><strong>E02 – Aceptar desde resumen:</strong> Dado que revisa el contenido Cuando pulsa “Aceptar” Entonces el tratamiento se activa en su cuenta.</td>
+      <td><strong>E01 – Vista previa completa:</strong> Dado que el paciente accede antes de aceptar Cuando abre el resumen Entonces ve todos los detalles del plan.<br><br><strong>E02 – Aceptar desde resumen:</strong> Dado que revisa el contenido Cuando pulsa "Aceptar" Entonces el tratamiento se activa en su cuenta.</td>
       <td>EP06</td>
     </tr>
     <tr>
@@ -1041,21 +1051,21 @@ En esta sección se presentan los requisitos del producto digital a partir del a
       <td>US31</td>
       <td>Eliminar paciente</td>
       <td>Como médico<br>Quiero eliminar pacientes finalizados<br>Para mantener organizada mi lista</td>
-      <td><strong>E01 – Eliminación exitosa:</strong> Dado que el paciente marcó tratamiento como completo Cuando el doctor pulsa “Eliminar” Entonces se remueve de su lista.<br><br><strong>E02 – Paciente activo:</strong> Dado que aún hay un tratamiento en curso Cuando intenta eliminar Entonces el sistema deniega la acción.</td>
+      <td><strong>E01 – Eliminación exitosa:</strong> Dado que el paciente marcó tratamiento como completo Cuando el doctor pulsa "Eliminar" Entonces se remueve de su lista.<br><br><strong>E02 – Paciente activo:</strong> Dado que aún hay un tratamiento en curso Cuando intenta eliminar Entonces el sistema deniega la acción.</td>
       <td>EP03</td>
     </tr>
     <tr>
       <td>US32</td>
       <td>Contactar con soporte</td>
       <td>Como usuario general<br>Quiero contactar con el equipo de soporte<br>Para resolver dudas o reportar errores</td>
-      <td><strong>E01 – Mensaje enviado:</strong> Dado que completa el formulario de contacto Cuando pulsa “Enviar” Entonces llega al equipo y el usuario recibe confirmación.<br><br><strong>E02 – Campos vacíos:</strong> Dado que faltan datos obligatorios Cuando intenta enviar Entonces el sistema muestra error y bloquea envío.</td>
+      <td><strong>E01 – Mensaje enviado:</strong> Dado que completa el formulario de contacto Cuando pulsa "Enviar" Entonces llega al equipo y el usuario recibe confirmación.<br><br><strong>E02 – Campos vacíos:</strong> Dado que faltan datos obligatorios Cuando intenta enviar Entonces el sistema muestra error y bloquea envío.</td>
       <td>EP05</td>
     </tr>
     <tr>
       <td>US33</td>
       <td>Lista de pacientes</td>
       <td>Como médico<br>Quiero ver mi lista de pacientes<br>Para acceder a sus tratamientos y progreso</td>
-      <td><strong>E01 – Lista poblada:</strong> Dado que hay pacientes asignados Cuando el doctor accede Entonces ve la lista con nombres y estado de tratamiento.<br><br><strong>E02 – Lista vacía:</strong> Dado que no tiene pacientes aún Cuando accede Entonces se muestra un mensaje indicándolo.</td>
+      <td><strong>E01 – Lista poblada:</strong> Dado que hay pacientes asignados Cuando el doctor accede Entonces ve la lista con nombres y estado de tratamiento.<br><br><strong>E02 – Lista vacía:</strong> Dado que no tiene pacientes aún Cuando accede Entonces se muestra un mensaje indicándolo.<br><br><strong>E03 – Estado de monitoreo:</strong> Dado que el paciente tiene sensores conectados Cuando el doctor ve la lista Entonces puede identificar qué pacientes tienen alertas activas.</td>
       <td>EP03</td>
     </tr>
     <tr>
@@ -1093,6 +1103,48 @@ En esta sección se presentan los requisitos del producto digital a partir del a
       <td><strong>E01 – Envío exitoso:</strong> Dado que introduce un correo válido Cuando solicita el envío Entonces el sistema envía el resumen de actividad.<br><br><strong>E02 – Correo inválido:</strong> Dado que el formato no es correcto Cuando confirma Entonces el sistema muestra un error y no envía el email.</td>
       <td>EP07</td>
     </tr>
+    <tr>
+      <td>US39</td>
+      <td>Medir parámetros vitales (IoT)</td>
+      <td>Como paciente<br>Quiero que el sistema tome mis parámetros vitales mediante sensores<br>Para monitorear mi temperatura, oxígeno en sangre y ritmo cardíaco en tiempo real</td>
+      <td><strong>E01 – Lectura exitosa:</strong> Dado que los sensores están conectados al dispositivo Cuando se inicia la medición Entonces el sistema registra los valores actuales de temperatura, oxígeno y ritmo cardíaco.<br><br><strong>E02 – Error de sensor:</strong> Dado que un sensor no responde Cuando se intenta leer datos Entonces el sistema muestra un mensaje de error indicando el dispositivo afectado.<br><br><strong>E03 – Calibración de sensores:</strong> Dado que los sensores requieren calibración Cuando se inicia el sistema Entonces el dispositivo ejecuta una secuencia de autocomprobación antes de medir.</td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US40</td>
+      <td>Enviar datos de sensores al sistema</td>
+      <td>Como sistema IoT<br>Quiero enviar los datos de los sensores al servidor<br>Para que los médicos y pacientes puedan ver los resultados en la app</td>
+      <td><strong>E01 – Envío exitoso:</strong> Dado que se capturan los parámetros Cuando el módulo IoT los transmite Entonces el servidor los recibe y los almacena correctamente.<br><br><strong>E02 – Fallo de comunicación:</strong> Dado que hay pérdida de conexión Cuando el módulo intenta enviar datos Entonces el sistema reintenta o muestra una advertencia.</td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US41</td>
+      <td>Detectar umbrales anormales</td>
+      <td>Como sistema IoT<br>Quiero comparar los valores obtenidos con los umbrales normales<br>Para detectar condiciones críticas de salud</td>
+      <td><strong>E01 – Valor fuera de rango:</strong> Dado que un valor excede el umbral superior o inferior Cuando se realiza la medición Entonces el sistema genera una alerta interna.<br><br><strong>E02 – Valor normal:</strong> Dado que los parámetros están dentro del rango Cuando se registra la medición Entonces no se genera ninguna alerta.<br><br><strong>E03 – Umbrales personalizados por paciente:</strong> Dado que el médico configuró umbrales específicos Cuando se evalúan los parámetros Entonces el sistema usa los valores personalizados en lugar de los generales.</td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US42</td>
+      <td>Activar LED indicador</td>
+      <td>Como sistema IoT<br>Quiero encender un LED de advertencia<br>Para alertar visualmente cuando un parámetro vital sale del rango normal</td>
+      <td><strong>E01 – Umbral superado:</strong> Dado que se detecta un valor anormal Cuando el sistema lo confirma Entonces el LED se enciende (rojo si es alto, azul si es bajo).<br><br><strong>E02 – Valor estabilizado:</strong> Dado que el parámetro vuelve al rango normal Cuando se actualiza la lectura Entonces el LED se apaga.<br><br><strong>E03 – Patrón de parpadeo por gravedad:</strong> Dado que múltiples parámetros están fuera de rango Cuando se activa la alerta Entonces el LED parpadea más rápido indicando mayor urgencia.</td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US43</td>
+      <td>Visualizar lecturas en la app</td>
+      <td>Como paciente<br>Quiero ver mis parámetros vitales en tiempo real<br>Para conocer mi estado de salud desde el panel de control</td>
+      <td><strong>E01 – Visualización en tiempo real:</strong> Dado que los sensores están transmitiendo Cuando el usuario accede al dashboard Entonces los valores se actualizan en pantalla cada pocos segundos.<br><br><strong>E02 – Historial de datos:</strong> Dado que se realizan mediciones continuas Cuando el usuario abre su historial Entonces puede ver los registros de temperatura, oxígeno y ritmo cardíaco.<br><br><strong>E03 – Tendencias y análisis:</strong> Dado que hay datos históricos suficientes Cuando el usuario visualiza las métricas Entonces el sistema muestra tendencias y cambios significativos.</td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US44</td>
+      <td>Notificación de emergencias a médicos</td>
+      <td>Como sistema<br>Quiero notificar automáticamente al médico cuando un paciente tiene valores críticos<br>Para permitir una intervención rápida</td>
+      <td><strong>E01 – Notificación push inmediata:</strong> Dado que se detecta un parámetro crítico Cuando se confirma la alerta Entonces el médico recibe una notificación push con los detalles del paciente.<br><br><strong>E02 – Escalación de alertas:</strong> Dado que la alerta no es atendida en 5 minutos Cuando pasa el tiempo límite Entonces el sistema notifica a un segundo médico o contacto de emergencia.</td>
+      <td>EP04</td>
+    </tr>
   </tbody>
 </table>
 
@@ -1113,47 +1165,52 @@ Segmento objetivo: Oncólogos
 
 <div id='3.3.'><h3>3.3. Product Backlog</h3></div>
 
-
-| Orden | User Story ID | Título                            | Descripción                                                                                   | Story Points |
-| ----- | ------------- | --------------------------------- | --------------------------------------------------------------------------------------------- | ------------ |
-| 1     | US01          | Registrar cuenta                  | Como usuario general quiero registrarme para acceder a la aplicación OnControl                | 5            |
-| 2     | US03          | Iniciar sesión                    | Como usuario general quiero iniciar sesión para acceder a las funciones de la app             | 3            |
-| 3     | US04          | Cerrar sesión                     | Como usuario general quiero cerrar mi sesión para proteger mi cuenta tras usar la app         | 2            |
-| 4     | US05          | Recuperación de cuenta            | Como usuario general quiero recuperar mi cuenta para no perder mis datos registrados          | 5            |
-| 5     | US02          | Configurar pagos                  | Como usuario general quiero añadir métodos de pago para acceder a servicios adicionales       | 8            |
-| 6     | US06          | Cambio de número telefónico       | Como usuario general quiero actualizar mi número de teléfono para recibir notificaciones      | 3            |
-| 7     | US07          | Cambio de contraseña              | Como usuario general quiero cambiar mi contraseña para mantener segura mi cuenta              | 3            |
-| 8     | US08          | Actualizar foto de perfil         | Como usuario general quiero cambiar mi foto de perfil para mantener mi información al día     | 2            |
-| 9     | US09          | Mandar solicitud de cita          | Como médico quiero registrar fecha y hora de cita para coordinar atención con mis pacientes   | 5            |
-| 10    | US10          | Aceptar cita                      | Como paciente quiero aceptar una cita para confirmar mi disponibilidad                        | 3            |
-| 11    | US11          | Cancelar cita                     | Como paciente quiero cancelar una cita confirmada para reorganizar mi agenda                  | 3            |
-| 12    | US12          | Reprogramar cita                  | Como paciente quiero reprogramar una cita para ajustarla a mi disponibilidad                  | 5            |
-| 13    | US13          | Mandar solicitud de tratamiento   | Como médico quiero enviar una solicitud de tratamiento para iniciar o modificar el plan       | 5            |
-| 14    | US14          | Aceptar/Rechazar tratamiento      | Como paciente quiero decidir sobre cambios en mi tratamiento para mantener control de mi plan | 5            |
-| 15    | US15          | Personalizar fecha de inicio      | Como paciente quiero definir la fecha de inicio de mi tratamiento para adaptarlo a mi rutina  | 3            |
-| 16    | US16          | Marcar cumplimiento               | Como paciente quiero marcar mi cumplimiento diario para llevar seguimiento de mi progreso     | 5            |
-| 17    | US17          | Asignar especialista              | Como médico quiero derivar a un paciente a un especialista para asegurar la mejor atención    | 8            |
-| 18    | US18          | Enviar síntomas                   | Como paciente quiero reportar mis síntomas para que el doctor haga seguimiento clínico        | 5            |
-| 19    | US19          | Revisar síntomas                  | Como doctor quiero ver los síntomas reportados para evaluar la evolución del tratamiento      | 3            |
-| 20    | US20          | Consultar medicamento             | Como paciente quiero consultar composición y reacciones para identificar efectos adversos     | 5            |
-| 21    | US21          | Notificaciones de cambios         | Como paciente quiero recibir avisos de cambios para estar siempre informado                   | 5            |
-| 22    | US22          | Notificación de fin               | Como doctor quiero recibir aviso de finalización para agendar cita de cierre                  | 3            |
-| 23    | US23          | Consulta a doctor                 | Como paciente quiero hacer consultas via chat para resolver dudas sobre mi tratamiento        | 8            |
-| 24    | US24          | Agregar paciente                  | Como doctor quiero invitar a un paciente por usuario para añadirlo a mi lista                 | 5            |
-| 25    | US25          | Crear procedimiento               | Como doctor quiero definir procedimientos médicos para estructurar el plan de tratamiento     | 5            |
-| 26    | US26          | Resumen de tratamiento            | Como paciente quiero ver un resumen de mi tratamiento para conocer fechas y medicación        | 5            |
-| 27    | US27          | Configurar procedimiento          | Como doctor quiero ajustar duración y frecuencia para adaptar cada procedimiento al caso      | 5            |
-| 28    | US28          | Modificar fecha de inicio         | Como paciente quiero cambiar la fecha de inicio para prepararme                               | 3            |
-| 29    | US29          | Configurar recordatorios          | Como usuario general quiero personalizar mis notificaciones para adaptarlas a mi rutina       | 5            |
-| 30    | US30          | Aviso de cambios en sistema       | Como usuario general quiero recibir notificaciones de cambios en citas y ajustes              | 5            |
-| 31    | US31          | Eliminar paciente                 | Como médico quiero eliminar pacientes finalizados para mantener organizada mi lista           | 3            |
-| 32    | US32          | Contactar con soporte             | Como usuario general quiero contactar con el equipo de soporte para resolver dudas o errores  | 3            |
-| 33    | US33          | Lista de pacientes                | Como médico quiero ver mi lista de pacientes para acceder a sus tratamientos y progreso       | 3            |
-| 34    | US34          | Revisar historial de tratamientos | Como médico quiero ver el historial de tratamientos para tener visión cronológica             | 5            |
-| 35    | US35          | Lista de procedimientos           | Como paciente quiero ver los procedimientos del día para cumplir mi tratamiento               | 3            |
-| 36    | US36          | Visualizar landing page           | Como usuario general quiero ver la landing page para entender la propuesta de valor           | 2            |
-| 37    | US37          | Acceso a la app                   | Como usuario quiero ser redirigido a la tienda de apps para descargar OnControl               | 2            |
-| 38    | US38          | Recibir info por correo           | Como usuario general quiero recibir mis registros por email para tener respaldo               | 3            |
+| Orden | User Story ID | Título | Descripción | Story Points | Epic |
+|-------|---------------|--------|-------------|--------------|------|
+| 1 | US01 | Registrar cuenta | Como usuario general quiero registrarme para acceder a la aplicación OnControl | 5 | EP01 |
+| 2 | US03 | Iniciar sesión | Como usuario general quiero iniciar sesión para acceder a las funciones de la app | 3 | EP01 |
+| 3 | US04 | Cerrar sesión | Como usuario general quiero cerrar mi sesión para proteger mi cuenta tras usar la app | 2 | EP01 |
+| 4 | US05 | Recuperación de cuenta | Como usuario general quiero recuperar mi cuenta para no perder mis datos registrados | 5 | EP01 |
+| 5 | US02 | Configurar pagos | Como usuario general quiero añadir métodos de pago para acceder a servicios adicionales | 8 | EP01 |
+| 6 | US06 | Cambio de número telefónico | Como usuario general quiero actualizar mi número de teléfono para recibir notificaciones | 3 | EP02 |
+| 7 | US07 | Cambio de contraseña | Como usuario general quiero cambiar mi contraseña para mantener segura mi cuenta | 3 | EP02 |
+| 8 | US08 | Actualizar foto de perfil | Como usuario general quiero cambiar mi foto de perfil para mantener mi información al día | 2 | EP02 |
+| 9 | US39 | Medir parámetros vitales (IoT) | Como paciente quiero que el sistema tome mis parámetros vitales mediante sensores para monitorear mi salud en tiempo real | 13 | EP04 |
+| 10 | US40 | Enviar datos de sensores | Como sistema IoT quiero enviar los datos de los sensores al servidor para que los médicos y pacientes puedan ver los resultados | 8 | EP04 |
+| 11 | US41 | Detectar umbrales anormales | Como sistema IoT quiero comparar los valores obtenidos con los umbrales normales para detectar condiciones críticas de salud | 8 | EP04 |
+| 12 | US42 | Activar LED indicador | Como sistema IoT quiero encender un LED de advertencia para alertar visualmente cuando un parámetro vital sale del rango normal | 5 | EP04 |
+| 13 | US43 | Visualizar lecturas en la app | Como paciente quiero ver mis parámetros vitales en tiempo real para conocer mi estado de salud desde el panel de control | 8 | EP04 |
+| 14 | US44 | Notificación de emergencias | Como sistema quiero notificar automáticamente al médico cuando un paciente tiene valores críticos para permitir una intervención rápida | 5 | EP04 |
+| 15 | US09 | Mandar solicitud de cita | Como médico quiero registrar fecha y hora de cita para coordinar atención con mis pacientes | 5 | EP03 |
+| 16 | US10 | Aceptar cita | Como paciente quiero aceptar una cita para confirmar mi disponibilidad | 3 | EP03 |
+| 17 | US11 | Cancelar cita | Como paciente quiero cancelar una cita confirmada para reorganizar mi agenda | 3 | EP03 |
+| 18 | US12 | Reprogramar cita | Como paciente quiero reprogramar una cita para ajustarla a mi disponibilidad | 5 | EP03 |
+| 19 | US13 | Mandar solicitud de tratamiento | Como médico quiero enviar una solicitud de tratamiento para iniciar o modificar el plan | 5 | EP03 |
+| 20 | US14 | Aceptar/Rechazar tratamiento | Como paciente quiero decidir sobre cambios en mi tratamiento para mantener control de mi plan | 5 | EP03 |
+| 21 | US15 | Personalizar fecha de inicio | Como paciente quiero definir la fecha de inicio de mi tratamiento para adaptarlo a mi rutina | 3 | EP03 |
+| 22 | US16 | Marcar cumplimiento | Como paciente quiero marcar mi cumplimiento diario para llevar seguimiento de mi progreso | 5 | EP03 |
+| 23 | US17 | Asignar especialista | Como médico quiero derivar a un paciente a un especialista para asegurar la mejor atención | 8 | EP03 |
+| 24 | US21 | Notificaciones de cambios | Como paciente quiero recibir avisos de cambios para estar siempre informado | 5 | EP03 |
+| 25 | US22 | Notificación de fin | Como doctor quiero recibir aviso de finalización para agendar cita de cierre | 3 | EP03 |
+| 26 | US25 | Crear procedimiento | Como doctor quiero definir procedimientos médicos para estructurar el plan de tratamiento | 5 | EP03 |
+| 27 | US27 | Configurar procedimiento | Como doctor quiero ajustar duración y frecuencia para adaptar cada procedimiento al caso | 5 | EP03 |
+| 28 | US28 | Modificar fecha de inicio | Como paciente quiero cambiar la fecha de inicio para prepararme | 3 | EP03 |
+| 29 | US29 | Configurar recordatorios | Como usuario general quiero personalizar mis notificaciones para adaptarlas a mi rutina | 5 | EP03 |
+| 30 | US30 | Aviso de cambios en sistema | Como usuario general quiero recibir notificaciones de cambios en citas y ajustes | 5 | EP03 |
+| 31 | US31 | Eliminar paciente | Como médico quiero eliminar pacientes finalizados para mantener organizada mi lista | 3 | EP03 |
+| 32 | US33 | Lista de pacientes | Como médico quiero ver mi lista de pacientes para acceder a sus tratamientos y progreso | 3 | EP03 |
+| 33 | US34 | Revisar historial de tratamientos | Como médico quiero ver el historial de tratamientos para tener visión cronológica | 5 | EP03 |
+| 34 | US35 | Lista de procedimientos | Como paciente quiero ver los procedimientos del día para cumplir mi tratamiento | 3 | EP03 |
+| 35 | US18 | Enviar síntomas | Como paciente quiero reportar mis síntomas para que el doctor haga seguimiento clínico | 5 | EP06 |
+| 36 | US19 | Revisar síntomas | Como doctor quiero ver los síntomas reportados para evaluar la evolución del tratamiento | 3 | EP06 |
+| 37 | US20 | Consultar medicamento | Como paciente quiero consultar composición y reacciones para identificar efectos adversos | 5 | EP06 |
+| 38 | US26 | Resumen de tratamiento | Como paciente quiero ver un resumen de mi tratamiento para conocer fechas y medicación | 5 | EP06 |
+| 39 | US23 | Consulta a doctor | Como paciente quiero hacer consultas via chat para resolver dudas sobre mi tratamiento | 8 | EP05 |
+| 40 | US24 | Agregar paciente | Como doctor quiero invitar a un paciente por usuario para añadirlo a mi lista | 5 | EP05 |
+| 41 | US32 | Contactar con soporte | Como usuario general quiero contactar con el equipo de soporte para resolver dudas o errores | 3 | EP05 |
+| 42 | US36 | Visualizar landing page | Como usuario general quiero ver la landing page para entender la propuesta de valor | 2 | EP07 |
+| 43 | US37 | Acceso a la app | Como usuario quiero ser redirigido a la tienda de apps para descargar OnControl | 2 | EP07 |
+| 44 | US38 | Recibir info por correo | Como usuario general quiero recibir mis registros por email para tener respaldo | 3 | EP07 |
 
 <div id='4.'><h2>4. Capítulo IV: Solution Software Design</h2></div>
 
@@ -1244,7 +1301,7 @@ En este diagrama podemos observar el contexto de nuestra aplicación, identifica
 
 En este diagrama podemos observar el contexto de nuestra aplicación, identificando el sistema y las relaciones con los diferentes tipos de usuarios que este presenta, además de otros sistemas externos y de terceros que son de ayuda para el desarrollo.
 
-![Image](https://cdn.discordapp.com/attachments/302292068330504205/1418481467847348286/Captura_de_pantalla_2025-09-19_011740.png?ex=68ce4750&is=68ccf5d0&hm=9e67462449b68c189ed31b8fbab4a75867f9a223b90db02ef661d05212d614db)
+![Image](https://cdn.discordapp.com/attachments/302292068330504205/1418481467847348286/Captura_de_pantalla_2025-09-19_011740.png)
 
 <div id='4.1.3.3.'><h5>4.1.3.3. Software Architecture Container Level Diagrams</h5></div>
 
