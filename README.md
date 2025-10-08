@@ -2842,35 +2842,35 @@ En este primer Sprint del proyecto hemos logrado implementar y desplegar una Lan
 
 * **Landing Page:**
 
-* **Sección Inicio**
+#### Sección Inicio
 
 <img width="1321" height="936" alt="Captura de pantalla 2025-10-04 201058" src="https://github.com/user-attachments/assets/41ad3d5f-b51f-4514-9037-039e6d863512" />
 
-* **Sección Caracteristicas**
+#### Sección Caracteristicas
 
 <img width="1580" height="921" alt="Captura de pantalla 2025-10-04 201200" src="https://github.com/user-attachments/assets/e709ec32-8568-4d0d-8513-2dfe3d9b1740" />
 
-* **Sección Beneficios**
+#### Sección Beneficios
 
 <img width="1519" height="701" alt="Captura de pantalla 2025-10-04 201223" src="https://github.com/user-attachments/assets/71c11f0d-4555-4dd9-b9fa-520a7ce41051" />
 
-* **Sección Problema**
+#### Sección Problema
 
 <img width="1429" height="834" alt="image" src="https://github.com/user-attachments/assets/6ec524cb-f028-4c68-9a01-b17ff68f5427" />
 
-* **Sección Acerca De**
+#### Sección Acerca De
 
 <img width="1490" height="925" alt="image" src="https://github.com/user-attachments/assets/ec2081c8-e3d6-4e75-a4f2-1ea4ef31fee2" />
 
-* **Sección Testimonio**
+#### Sección Testimonio
 
 <img width="1397" height="759" alt="image" src="https://github.com/user-attachments/assets/0ffc53a2-ee1e-416f-9352-7d1be148c360" />
 
-* **Sección Contacto**
+#### Sección Contacto
 
 <img width="1562" height="944" alt="Captura de pantalla 2025-10-04 201953" src="https://github.com/user-attachments/assets/352878c2-efae-478a-93ab-a89638a1b320" />
 
-* **Sección Descarga y Footer**
+#### Sección Descarga y Footer
 
 <img width="1439" height="943" alt="image" src="https://github.com/user-attachments/assets/2e02a41d-79cd-444a-bcd6-fc9b1cec3813" />
 
