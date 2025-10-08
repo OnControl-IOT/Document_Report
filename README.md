@@ -2828,13 +2828,24 @@ https://oncontrol-iot.github.io/LandingPage/
 
 <div id='6.2.'><h3>6.2. Landing Page, Services & Applications Implementation</h3></div>
 <div id='6.2.1.'><h4>6.2.1. Sprint 1</h4></div>
+
 En esta sección se muestra el avance correspondiente al Sprint 1, donde se planifica el desarrollo de la Landing Page y el Frontend de la startup
+
 <div id='6.2.1.1.'><h4>6.2.1.1. Sprint Planning 1</h4></div>
 <div id='6.2.1.2.'><h4>6.2.1.2. Aspect Leaders and Collaborators</h4></div>
 <div id='6.2.1.3.'><h4>6.2.1.3. Sprint Backlog 1</h4></div>
 <div id='6.2.1.4.'><h4>6.2.1.4. Development Evidence for Sprint Review</h4></div>
 <div id='6.2.1.5.'><h4>6.2.1.5. Testing Suite Evidence for Sprint Review</h4></div>
 <div id='6.2.1.6.'><h4>6.2.1.6. Execution Evidence for Sprint Review</h4></div>
+
+En este primer Sprint del proyecto hemos logrado implementar y desplegar una Landing Page que comunica nuestra propuesta de valor, y el Frontend que permite iniciar sesión o crear una cuenta y muestra al usuario las diferentes actividades que puede realizar en nuestra aplicación
+
+* **Landing Page:**
+
+#### Header
+
+
+
 <div id='6.2.1.7.'><h4>6.2.1.7. Services Documentation Evidence for Sprint Review</h4></div>
 <div id='6.2.1.8.'><h4>6.2.1.8. Software Deployment Evidence for Sprint Review</h4></div>
 <div id='6.2.1.9.'><h4>6.2.1.9. Team Collaboration Insights during Sprint</h4></div>
