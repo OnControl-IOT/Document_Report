@@ -3473,23 +3473,82 @@ En este primer Sprint del proyecto hemos logrado implementar y desplegar una Lan
 #### Sección Configuración de Perfil
 <img width="1319" height="947" alt="24" src="https://github.com/user-attachments/assets/bdd90435-74ee-4cca-89e5-1b53190920fb" />
 
+
+
+
 <div id='6.2.1.7.'><h4>6.2.1.7. Services Documentation Evidence for Sprint Review</h4></div>
 <div id='6.2.1.8.'><h4>6.2.1.8. Software Deployment Evidence for Sprint Review</h4></div>
 
-#### Herramientas de desarrollo utilizadas
-- **HTML**: Lenguaje base para estructura web
-- **CSS**: Estilos y diseño responsive
-- **JavaScript**: Interactividad y validaciones
+### Despliegue de Landing Page
+**Configuración de GitHub Pages:**
 
-#### Tecnologías clave para el despliegue
-1. **Git**
-   Control de versiones para trabajo colaborativo
-2. **GitHub**
-   Plataforma de hosting para repositorio principal
-3. **Git Flow**
-   Flujo de trabajo con ramas
+### Paso 1: Acceder a la Configuración
+- Navega a tu repositorio en GitHub
+- Haz clic en la pestaña "Settings" (Configuración)
+- Desplázate hacia abajo hasta la sección "Pages" en el menú lateral
 
+### Paso 2: Seleccionar la Fuente
+En la sección "Source" (Fuente):
+- **Opción A:** Deploy from a branch
+- **Branch:** Selecciona la rama (generalmente main o gh-pages)
+- **Folder:** Elige `/` (root) o `/docs` según tu estructura
+- Es la opción más común y sencilla
+
+**Link de despliegue de landing page:** `https://oncontrol-iot.github.io/LandingPage/`
+
+<img width="1883" height="908" alt="image" src="https://github.com/user-attachments/assets/89f3282f-8bed-46f8-95aa-f632177059c1" />
+
+### Despliegue del Frontend (Netlify)
+**Configuración en Netlify:**
+
+### Paso 1: Conectar Repositorio
+- Inicia sesión en Netlify y haz clic en "Add new site"
+- Selecciona "Import an existing project"
+- Conecta tu cuenta de GitHub y selecciona el repositorio ControlUPC/OnControl
+- Autoriza los permisos necesarios
+
+### Paso 2: Configurar el Proyecto
+- **Build Command:** `npm run build` 
+- **Publish Directory:** `out` (para Next.js export)
+- **Node Version:** `18` (configurado automáticamente)
+- **Framework:** Next.js (detectado automáticamente)
+
+### Paso 3: Variables de Entorno
+Agrega las variables de entorno necesarias:
+- `NEXT_PUBLIC_API_URL`: URL de tu backend desplegado
+- `NEXT_PUBLIC_APP_ENV`: `production`
+
+**Link de despliegue del frontend:** `http://oncontrol.netlify.app/`
+
+<img width="1874" height="713" alt="image" src="https://github.com/user-attachments/assets/8f51f7bc-3732-4537-a7bc-67a0888c2892" />
+
+
+## Configuración de Dominios Personalizados
+### Landing Page (GitHub Pages)
+- **Dominio principal:** `https://oncontrol-iot.github.io/LandingPage/`
+- **DNS:** Configuración automática de GitHub
+- **SSL:** Activado automáticamente
+
+### Frontend Application (Netlify)
+- **Dominio principal:** `http://oncontrol.netlify.app/`
+- **CDN:** Red global de Netlify
+- **SSL:** Certificado automático Let's Encrypt
+
+### Flujo de Despliegue Continuo
+
+### Para Landing Page (GitHub Pages)
+```bash
+# Commits a la rama main activan despliegue automático
+git add .
+git commit -m "feat: update landing content"
+git push origin main
+```
 <div id='6.2.1.9.'><h4>6.2.1.9. Team Collaboration Insights during Sprint</h4></div>
+
+<img width="1320" height="725" alt="image" src="https://github.com/user-attachments/assets/2c8aa340-a7d6-4bd4-a819-0ad3ea7d2691" />
+
+<img width="1228" height="951" alt="image" src="https://github.com/user-attachments/assets/d484cca8-b4a8-4218-871d-4de0f8f7e589" />
+
 
 <div id='7.'><h2>7. Conclusiones</h2></div>
 
