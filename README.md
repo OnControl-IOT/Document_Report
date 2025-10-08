@@ -1381,13 +1381,13 @@ Arquitectura interna del sistema OnControl con servicios especializados:
 - **IoTFlowContainer**: Flujo de datos IoT desde sensores hasta alertas médicas
 - **NotificationFlowContainer**: Sistema de notificaciones y alertas
 
-* **ContainerDiagram:**
+**ContainerDiagram:**
 <img width="8038" height="5215" alt="structurizr-106662-ContainerDiagram" src="https://github.com/user-attachments/assets/431f26c6-805b-4188-9034-01a3ad1b4480" />
-* **DoctorWorkflowContainer:**
+**DoctorWorkflowContainer:**
 <img width="3205" height="3365" alt="structurizr-106662-DoctorWorkflowContainer" src="https://github.com/user-attachments/assets/8d3ebac1-5b6d-4375-8407-67b27e6cc547" />
-* **PatientJourneyContainer:**
+**PatientJourneyContainer:**
 <img width="3205" height="3365" alt="structurizr-106662-PatientJourneyContainer" src="https://github.com/user-attachments/assets/57cf9ef6-7300-43fd-9138-ba08980ce1b1" />
-* **IoTFlowContainer:**
+**IoTFlowContainer:**
 <img width="5300" height="1515" alt="structurizr-106662-IoTFlowContainer" src="https://github.com/user-attachments/assets/4d06d4d9-ce3f-443f-a2d8-b1d67bf57eb8" />
 
 
