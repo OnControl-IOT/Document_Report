@@ -1345,13 +1345,13 @@ Diagramas de contexto que muestran cómo el sistema interactúa con usuarios y s
 - **PatientContext**: Perspectiva del paciente (gestión de tratamientos, visualización de datos IoT)
 - **DoctorContext**: Perspectiva del médico (gestión de pacientes, monitoreo de alertas)
 
-* **SystemContext:**
+**SystemContext:**
 <img width="1575" height="2100" alt="structurizr-106662-SystemContext" src="https://github.com/user-attachments/assets/e1b1abed-4fb7-48bd-9f26-c11a9f250d8b" />
 
-* **PatientContext:**
+**PatientContext:**
 <img width="1575" height="2000" alt="structurizr-106662-PatientContext" src="https://github.com/user-attachments/assets/616bfd0c-acf2-46c4-9386-1a46dbbb6c86" />
 
-* **DoctorContext:**
+**DoctorContext:**
 <img width="907" height="1400" alt="structurizr-106662-DoctorContext" src="https://github.com/user-attachments/assets/d529af9a-24b5-46e2-ad1d-2ea58a243292" />
 
 
