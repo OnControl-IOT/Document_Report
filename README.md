@@ -2876,6 +2876,39 @@ En este primer Sprint del proyecto hemos logrado implementar y desplegar una Lan
 
 * **Frontend**
 
+#### Sección Inicio de Sesión
+<img width="1499" height="941" alt="1" src="https://github.com/user-attachments/assets/d50bde98-cdcc-493f-b1b2-7699b9c2b2e6" />
+
+#### Sección Registro de Oncólogo
+<img width="1419" height="937" alt="2" src="https://github.com/user-attachments/assets/339155af-790f-45a2-9162-539fb7a27d5c" />
+
+#### Sección Dashboard Principal
+<img width="1512" height="951" alt="3" src="https://github.com/user-attachments/assets/d06c9408-58e5-4a33-b999-9db5dce4650e" />
+
+#### Sección Monitoreo de Signos Vitales
+<img width="1500" height="944" alt="5" src="https://github.com/user-attachments/assets/d83cac61-8920-4b8d-af9d-3a85225e6c65" />
+
+#### Sección Lista de Pacientes
+<img width="1400" height="915" alt="6" src="https://github.com/user-attachments/assets/31de480d-0826-403e-8714-cbd4fd8f760c" />
+
+#### Sección Perfil de Paciente de Signos Vitales
+<img width="1382" height="915" alt="9" src="https://github.com/user-attachments/assets/327f2f29-ea3e-47f1-a78c-aa6e78d602e3" />
+
+#### Sección Gestión de Citas
+<img width="1271" height="945" alt="13" src="https://github.com/user-attachments/assets/f0fba529-3082-47cb-bf38-eb3767e64380" />
+
+#### Sección Administración de Tratamientos
+<img width="1390" height="943" alt="17" src="https://github.com/user-attachments/assets/55d3c062-a96b-44bc-8c0c-5a583c6ebfc8" />
+
+#### Sección Sistema de Alertas IoT
+<img width="1479" height="945" alt="22" src="https://github.com/user-attachments/assets/cb09ee70-a23c-4ad9-813b-a9c22604691c" />
+
+#### Sección Centro de Notificaciones
+<img width="1330" height="944" alt="28" src="https://github.com/user-attachments/assets/c10f570f-4a87-4f04-af35-876b0f91757d" />
+
+#### Sección Configuración de Perfil
+<img width="1319" height="947" alt="24" src="https://github.com/user-attachments/assets/bdd90435-74ee-4cca-89e5-1b53190920fb" />
+
 <div id='6.2.1.7.'><h4>6.2.1.7. Services Documentation Evidence for Sprint Review</h4></div>
 <div id='6.2.1.8.'><h4>6.2.1.8. Software Deployment Evidence for Sprint Review</h4></div>
 <div id='6.2.1.9.'><h4>6.2.1.9. Team Collaboration Insights during Sprint</h4></div>
