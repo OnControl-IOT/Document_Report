@@ -1289,31 +1289,126 @@ En este diagrama se muestran las relaciones estructurales entre los Bounded Cont
 
 <div id='4.1.3.'><h4>4.1.3. Software Architecture</h4></div>
 
-En esta sección mostraremos los diagramas del diseño de software de la aplicación OnControl, usando patrones de alto y bajo nivel:
+Este workspace contiene el modelo completo de arquitectura C4 para el sistema **OnControl Platform**, una plataforma de monitoreo de salud oncológica con IoT.
 
+### Servicios de Negocio
+- **Gestión de Pacientes**: Lista y perfil de pacientes para médicos
+- **Tratamientos**: Planes de tratamiento y seguimiento
+- **Citas**: Agendamiento y gestión de citas médicas
+- **Medicamentos**: Prescripciones y recordatorios
+- **Síntomas**: Registro y seguimiento de síntomas
+- **Monitoreo**: Dashboard de parámetros vitales en tiempo real
+- **Alertas**: Generación de alertas médicas basadas en umbrales
+- **Notificaciones**: Envío multicanal de notificaciones
+
+### Flujo de Datos IoT
+```
+Sensores → Dispositivo IoT → Servidor Edge → IoT Gateway → Monitoreo → Alertas → Notificaciones
+```
+
+### Parámetros Monitoreados
+- Temperatura corporal
+- Oxígeno en sangre (SpO2)
+- Ritmo cardíaco (BPM)
+
+### Vistas Disponibles
+
+| Vista | ID | Descripción |
+|-------|-----|-------------|
+| System Landscape | `SystemLandscape` | Vista completa de todos los sistemas |
+| System Context | `SystemContext` | Contexto general del sistema |
+| Patient Context | `PatientContext` | Vista desde perspectiva del paciente |
+| Doctor Context | `DoctorContext` | Vista desde perspectiva del médico |
+| Container Diagram | `ContainerDiagram` | Arquitectura interna completa |
+| Patient Journey | `PatientJourneyContainer` | Recorrido del paciente |
+| Doctor Workflow | `DoctorWorkflowContainer` | Flujo de trabajo del médico |
+| IoT Flow | `IoTFlowContainer` | Flujo de datos IoT |
+| Notification Flow | `NotificationFlowContainer` | Sistema de notificaciones |
+| Deployment | `DeploymentDiagram` | Infraestructura de producción |
 <div id='4.1.3.1.'><h5>4.1.3.1. Software Architecture System Landscape Diagram</h5></div>
 
 En este diagrama podemos observar el contexto de nuestra aplicación, identificando el sistema y las relaciones con los diferentes tipos de usuarios que este presenta, además de otros sistemas externos y de terceros que son de ayuda para el desarrollo.
 
-![Image](https://github.com/user-attachments/assets/53b88efc-5bb9-45ba-a540-553e6a2781bb)
+Vista de alto nivel que muestra todos los sistemas, usuarios y sus interacciones:
+- **Usuarios**: Pacientes, Médicos, Familiares
+- **Sistema Principal**: OnControl Health Platform
+- **Sistemas Externos**: Dispositivos IoT, Servidor Edge Local
+
+<img width="3050" height="1400" alt="structurizr-106662-SystemLandscape" src="https://github.com/user-attachments/assets/47c4f0fc-f9a6-4ad5-a861-5a00521fa852" />
 
 <div id='4.1.3.2.'><h5>4.1.3.2. Software Architecture Context Level Diagrams</h5></div>
 
 En este diagrama podemos observar el contexto de nuestra aplicación, identificando el sistema y las relaciones con los diferentes tipos de usuarios que este presenta, además de otros sistemas externos y de terceros que son de ayuda para el desarrollo.
 
-![Image](https://cdn.discordapp.com/attachments/302292068330504205/1418481467847348286/Captura_de_pantalla_2025-09-19_011740.png)
+Diagramas de contexto que muestran cómo el sistema interactúa con usuarios y sistemas externos:
+- **SystemContext**: Vista general de todas las interacciones
+- **PatientContext**: Perspectiva del paciente (gestión de tratamientos, visualización de datos IoT)
+- **DoctorContext**: Perspectiva del médico (gestión de pacientes, monitoreo de alertas)
+
+* **SystemContext:**
+<img width="1575" height="2100" alt="structurizr-106662-SystemContext" src="https://github.com/user-attachments/assets/e1b1abed-4fb7-48bd-9f26-c11a9f250d8b" />
+
+* **PatientContext:**
+<img width="1575" height="2000" alt="structurizr-106662-PatientContext" src="https://github.com/user-attachments/assets/616bfd0c-acf2-46c4-9386-1a46dbbb6c86" />
+
+* **DoctorContext:**
+<img width="907" height="1400" alt="structurizr-106662-DoctorContext" src="https://github.com/user-attachments/assets/d529af9a-24b5-46e2-ad1d-2ea58a243292" />
+
 
 <div id='4.1.3.3.'><h5>4.1.3.3. Software Architecture Container Level Diagrams</h5></div>
 
 Este diagrama muestra los contenedores dentro del sistema de nuestra aplicación, con componentes de alto nivel que centra el enfoque hacia la arquitectura de nuestro software.
 
-![Image](https://cdn.discordapp.com/attachments/302292068330504205/1418481483584376862/Captura_de_pantalla_2025-09-19_011749.png?ex=68ce4753&is=68ccf5d3&hm=3e8e99052df8d37a397954be3583b6d095cddc768e5b2488615bbae6399b4c57)
+Arquitectura interna del sistema OnControl con servicios especializados:
+- **ContainerDiagram**: Vista completa de todos los contenedores
+  - Aplicación Web
+  - Aplicación Móvil
+  - API Gateway
+  - Servicio de Autenticación
+  - Servicio de Gestión de Pacientes
+  - Servicio de Tratamientos
+  - Servicio de Citas
+  - Servicio de Medicamentos
+  - Servicio de Síntomas
+  - Servicio de Monitoreo
+  - Servicio de Alertas
+  - Servicio de Notificaciones
+  - IoT Gateway
+  - Base de Datos
+
+- **PatientJourneyContainer**: Flujo del recorrido del paciente
+- **DoctorWorkflowContainer**: Flujo de trabajo del médico
+- **IoTFlowContainer**: Flujo de datos IoT desde sensores hasta alertas médicas
+- **NotificationFlowContainer**: Sistema de notificaciones y alertas
+
+* **ContainerDiagram:**
+<img width="8038" height="5215" alt="structurizr-106662-ContainerDiagram" src="https://github.com/user-attachments/assets/431f26c6-805b-4188-9034-01a3ad1b4480" />
+* **DoctorWorkflowContainer:**
+<img width="3205" height="3365" alt="structurizr-106662-DoctorWorkflowContainer" src="https://github.com/user-attachments/assets/8d3ebac1-5b6d-4375-8407-67b27e6cc547" />
+* **PatientJourneyContainer:**
+<img width="3205" height="3365" alt="structurizr-106662-PatientJourneyContainer" src="https://github.com/user-attachments/assets/57cf9ef6-7300-43fd-9138-ba08980ce1b1" />
+* **IoTFlowContainer:**
+<img width="5300" height="1515" alt="structurizr-106662-IoTFlowContainer" src="https://github.com/user-attachments/assets/4d06d4d9-ce3f-443f-a2d8-b1d67bf57eb8" />
+
 
 <div id='4.1.3.4.'><h5>4.1.3.4. Software Architecture Deployment Diagrams</h5></div>
 
 Finalmente, se presenta un diagrama de componentes, en este caso, centrado al componente de Login de nuestro sistema, mostrando las implementaciones de los distintos servicios y responsabilidades de cada uno de ellos.
 
-![Image](https://github.com/user-attachments/assets/b59fa339-5580-468b-88c9-8e64cbe76538)
+Infraestructura de despliegue en producción:
+- **Dispositivos de Usuario**: Navegadores web y dispositivos móviles
+- **Red Local del Paciente**: 
+  - Servidor Edge (computadora local)
+  - Dispositivos IoT con sensores (temperatura, oxígeno, ritmo cardíaco)
+  - Indicador visual de alertas
+- **Proveedor Cloud**:
+  - Red de distribución (CDN) para frontend
+  - Cluster de aplicación con orquestador de contenedores
+  - Base de datos con réplicas de lectura
+  - Servicios de terceros (notificaciones push, email, SMS)
+
+<img width="11497" height="5154" alt="structurizr-106662-DeploymentDiagram" src="https://github.com/user-attachments/assets/5e00acf5-c6f8-40ec-a342-dc7377e94956" />
+
 
 <div id='4.2.'><h3>4.2. Tactical-Level Domain-Driven Design</h3></div>
 
