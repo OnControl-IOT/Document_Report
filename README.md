@@ -2911,6 +2911,20 @@ En este primer Sprint del proyecto hemos logrado implementar y desplegar una Lan
 
 <div id='6.2.1.7.'><h4>6.2.1.7. Services Documentation Evidence for Sprint Review</h4></div>
 <div id='6.2.1.8.'><h4>6.2.1.8. Software Deployment Evidence for Sprint Review</h4></div>
+
+#### Herramientas de desarrollo utilizadas
+- **HTML**: Lenguaje base para estructura web
+- **CSS**: Estilos y diseño responsive
+- **JavaScript**: Interactividad y validaciones
+
+#### Tecnologías clave para el despliegue
+1. **Git**
+   Control de versiones para trabajo colaborativo
+2. **GitHub**
+   Plataforma de hosting para repositorio principal
+3. **Git Flow**
+   Flujo de trabajo con ramas
+
 <div id='6.2.1.9.'><h4>6.2.1.9. Team Collaboration Insights during Sprint</h4></div>
 
 <div id='7.'><h2>7. Conclusiones</h2></div>
