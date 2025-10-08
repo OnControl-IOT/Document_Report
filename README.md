@@ -2840,7 +2840,7 @@ En esta sección se muestra el avance correspondiente al Sprint 1, donde se plan
 
 En este primer Sprint del proyecto hemos logrado implementar y desplegar una Landing Page que comunica nuestra propuesta de valor, y el Frontend que permite iniciar sesión o crear una cuenta y muestra al usuario las diferentes actividades que puede realizar en nuestra aplicación
 
-* **Landing Page:**
+* **Landing Page**
 
 #### Sección Inicio
 
@@ -2873,6 +2873,8 @@ En este primer Sprint del proyecto hemos logrado implementar y desplegar una Lan
 #### Sección Descarga y Footer
 
 <img width="1439" height="943" alt="image" src="https://github.com/user-attachments/assets/2e02a41d-79cd-444a-bcd6-fc9b1cec3813" />
+
+* **Frontend**
 
 <div id='6.2.1.7.'><h4>6.2.1.7. Services Documentation Evidence for Sprint Review</h4></div>
 <div id='6.2.1.8.'><h4>6.2.1.8. Software Deployment Evidence for Sprint Review</h4></div>
