@@ -43,6 +43,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 |    0.0    |   28/08/25   |   Grupo   | Creación del repositorio |
 |    0.1    |   28/08/25   |   Grupo   | Estructura del reporte |
 |    1.0    |   20/09/25   |   Grupo   | Finalización de TB1 |
+|    1.5    |   09/10/25   |   Grupo   | Finalización de TP1 y correciones pasadas |
 
 # Project Report Collaboration Insights
 
@@ -191,6 +192,7 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>TP:</strong> <p align="justify">En el desarrollo del prototipo de OnControl, participé activamente en el diseño de los User Flow Diagrams y la arquitectura de interacción, trabajando en conjunto con mi equipo para estructurar flujos de usuario, definir criterios de navegación y validar la coherencia entre los mock-ups y las necesidades médicas reales, fomentando un liderazgo compartido que integró perspectivas técnicas, clínicas y de experiencia de usuario para garantizar una solución centrada en el paciente oncológico. </p><br>
       <strong>Ramos Mendoza, Juan Pablo</strong><br>
       <strong>TB1:</strong> <p align="justify">Para nuestra primera entrega del trabajo, me aseguré de que el grupo tenga indicaciones claras para poder trabajar de forma colectiva, tneiendo en cuenta las ideas y planes de cada uno de los miembros para formar el mejor producto posible.</p><br>
+      <strong>TP:</strong> <p align="justify">En esta segunda entrega, una vez tuvimos nuestro Backlog realizado, pudimos avanzar de forma grupal correcta siguiendo los objetivos planificados al inicio del sprint.</p><br>
       <strong>Gray Hidalgo, Alejandro Eduardo</strong><br>
       <strong>TB1:</strong> <p align="justify">Para esta primera entrega revisé que lo que habíamos hecho en el trabajo del otro curso estuviera correcto para no tener que hacer trabajo extra para este curso</p>
       <strong>TP:</strong> <p align="justify">Para la entrega del trabajo parcial me encargué de revisar el capítulo 6 y llenarlo con lo que avanzamos en este sprint, así como colocar las capturas de la prueba de que la landing page y la aplicación funcionan correctamente.</p>
@@ -213,6 +215,7 @@ Github también presenta un timeline de las ramas principales y los procesos de 
         <strong>TP:</strong> <p align="justify">En el desarrollo del prototipo de OnControl, establecí un entorno colaborativo mediante la organización de sesiones de diseño participativas donde se integraron perspectivas técnicas y médicas, definiendo metas claras para los user flows y planificando tareas específicas de prototipado que aseguraron el cumplimiento de los objetivos de usabilidad y precisión clínica dentro de los plazos establecidos, demostrando así mi capacidad para gestionar proyectos de forma inclusiva y orientada a resultados.</p><br>  
       <strong>Ramos Mendoza, Juan Pablo</strong><br>
       <strong>TB1:</strong> <p align="justify">Al tener nuestros objetivos claros desde un inicio, tenemos una buena base de nuestro proyecto lo que nos servirá para el proceso del resto del trabajo, con cada entrega siendo una mejora continua del trabajo en sí.</p><br>
+      <strong>TP:</strong> <p align="justify">Al inicio del sprint durante el Sprint Planning se realizaron objetivos y metas a cumplir para el final de esta entrega, asegurándose de que cada una de las partes asignadas a cada uno se hayan cumplido correctamente.</p><br>
       <strong>Gray Hidalgo, Alejandro Eduardo</strong><br>
       <strong>TB1:</strong> <p align="justify">Hemos realizado correcciones al trabajo anterior que habían realizado algunos miembros de este grupo, y lo seguiremos mejorando a lo largo de este curso</p>
       <strong>Quispe Roldan, Michael Fred</strong><br>
