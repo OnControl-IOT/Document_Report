@@ -3347,60 +3347,163 @@ En esta sección se muestra el avance correspondiente al Sprint 1, donde se plan
     <th>Committed on</th>
   </tr>
 
-  <!-- Documentación -->
+  <!-- FRONT END -->
   <tr>
-    <td>Document_Report</td>
-    <td>feature/sprint-1-docs</td>
-    <td>d1e2f3g</td>
-    <td>docs: Sprint 1 – Planning, LACX y Backlog</td>
-    <td>Se agregó la tabla de Sprint Planning, la matriz de líderes/colaboradores y el Sprint Backlog del proyecto.</td>
-    <td>2025-10-08</td>
+    <td>OnControl-Front</td>
+    <td>main</td>
+    <td>4b9e5d6</td>
+    <td>feat: Implement full component library and core application structure</td>
+    <td>Se crea la librería base de componentes (botones, formularios, cards) y la estructura núcleo de la app.</td>
+    <td>2025-10-04</td>
   </tr>
   <tr>
-    <td>Document_Report</td>
-    <td>feature/wireframes-guidelines</td>
-    <td>h2i3j4k</td>
-    <td>docs: lineamientos de wireframes</td>
-    <td>Definición: TITULO en encabezados, Lorem ipsum para textos, imágenes con “X” y paleta en escala de grises.</td>
-    <td>2025-10-08</td>
+    <td>OnControl-Front</td>
+    <td>main</td>
+    <td>8c27a1b</td>
+    <td>feat: Implement core hooks, libs, and styles structure</td>
+    <td>Organización de hooks, librerías compartidas y carpeta de estilos.</td>
+    <td>2025-10-04</td>
   </tr>
   <tr>
-    <td>Document_Report</td>
-    <td>develop</td>
-    <td>p5q6r7s</td>
-    <td>chore: estructura de documentos</td>
-    <td>Organización de carpetas /docs y enlaces desde el README para evidencias del Sprint.</td>
-    <td>2025-10-08</td>
+    <td>OnControl-Front</td>
+    <td>main</td>
+    <td>511239f</td>
+    <td>feat: Implement base layout and index page</td>
+    <td>Layout principal, plantilla de página y punto de entrada index.</td>
+    <td>2025-10-04</td>
+  </tr>
+  <tr>
+    <td>OnControl-Front</td>
+    <td>main</td>
+    <td>3a64f24</td>
+    <td>feat: Add initial public assets and mock data</td>
+    <td>Assets públicos iniciales y datos mock para vistas.</td>
+    <td>2025-10-04</td>
+  </tr>
+  <tr>
+    <td>OnControl-Front</td>
+    <td>main</td>
+    <td>30fb656</td>
+    <td>feat: docs Update README.md for project description and sections</td>
+    <td>Actualización del README con descripción del proyecto y secciones.</td>
+    <td>2025-10-04</td>
+  </tr>
+  <tr>
+    <td>OnControl-Front</td>
+    <td>main</td>
+    <td>af5d657</td>
+    <td>feat: Initial commit structure of project</td>
+    <td>Estructura inicial del repositorio Front.</td>
+    <td>2025-10-04</td>
   </tr>
 
-  <!-- Landing Page -->
+  <!-- LANDING PAGE -->
   <tr>
-    <td>OnControl-Front</td>
-    <td>feature/wireframes</td>
-    <td>a7b8c9d</td>
-    <td>feat: wireframes landing (web)</td>
-    <td>Estructura inicial de secciones (Inicio, Características, Beneficios, Problema, Acerca de, Testimonio, Contacto, Descarga/Footer) con placeholders.</td>
-    <td>2025-10-04</td>
+    <td>LandingPage</td>
+    <td>main</td>
+    <td>bdafe40</td>
+    <td>feat: Update navigation links in index.html</td>
+    <td>Actualiza enlaces de navegación y anclas en la landing.</td>
+    <td>2025-10-08</td>
   </tr>
   <tr>
-    <td>OnControl-Front</td>
-    <td>feature/header-navbar</td>
-    <td>e1f2a3b</td>
-    <td>feat: header y navbar responsivo</td>
-    <td>Navegación por anclas entre secciones y comportamiento responsive básico.</td>
-    <td>2025-10-04</td>
-  </tr>
-  <tr>
-    <td>OnControl-Front</td>
-    <td>develop</td>
-    <td>m0n1o2p</td>
-    <td>fix: copy y acentos</td>
-    <td>Correcciones de textos (p. ej., “Características”), consistencia de TITULO y limpieza de estilos.</td>
-    <td>2025-10-04</td>
+    <td>LandingPage</td>
+    <td>main</td>
+    <td>8f6d4cd</td>
+    <td>feat: structure of landing page</td>
+    <td>Estructura inicial de la landing (secciones, layout base).</td>
+    <td>2025-09-11</td>
   </tr>
 </table>
 
+
 <div id='6.2.1.5.'><h4>6.2.1.5. Testing Suite Evidence for Sprint Review</h4></div>
+
+
+<table border="1">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on</th>
+  </tr>
+
+  <!-- Acceptance Tests repo -->
+  <tr>
+    <td>Acceptance-Tests</td>
+    <td>main</td>
+    <td>7345ab2</td>
+    <td>Add feature file for mobile app access scenarios</td>
+    <td>US38 — escenarios BDD de acceso desde la Landing Page a la tienda (redirección y errores).</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Tests</td>
+    <td>main</td>
+    <td>089eadc</td>
+    <td>Add feature file for US37 landing page visualization</td>
+    <td>US37 — visualización de la Landing Page: secciones y navegación por navbar.</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Tests</td>
+    <td>main</td>
+    <td>3fd87e2</td>
+    <td>Add feature file for US36 Landing Page visualization</td>
+    <td>US36 — carga y visualización de secciones principales de la Landing.</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Tests</td>
+    <td>main</td>
+    <td>d6df2e6</td>
+    <td>Add feature for account recovery requests</td>
+    <td>US05 — solicitud de recuperación y validaciones (formato email, respuestas genéricas).</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Tests</td>
+    <td>main</td>
+    <td>420efabd</td>
+    <td>Add feature file for user logout functionality</td>
+    <td>US04 — cierre de sesión: invalidación de token y redirección.</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Tests</td>
+    <td>main</td>
+    <td>5382cb9</td>
+    <td>Add US03 feature for user login scenarios</td>
+    <td>US03 — inicio de sesión: credenciales válidas/ inválidas y mensajes de error.</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Tests</td>
+    <td>main</td>
+    <td>985da94</td>
+    <td>Delete README.md</td>
+    <td>Limpieza inicial del repositorio de pruebas de aceptación.</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Tests</td>
+    <td>main</td>
+    <td>5e98e06</td>
+    <td>Add user registration feature with scenarios</td>
+    <td>US01 — registro de usuario: casos de éxito y validaciones.</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Tests</td>
+    <td>main</td>
+    <td>67707d2</td>
+    <td>Initial commit</td>
+    <td>Estructura base para archivos .feature y documentación de Acceptance Tests.</td>
+    <td>2025-10-08</td>
+  </tr>
+</table>
 
 
 <div id='6.2.1.6.'><h4>6.2.1.6. Execution Evidence for Sprint Review</h4></div>
@@ -3480,6 +3583,9 @@ En este primer Sprint del proyecto hemos logrado implementar y desplegar una Lan
 
 
 <div id='6.2.1.7.'><h4>6.2.1.7. Services Documentation Evidence for Sprint Review</h4></div>
+
+En este sprint el alcance fue Landing Page y Front-End; por ello no se implementaron ni documentaron servicios backend.
+
 <div id='6.2.1.8.'><h4>6.2.1.8. Software Deployment Evidence for Sprint Review</h4></div>
 
 ### Despliegue de Landing Page
