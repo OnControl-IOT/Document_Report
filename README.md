@@ -219,6 +219,7 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>TP:</strong> <p align="justify">Al inicio del sprint durante el Sprint Planning se realizaron objetivos y metas a cumplir para el final de esta entrega, asegurándose de que cada una de las partes asignadas a cada uno se hayan cumplido correctamente.</p><br>
       <strong>Gray Hidalgo, Alejandro Eduardo</strong><br>
       <strong>TB1:</strong> <p align="justify">Hemos realizado correcciones al trabajo anterior que habían realizado algunos miembros de este grupo, y lo seguiremos mejorando a lo largo de este curso</p>
+      <strong>TP:</strong> <p align="justify">Planificamos de forma ordenada las tareas a realizar para esta entrega, con tal de poder realizar un buen trabajo a tiempo y que cumpla con los lineamientos del curso.</p>
       <strong>Quispe Roldan, Michael Fred</strong><br>
       <strong>TB1:</strong> <p align="justify">Facilité el Event Storming y el Context Mapping, definí roles por subdominio y una Definition of Done común; promoví acuerdos asincrónicos y lenguaje ubicuo para reducir ambigüedad. </p>
       <strong>TP:</strong> <p align="justify">En este trabajo aseguré un entorno colaborativo e inclusivo (facilité sesiones, recogí todas las voces y documenté acuerdos), establecí metas del Sprint 1, planifiqué tareas en el backlog con criterios de aceptación y tiempos, y cumplí los objetivos entregando los Application Wireframes validados al cierre del sprint.</p>
