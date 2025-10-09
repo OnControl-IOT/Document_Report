@@ -55,6 +55,12 @@ URL del repositorio para el reporte del proyecto: https://github.com/OnControl-I
   <img src="https://github.com/user-attachments/assets/1de75326-c8d6-448d-9c95-85009f775fc3" alt="insights">
 </div>
 
+**TP**
+
+<div align="center">
+  <img width="778" height="897" alt="image" src="https://github.com/user-attachments/assets/9206983f-18ec-474e-a429-85d876fed6a3" />
+</div>
+
 
 **Github Collaboration Insights**
 
