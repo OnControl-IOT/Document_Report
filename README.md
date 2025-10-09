@@ -193,6 +193,7 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>TB1:</strong> <p align="justify">Para nuestra primera entrega del trabajo, me aseguré de que el grupo tenga indicaciones claras para poder trabajar de forma colectiva, tneiendo en cuenta las ideas y planes de cada uno de los miembros para formar el mejor producto posible.</p><br>
       <strong>Gray Hidalgo, Alejandro Eduardo</strong><br>
       <strong>TB1:</strong> <p align="justify">Para esta primera entrega revisé que lo que habíamos hecho en el trabajo del otro curso estuviera correcto para no tener que hacer trabajo extra para este curso</p>
+      <strong>TP:</strong> <p align="justify">Para la entrega del trabajo parcial me encargué de revisar el capítulo 6 y llenarlo con lo que avanzamos en este sprint, así como colocar las capturas de la prueba de que la landing page y la aplicación funcionan correctamente.</p>
       <strong>Quispe Roldan, Michael Fred</strong><br>
       <strong>TB1:</strong> <p align="justify">Lideré la integración del BC Monitoreo (perfil, ingesta, reglas y alertas) y preparé el Event Storming/Context Mapping para incluirlo. Ademas de revisar el documento y el trabajo en equipo. </p>
       <strong>Piero Mendoza</strong><br>
