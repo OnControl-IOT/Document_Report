@@ -197,6 +197,7 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>TB1:</strong> <p align="justify">Lideré la integración del BC Monitoreo (perfil, ingesta, reglas y alertas) y preparé el Event Storming/Context Mapping para incluirlo. Ademas de revisar el documento y el trabajo en equipo. </p>
       <strong>Piero Mendoza</strong><br>
       <strong>TB1:</strong> <p align="justify">Diseñe las bases para crear la arquitectura de nuestro sistema en funcion a las necesidades de los usuarios, ademas de plantear las primeras versiones del diagrama de contexto. </p>
+      <strong>TP:</strong> <p align="justify">Colaboré en la planificación de tareas dentro de Trello y en la definición de metas SMART, asegurando una distribución equitativa del trabajo. Además, participé en el seguimiento de los taskflows y la validación de los resultados, cumpliendo con los objetivos establecidos para cada sprint. </p><br>
       </td>
       <td>
         <strong>TB1:</strong><br>
@@ -221,6 +222,8 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <td>
         <strong>TB1:</strong><br>
         Establecer metas para cada semana nos permitió realizar un avance constante en el reporte, revisando y asegurándonos que todos los miembros del grupo hayan cumplido sus objetivos planificados.
+      </td>
+            <strong>TP:</strong> <p align="justify">Trabajé de manera activa en un liderazgo compartido con mis compañeros. Participé en la toma de decisiones sobre prioridades, organización de sprints y revisión de avances, fomentando la comunicación constante dentro del equipo. </p><br>
       </td>
     </tr>
   </tbody>
