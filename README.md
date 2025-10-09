@@ -1997,12 +1997,12 @@ Esta capa contiene las implementaciones concretas para interactuar con tecnolog√
 
 <div id='4.2.4.5.'><h5>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
 
-![ClassDiagram_Chat](https://cdn.discordapp.com/attachments/302292068330504205/1418143978125135973/structurizr-bc_monitoreo_simple.png?ex=68cd0d00&is=68cbbb80&hm=fef2bc2c0b164c4ae835e997da506833394e2346f3c83221e0650e87dcf6ecaf)
+![ClassDiagram_Chat](https://github.com/user-attachments/assets/a77a2844-159f-41ab-9eb4-c9b17a6b672b)
 
 <div id='4.2.4.6.'><h5>4.2.4.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
 <div id='4.2.4.6.1.'><h6>4.2.4.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
 
-![ClassDiagram_Chat](https://cdn.discordapp.com/attachments/302292068330504205/1418143965961785399/Bounded_Context_Domain_Layer_Class_Diagrams.png?ex=68cd0cfd&is=68cbbb7d&hm=734fcd33d93c718c520f19f46a54cf70d1d0e4ccb76c9b03226e7610091a0c62)
+![ClassDiagram_Chat](https://github.com/user-attachments/assets/7f0b8173-38c1-4da6-abc8-87e01c003582)
 
 
 <div id='5.'><h2>5. Cap√≠tulo V: Solution UI/UX Design</h2></div>
