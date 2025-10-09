@@ -3697,5 +3697,7 @@ git push origin main
 
 <div id='9.'><h2>9. Anexo</h2></div>
 
+Video de exposición TP1: https://drive.google.com/file/d/1VKAwPyuGAFnuvQisHW4tDOHYlb68MVV2/view?usp=sharing
+
 
 
