@@ -198,6 +198,7 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>TP:</strong> <p align="justify">Para la entrega del trabajo parcial me encargué de revisar el capítulo 6 y llenarlo con lo que avanzamos en este sprint, así como colocar las capturas de la prueba de que la landing page y la aplicación funcionan correctamente.</p>
       <strong>Quispe Roldan, Michael Fred</strong><br>
       <strong>TB1:</strong> <p align="justify">Lideré la integración del BC Monitoreo (perfil, ingesta, reglas y alertas) y preparé el Event Storming/Context Mapping para incluirlo. Ademas de revisar el documento y el trabajo en equipo. </p>
+      <strong>TP:</strong> <p align="justify">En este trabajo realicé los Application Wireframes y conduje el Sprint 1: definí flujos y criterios de diseño, prioricé el backlog, coordiné revisiones y cerré acuerdos de navegación y alcance. Con ello evidencio el Student Outcome de liderazgo conjunto, ya que lideré desde mi rol, integré feedback técnico/UX y habilité decisiones oportunas para asegurar la coherencia entre wireframes y objetivos del producto.</p>
       <strong>Piero Mendoza</strong><br>
       <strong>TB1:</strong> <p align="justify">Diseñe las bases para crear la arquitectura de nuestro sistema en funcion a las necesidades de los usuarios, ademas de plantear las primeras versiones del diagrama de contexto. </p>
       <strong>TP:</strong> <p align="justify">Colaboré en la planificación de tareas dentro de Trello y en la definición de metas SMART, asegurando una distribución equitativa del trabajo. Además, participé en el seguimiento de los taskflows y la validación de los resultados, cumpliendo con los objetivos establecidos para cada sprint. </p><br>
@@ -220,6 +221,7 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>TB1:</strong> <p align="justify">Hemos realizado correcciones al trabajo anterior que habían realizado algunos miembros de este grupo, y lo seguiremos mejorando a lo largo de este curso</p>
       <strong>Quispe Roldan, Michael Fred</strong><br>
       <strong>TB1:</strong> <p align="justify">Facilité el Event Storming y el Context Mapping, definí roles por subdominio y una Definition of Done común; promoví acuerdos asincrónicos y lenguaje ubicuo para reducir ambigüedad. </p>
+      <strong>TP:</strong> <p align="justify">En este trabajo aseguré un entorno colaborativo e inclusivo (facilité sesiones, recogí todas las voces y documenté acuerdos), establecí metas del Sprint 1, planifiqué tareas en el backlog con criterios de aceptación y tiempos, y cumplí los objetivos entregando los Application Wireframes validados al cierre del sprint.</p>
       <strong>Piero Mendoza</strong><br>
       <strong>TB1:</strong> <p align="justify">Lidere las bases implementar los diagramas C4, de clase y base de datos de la nueva funcion IOT y ademas de pensar en como podemos aportar algo nuevo. </p>
       </td>
