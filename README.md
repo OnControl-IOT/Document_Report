@@ -1,38 +1,43 @@
 <div align="center">
-<h1 style="text-align: center;"> Informe del Trabajo Final </h1>
-<h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
 
 <img src=https://github.com/Integradis-OpenSource/TFDocOpenSource/assets/114628079/4be29e42-94e4-4b80-85ae-3433dde891e4 
 style="display: block; 
 margin-left:auto; 
 margin-right: auto; 
 width=50%"/>
+<h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
 
-<h5 style="text-align: center"> Área: Ingeniería de Software </h5>
+<h5 style="text-align: center"> Código y Nombre del Curso: 572 ; Desarrollo de Soluciones IOT </h5>
 
-<h5 style="text-align: center"> Curso: Desarrollo de Soluciones IOT  </h5>
 <h5 style="text-align: center"> NRC: 3414 </h5>
 
 <h5 style="text-align: center"> Docente: Marco Antonio Leon Baca </h5>
+
+<h1 style="text-align: center;"> Informe del Trabajo Final </h1>
 
 <h5 style="text-align: center"> Startup: OnControl </h5>
 
 <h5 style="text-align: center"> Producto: OnControl </h5>
 
+<h5 style="text-align: center"> Área: Ingeniería de Software </h5>
+
+
+
 ## Team members:
 
-| Alumnos                      |   Codigo   |
-|:-----------------------------|:----------:|
-| Williams Gongora Castillejos | U20221c186 |
-| Piero Mendoza Pimentel | u201923446 |
-| Quispe Roldan Michael Fred   | U20221E734 |
-| Juan Pablo Ramos Mendoza     | U202019545 |
-| Alejandro Eduardo Gray Hidalgo | u201618549 |
+|   Codigo   |    Nombres y Apellidos   |
+|:----------:|:-----------------------------|
+| U20221c186 | Williams Gongora Castillejos |
+| u201923446 | Piero Mendoza Pimentel |
+| U20221E734 | Quispe Roldan Michael Fred   |
+| U202019545 | Juan Pablo Ramos Mendoza     |
+| u201618549 | Alejandro Eduardo Gray Hidalgo |
 
 
-<h5 style="text-align: center"> Ciclo 2025-20 </h5>
+<h5 style="text-align: center"> Noviembre, 2025 </h5>
 
 </div>
+
 
 # Registro de Versiones del Informe
 
