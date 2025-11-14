@@ -3695,6 +3695,8 @@ git push origin main
 
 <div id='6.2.2'><h3>6.2.2. Sprint 2</h3></div>
 
+<p>En esta sección se muestra el avance correspondiente al Sprint 2, donde se planifica el desarrollo del backend y los endpoints</p>
+
 <div id='6.2.2.1'><h4>6.2.2.1. Sprint Planning 2</h4></div>
 
 <div id='6.2.2.2'><h4>6.2.2.2. Aspect Leaders and Collaborators</h4></div>
