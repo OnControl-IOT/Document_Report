@@ -176,6 +176,23 @@ Github también presenta un timeline de las ramas principales y los procesos de 
          6.2.1.7. [Services Documentation Evidence for Sprint Review.](#6.2.1.7.)<br>
          6.2.1.8. [Software Deployment Evidence for Sprint Review.](#6.2.1.8.)<br>
          6.2.1.9. [Team Collaboration Insights during Sprint.](#6.2.1.9.)<br>
+      6.2.2. [Sprint 2.](#6.2.2.)<br>
+         6.2.2.1. [Sprint Planning 2.](#6.2.2.1.)<br>
+         6.2.2.2. [Aspect Leaders and Collaborators.](#6.2.2.2.)<br>
+         6.2.2.3. [Sprint Backlog 2.](#6.2.2.3.)<br>
+         6.2.2.4. [Development Evidence for Sprint Review.](#6.2.2.4.)<br>
+         6.2.2.5. [Testing Suite Evidence for Sprint Review.](#6.2.2.5.)<br>
+         6.2.2.6. [Execution Evidence for Sprint Review.](#6.2.2.6.)<br>
+         6.2.2.7. [Services Documentation Evidence for Sprint Review.](#6.2.2.7.)<br>
+         6.2.2.8. [Software Deployment Evidence for Sprint Review.](#6.2.2.8.)<br>
+         6.2.2.9. [Team Collaboration Insights during Sprint.](#6.2.2.9.)<br>
+
+   6.3. [Validation Interviews.](#6.3.)<br>
+      6.3.1. [Diseño de Entrevistas.](#6.3.1.)<br>
+      6.3.2. [Registro de Entrevistas.](#6.3.2.)<br>
+      6.3.3. [Evaluaciones según heurísticas.](#6.3.3.)<br>
+
+   6.4. [Video About-the-Product.](#6.4.)<br>
 
 7. [**Conclusiones.**](#7.)<br>
 8. [**Bibliografía.**](#8.)<br>
@@ -3676,6 +3693,162 @@ git push origin main
 
 <img width="1228" height="951" alt="image" src="https://github.com/user-attachments/assets/d484cca8-b4a8-4218-871d-4de0f8f7e589" />
 
+<div id='6.2.2'><h3>6.2.2. Sprint 2</h3></div>
+
+<div id='6.2.2.1'><h4>6.2.2.1. Sprint Planning 2</h4></div>
+
+<div id='6.2.2.2'><h4>6.2.2.2. Aspect Leaders and Collaborators</h4></div>
+
+<div id='6.2.2.3'><h4>6.2.2.3. Sprint Backlog 2</h4></div>
+
+<div id='6.2.2.4'><h4>6.2.2.4. Development Evidence for Sprint Review</h4></div>
+
+<div id='6.2.2.5'><h4>6.2.2.5. Testing Suite Evidence for Sprint Review</h4></div>
+
+<div id='6.2.2.6'><h4>6.2.2.6. Execution Evidence for Sprint Review</h4></div>
+
+En el marco de este Sprint 2 del proyecto, se ha consolidado la base técnica y comunicacional de la plataforma OnControl, logrando la implementación simultánea de los componentes de Landing Page, Frontend Web y Backend API RESTful.
+
+**OnControl Backend API - Swagger:**
+
+<img width="921" height="857" alt="image" src="https://github.com/user-attachments/assets/cb2043a6-2816-4763-89bf-ac59e973485f" />
+
+<img width="926" height="688" alt="image" src="https://github.com/user-attachments/assets/f69e630b-af23-412d-af30-758c1608a140" />
+
+<img width="926" height="823" alt="image" src="https://github.com/user-attachments/assets/3be392b8-5185-4c9e-83a3-b237c7eafb0e" />
+
+<img width="923" height="562" alt="image" src="https://github.com/user-attachments/assets/8f84ac21-0a75-482f-9b41-08e5b1fd6cd8" />
+
+<img width="929" height="453" alt="image" src="https://github.com/user-attachments/assets/96bffad2-ce9c-4543-979e-78a85a1563fe" />
+
+<img width="931" height="945" alt="image" src="https://github.com/user-attachments/assets/5be0cca6-c2a2-495d-a9d9-864b739ef959" />
+
+<div id='6.2.2.7'><h4>6.2.2.7. Services Documentation Evidence for Sprint Review</h4></div>
+
+La aplicación cuenta con documentación generada automáticamente mediante Swagger UI (OpenAPI), la cual permite explorar, probar y visualizar todos los endpoints disponibles en el backend de forma clara y estructurada. Esta documentación está disponible en la ruta: `/api-docs` y facilita tanto la comprensión del API como la integración por parte de otros desarrolladores o sistemas externos.
+
+### **Módulos y Endpoints Disponibles**
+
+#### **Authentication Module**
+- `POST /api/auth/register/organization` - Register a new organization
+- `POST /api/auth/login` - Login
+
+#### **Patients Module**
+- `GET /api/patients/{patientProfileId}/summary` - Get patient summary
+- `GET /api/patients/{patientProfileId}/dashboard` - Get patient dashboard
+
+#### **Treatments Module**
+- `GET /api/treatments/{treatmentId}` - Get treatment
+- `GET /api/treatments/{treatmentId}/sessions` - Get treatment sessions
+- `GET /api/treatments/patient/{patientProfileId}` - Get patient treatments
+- `GET /api/treatments/patient/{patientProfileId}/sessions/upcoming` - Get upcoming sessions
+- `GET /api/treatments/patient/{patientProfileId}/current` - Get current treatment
+- `GET /api/treatments/doctor/{doctorProfileId}` - Get doctor treatments
+- `GET /api/treatments/doctor/{doctorProfileId}/stats` - Get treatment statistics
+- `PATCH /api/treatments/{treatmentId}/status` - Update treatment status
+- `POST /api/treatments/{treatmentId}/sessions` - Register session
+- `POST /api/treatments/doctor/{doctorProfileId}/patient/{patientProfileId}` - Create treatment
+- `PUT /api/treatments/{treatmentId}` - Update treatment
+
+#### **Symptoms Module**
+- `GET /api/symptoms/patient/{patientProfileId}` - Get patient symptoms
+- `GET /api/symptoms/patient/{patientProfileId}/stats` - Get symptom statistics
+- `GET /api/symptoms/patient/{patientProfileId}/recent` - Get recent symptoms
+- `POST /api/symptoms/patient/{patientProfileId}` - Report symptom
+
+#### **Appointments Module**
+- `GET /api/appointments/{id}` - Get appointment by ID
+- `GET /api/appointments/patient/{patientProfileId}` - Get patient appointments
+- `GET /api/appointments/doctor/{doctorProfileId}` - Get doctor appointments
+- `PATCH /api/appointments/{id}/status` - Update appointment status
+- `PATCH /api/appointments/{id}/follow-up` - Add follow-up notes
+- `POST /api/appointments/doctor/{doctorProfileId}/patient/{patientProfileId}` - Create appointment
+
+#### **Doctors Module**
+- `GET /api/doctors/{doctorProfileId}/patients` - Get doctor patients
+- `GET /api/doctors/{doctorProfileId}/patients/{patientId}` - Get patient by ID
+- `GET /api/doctors/{doctorProfileId}/patients/{patientId}/symptoms` - Get patient symptoms
+- `GET /api/doctors/{doctorProfileId}/dashboard` - Get doctor dashboard
+- `POST /api/doctors/{doctorProfileId}/patients` - Create patient
+
+#### **Organizations Module**
+- `GET /api/organizations/{organizationId}/doctors` - Get organization doctors
+- `GET /api/organizations/{organizationId}/doctors/{doctorId}` - Get doctor by ID
+- `GET /api/organizations/{organizationId}/dashboard` - Get organization dashboard
+- `POST /api/organizations/{organizationId}/doctors` - Create doctor
+
+#### **Medications Module**
+- `DELETE /api/medications/{medicationId}` - Discontinue medication
+- `GET /api/medications/{medicationId}` - Get medication
+- `GET /api/medications/patient/{patientProfileId}` - Get patient medications
+- `GET /api/medications/patient/{patientProfileId}/upcoming-doses` - Get upcoming doses
+- `GET /api/medications/patient/{patientProfileId}/active` - Get active medications
+- `GET /api/medications/doctor/{doctorProfileId}` - Get doctor medications
+- `POST /api/medications/{medicationId}/mark-taken` - Mark dose as taken
+- `POST /api/medications/doctor/{doctorProfileId}/patient/{patientProfileId}` - Prescribe medication
+- `PUT /api/medications/{medicationId}` - Update medication
+
+#### **Medical History Module**
+- `DELETE /api/medical-history/allergies/{allergyId}` - Delete allergy
+- `GET /api/medical-history/patient/{patientProfileId}` - Get medical history
+- `GET /api/medical-history/patient/{patientProfileId}/allergies` - Get allergies
+- `GET /api/medical-history/patient/{patientProfileId}/type/{type}` - Get history by type
+- `GET /api/medical-history/patient/{patientProfileId}/date-range` - Get history by date range
+- `POST /api/medical-history/patient/{patientProfileId}` - Add history entry
+- `POST /api/medical-history/patient/{patientProfileId}/allergies` - Add allergy
+
+#### **Dashboard Module**
+- `GET /api/dashboard/patient/{patientProfileId}` - Get Patient Dashboard
+- `GET /api/dashboard/patient/{patientProfileId}/stats` - Get Patient Statistics
+- `GET /api/dashboard/organization/{organizationId}` - Get Organization Dashboard
+- `GET /api/dashboard/organization/{organizationId}/stats` - Get Organization Statistics
+- `GET /api/dashboard/organization/{organizationId}/filter/doctor/{doctorId}` - Get Organization Dashboard Filtered by Doctor
+- `GET /api/dashboard/doctor/{doctorProfileId}` - Get Doctor Dashboard
+- `GET /api/dashboard/doctor/{doctorProfileId}/stats` - Get Doctor Statistics
+- `GET /api/dashboard/doctor/{doctorProfileId}/filter/patient/{patientId}` - Get Doctor Dashboard Filtered by Patient
+
+#### **Reports Module**
+- `GET /api/reports/doctor/{doctorProfileId}/treatments-by-type` - Get treatments by type
+- `GET /api/reports/doctor/{doctorProfileId}/patients-by-month` - Get patients by month
+- `GET /api/reports/doctor/{doctorProfileId}/overview` - Get doctor reports
+- `GET /api/reports/doctor/{doctorProfileId}/appointments-by-day` - Get appointments by day
+
+#### **Health Check**
+- `GET /health` - Health check endpoint
+- `GET /` - Root endpoint
+
+<div id='6.2.2.8'><h4>6.2.2.8. Software Deployment Evidence for Sprint Review</h4></div>
+
+#### **Despliegue del Backend (Render/Railway)**
+
+**Configuración en Render:**
+- **Paso 1: Crear Servicio Web**
+  - Selecciona "New Web Service" en Render
+  - Conecta el repositorio ControlUPC/oncontrol-backend
+  - Configura el servicio como servicio web
+
+- **Paso 2: Configuración del Build**
+  - **Runtime:** Java
+  - **Build Command:** `./mvnw clean package -DskipTests`
+  - **Start Command:** `java -jar target/oncontrol-backend-1.0.0.jar`
+  - **Plan:** Free o según requerimientos
+
+- **Paso 3: Variables de Entorno**
+  - `SPRING_PROFILES_ACTIVE`: production
+  - `SPRING_DATASOURCE_URL`: URL de base de datos MySQL
+  - `JWT_SECRET`: Clave secreta para JWT
+  - `SERVER_PORT`: 8080
+
+**Link de despliegue del backend:** [https://oncontrol-backend.onrender.com/](https://oncontrol-backend.onrender.com/)
+
+![DeployBack](https://github.com/user-attachments/assets/93a47f72-4a18-46b0-be63-111a1f0cfab7)
+
+
+<div id='6.2.2.9'><h4>6.2.2.9. Team Collaboration Insights during Sprint</h4></div>
+
+<img width="1320" height="725" alt="image" src="https://github.com/user-attachments/assets/2c8aa340-a7d6-4bd4-a819-0ad3ea7d2691" />
+
+<img width="1228" height="951" alt="image" src="https://github.com/user-attachments/assets/d484cca8-b4a8-4218-871d-4de0f8f7e589" />
 
 <div id='6.3'><h3>6.3. Validation Interviews</h3></div>
 
