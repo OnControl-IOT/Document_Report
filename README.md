@@ -3726,7 +3726,7 @@ En esta sección se muestra el avance correspondiente al Sprint 2, donde se plan
     </tr>
     <tr>
         <th>Sprint Goal</th>
-        <td>Implementar y demostrar la Landing Page (secciones: Inicio, Características, Beneficios, Problema, Acerca de, Testimonio, Contacto y Descarga/Footer) y avanzar el Frontend inicial (Inicio de Sesión, Registro de Oncólogo, Dashboard, Monitoreo de Signos Vitales, Lista de Pacientes, Perfil de Paciente, Gestión de Citas, Administración de Tratamientos, Sistema de Alertas IoT, Centro de Notificaciones y Configuración de Perfil).</td>
+        <td>Implementar el backend, crear los endpoints, mejorar el frontend y conectar ambos</td>
     </tr>
     <tr>
         <th>Sprint Velocity</th>
