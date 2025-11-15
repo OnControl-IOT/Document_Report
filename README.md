@@ -232,7 +232,8 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>TB2:</strong> <p align="justify"> Desarrollé el front en Flutter y ejercí liderazgo conjunto desde mi rol: definí estándares de UI/arquitectura de componentes, coordiné integraciones con backend, guié revisiones de PR y resolví bloqueos para alinear diseño, accesibilidad y performance con los objetivos del equipo. </p><br>
       <strong>Piero Mendoza</strong><br>
       <strong>TB1:</strong> <p align="justify">Diseñe las bases para crear la arquitectura de nuestro sistema en funcion a las necesidades de los usuarios, ademas de plantear las primeras versiones del diagrama de contexto. </p>
-      <strong>TP:</strong> <p align="justify">Colaboré en la planificación de tareas dentro de Trello y en la definición de metas SMART, asegurando una distribución equitativa del trabajo. Además, participé en el seguimiento de los taskflows y la validación de los resultados, cumpliendo con los objetivos establecidos para cada sprint. </p><br>
+      <strong>TP:</strong> <p align="justify">Colaboré en la planificación de tareas dentro de Trello y en la definición de metas SMART, asegurando una distribución equitativa del trabajo. Además, participé en el seguimiento de los taskflows y la validación de los resultados, cumpliendo con los objetivos establecidos para cada sprint. </p>
+      <strong>TB2:</strong> <p align="justify">Diseñe, implemente y probe la primera versión funcional de un sistema embebido, demostrando la capacidad del equipo en de desarrollar módulos de hardware autónomos que operan sin dependencia inicial de una interfaz de comunicación externa.</p><br>
       </td>
       <td>
         <strong>TB1:</strong><br>
@@ -257,7 +258,9 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>TP:</strong> <p align="justify">En este trabajo aseguré un entorno colaborativo e inclusivo (facilité sesiones, recogí todas las voces y documenté acuerdos), establecí metas del Sprint 1, planifiqué tareas en el backlog con criterios de aceptación y tiempos, y cumplí los objetivos entregando los Application Wireframes validados al cierre del sprint.</p>
       <strong>TB2:</strong> <p align="justify"> Fomenté un entorno colaborativo e inclusivo (revisiones abiertas, feedback de todos y criterios de accesibilidad en el front Flutter). Definí metas de sprint, planifiqué tareas en el backlog con DoR/DoD y cumplí objetivos entregando vistas e integraciones funcionales a tiempo. </p><br>
       <strong>Piero Mendoza</strong><br>
-      <strong>TB1:</strong> <p align="justify">Lidere las bases implementar los diagramas C4, de clase y base de datos de la nueva funcion IOT y ademas de pensar en como podemos aportar algo nuevo. </p>
+      <strong>TB1:</strong> <p align="justify">Lidere las bases implementar los diagramas C4, de clase y base de datos de la nueva funcion IOT y ademas de pensar en como podemos aportar algo nuevo.</p>
+      <strong>TP:</strong> <p align="justify">Lidere las bases implementar los diagramas C4, de clase y base de datos de la nueva funcion IOT y ademas de pensar en como podemos aportar algo nuevo. </p>
+      <strong>TB2:</strong> <p align="justify">Establecí y promoví activamente un entorno colaborativo para el equipo del proyecto. Definí y planifiqué meticulosamente todas las tareas de desarrollo, lo que me permitió cumplir el objetivo de desarrollar la primera versión del sistema embebido, garantizando su funcionamiento autónomo antes de integrar la conectividad móvil.</p>
       </td>
       <td>
         <strong>TB1:</strong><br>
