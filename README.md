@@ -49,6 +49,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 |    0.1    |   28/08/25   |   Grupo   | Estructura del reporte |
 |    1.0    |   20/09/25   |   Grupo   | Finalización de TB1 |
 |    1.5    |   09/10/25   |   Grupo   | Finalización de TP1 y correciones pasadas |
+|    2.0    |   13/11/25   |   Grupo   | Finalización de TB2 y correciones pasadas |
 
 # Project Report Collaboration Insights
 
