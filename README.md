@@ -233,6 +233,7 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>Gray Hidalgo, Alejandro Eduardo</strong><br>
       <strong>TB1:</strong> <p align="justify">Para esta primera entrega revisé que lo que habíamos hecho en el trabajo del otro curso estuviera correcto para no tener que hacer trabajo extra para este curso</p>
       <strong>TP:</strong> <p align="justify">Para la entrega del trabajo parcial me encargué de revisar el capítulo 6 y llenarlo con lo que avanzamos en este sprint, así como colocar las capturas de la prueba de que la landing page y la aplicación funcionan correctamente.</p>
+      <strong>TB2.</strong> <p align="justify">Para la entrega de la TB2 me encargué de documentar lo realizado en todo el Sprint 2 como el desarrollo del backend además de corregir algunos aspectos del frontend y crear los endpoints</p>
       <strong>Quispe Roldan, Michael Fred</strong><br>
       <strong>TB1:</strong> <p align="justify">Lideré la integración del BC Monitoreo (perfil, ingesta, reglas y alertas) y preparé el Event Storming/Context Mapping para incluirlo. Ademas de revisar el documento y el trabajo en equipo. </p>
       <strong>TP:</strong> <p align="justify">En este trabajo realicé los Application Wireframes y conduje el Sprint 1: definí flujos y criterios de diseño, prioricé el backlog, coordiné revisiones y cerré acuerdos de navegación y alcance. Con ello evidencio el Student Outcome de liderazgo conjunto, ya que lideré desde mi rol, integré feedback técnico/UX y habilité decisiones oportunas para asegurar la coherencia entre wireframes y objetivos del producto.</p>
@@ -265,6 +266,7 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>Gray Hidalgo, Alejandro Eduardo</strong><br>
       <strong>TB1:</strong> <p align="justify">Hemos realizado correcciones al trabajo anterior que habían realizado algunos miembros de este grupo, y lo seguiremos mejorando a lo largo de este curso</p>
       <strong>TP:</strong> <p align="justify">Planificamos de forma ordenada las tareas a realizar para esta entrega, con tal de poder realizar un buen trabajo a tiempo y que cumpla con los lineamientos del curso.</p>
+      <strong>TB2:</strong> <p align="justify">Promoví un entorno colaborativo e inclusivo donde definí metas para documentar lo realizado en el Sprint lo que me permitió trabajar de forma eficiente</p>
       <strong>Quispe Roldan, Michael Fred</strong><br>
       <strong>TB1:</strong> <p align="justify">Facilité el Event Storming y el Context Mapping, definí roles por subdominio y una Definition of Done común; promoví acuerdos asincrónicos y lenguaje ubicuo para reducir ambigüedad. </p>
       <strong>TP:</strong> <p align="justify">En este trabajo aseguré un entorno colaborativo e inclusivo (facilité sesiones, recogí todas las voces y documenté acuerdos), establecí metas del Sprint 1, planifiqué tareas en el backlog con criterios de aceptación y tiempos, y cumplí los objetivos entregando los Application Wireframes validados al cierre del sprint.</p>
