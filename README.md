@@ -67,6 +67,12 @@ URL del repositorio para el reporte del proyecto: https://github.com/OnControl-I
   <img width="778" height="897" alt="image" src="https://github.com/user-attachments/assets/9206983f-18ec-474e-a429-85d876fed6a3" />
 </div>
 
+**TB2**
+
+<div align="center">
+  <img width="778" height="897" alt="image" src="https://github.com/user-attachments/assets/8d4d202f-2e98-4e7d-a95f-b5485e52abef" />
+</div>
+
 
 **Github Collaboration Insights**
 
@@ -4315,9 +4321,9 @@ La aplicación cuenta con documentación generada automáticamente mediante Swag
 
 <div id='6.2.2.9'><h4>6.2.2.9. Team Collaboration Insights during Sprint</h4></div>
 
-<img width="1320" height="725" alt="image" src="https://github.com/user-attachments/assets/2c8aa340-a7d6-4bd4-a819-0ad3ea7d2691" />
+<img width="1320" height="725" alt="image" src="https://github.com/user-attachments/assets/820add13-3566-4cc3-a42b-63a6941a02b2" />
 
-<img width="1228" height="951" alt="image" src="https://github.com/user-attachments/assets/d484cca8-b4a8-4218-871d-4de0f8f7e589" />
+<img width="1228" height="951" alt="image" src="https://github.com/user-attachments/assets/8d4d202f-2e98-4e7d-a95f-b5485e52abef" />
 
 <div id='6.3'><h3>6.3. Validation Interviews</h3></div>
 
