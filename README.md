@@ -3765,51 +3765,51 @@ En esta sección se muestra el avance correspondiente al Sprint 2, donde se plan
     </thead>
     <tbody>
         <tr>
-            <td>US36</td>
-            <td>Visualizar landing page</td>
-            <td>Landing Page (EP07)</td>
+            <td>US02</td>
+            <td>Configurar pagos</td>
+            <td>EP02</td>
             <td>Williams Gongora Castillejos</td>
             <td>8</td>
         </tr>
         <tr>
-            <td>US37</td>
-            <td>Acceso a la app</td>
-            <td>Landing Page (EP07)</td>
+            <td>US09</td>
+            <td>Mandar solicitud de cita</td>
+            <td>EP03</td>
             <td>Williams Gongora Castillejos</td>
             <td>3</td>
         </tr>
         <tr>
-            <td>US38</td>
-            <td>Recibir información por correo</td>
-            <td>Landing Page (EP07)</td>
+            <td>US10</td>
+            <td>Aceptar cita</td>
+            <td>EP03</td>
             <td>Alejandro Eduardo Gray Hidalgo</td>
             <td>3</td>
         </tr>
         <tr>
-            <td>US01</td>
-            <td>Registrar cuenta</td>
-            <td>Autenticación (EP01)</td>
+            <td>US11</td>
+            <td>Cancelar cita</td>
+            <td>EP03</td>
             <td>Piero Mendoza Pimentel</td>
             <td>5</td>
         </tr>
         <tr>
-            <td>US03</td>
-            <td>Iniciar sesión</td>
-            <td>Autenticación (EP01)</td>
+            <td>US12</td>
+            <td>Reprogramar cita</td>
+            <td>EP03</td>
             <td>Juan Pablo Ramos Mendoza</td>
             <td>5</td>
         </tr>
         <tr>
-            <td>US04</td>
-            <td>Cerrar sesión</td>
-            <td>Autenticación (EP01)</td>
+            <td>US13</td>
+            <td>Mandar solicitud de tratamiento</td>
+            <td>EP03</td>
             <td>Quispe Roldan Michael Fred</td>
             <td>3</td>
         </tr>
         <tr>
-            <td>US05</td>
-            <td>Recuperación de cuenta</td>
-            <td>Autenticación (EP01)</td>
+            <td>US14</td>
+            <td>Aceptar/Rechazar cambios en tratamiento</td>
+            <td>EP03</td>
             <td>Juan Pablo Ramos Mendoza</td>
             <td>5</td>
         </tr>
