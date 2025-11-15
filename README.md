@@ -223,6 +223,7 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>Ramos Mendoza, Juan Pablo</strong><br>
       <strong>TB1:</strong> <p align="justify">Para nuestra primera entrega del trabajo, me aseguré de que el grupo tenga indicaciones claras para poder trabajar de forma colectiva, tneiendo en cuenta las ideas y planes de cada uno de los miembros para formar el mejor producto posible.</p><br>
       <strong>TP:</strong> <p align="justify">En esta segunda entrega, una vez tuvimos nuestro Backlog realizado, pudimos avanzar de forma grupal correcta siguiendo los objetivos planificados al inicio del sprint.</p><br>
+      <strong>TB2:</strong> <p align="justify">Con los resultados obtenidos al realizar las entrevistas de validación hemos podido realizar los cambios según sus comentarios como feedback.</p><br>
       <strong>Gray Hidalgo, Alejandro Eduardo</strong><br>
       <strong>TB1:</strong> <p align="justify">Para esta primera entrega revisé que lo que habíamos hecho en el trabajo del otro curso estuviera correcto para no tener que hacer trabajo extra para este curso</p>
       <strong>TP:</strong> <p align="justify">Para la entrega del trabajo parcial me encargué de revisar el capítulo 6 y llenarlo con lo que avanzamos en este sprint, así como colocar las capturas de la prueba de que la landing page y la aplicación funcionan correctamente.</p>
@@ -238,6 +239,10 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <td>
         <strong>TB1:</strong><br>
         Hemos trabajado todos de forma grupal siguiendo las indicaciones y restricciones que nos hemos puesto para realizar la estructura del reporte y todas sus partes, además de la colaboración de todos los miembros para cada una de las partes del informe.
+        <strong>TP:</strong><br>
+        Hemos trabajado todos de forma grupal siguiendo las indicaciones y restricciones que nos hemos puesto para realizar los primeros avances de nuestras aplicaciones, colaborando para tener un avance continuo.
+        <strong>TB2:</strong><br>
+        Hemos trabajado todos de forma grupal según las indicaciones de las entrevistas de validación y el análisis de heurísticas para mejorar nuestros avances.
       </td>
     </tr>
     <tr>
@@ -250,6 +255,7 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>Ramos Mendoza, Juan Pablo</strong><br>
       <strong>TB1:</strong> <p align="justify">Al tener nuestros objetivos claros desde un inicio, tenemos una buena base de nuestro proyecto lo que nos servirá para el proceso del resto del trabajo, con cada entrega siendo una mejora continua del trabajo en sí.</p><br>
       <strong>TP:</strong> <p align="justify">Al inicio del sprint durante el Sprint Planning se realizaron objetivos y metas a cumplir para el final de esta entrega, asegurándose de que cada una de las partes asignadas a cada uno se hayan cumplido correctamente.</p><br>
+      <strong>TB2:</strong> <p align="justify">Al realizar las entrevistas de validación hemos podido formar puntos a los cuáles enfocarnos para mejorar nuestro proyecto y trabajar de forma continua en este.</p><br>
       <strong>Gray Hidalgo, Alejandro Eduardo</strong><br>
       <strong>TB1:</strong> <p align="justify">Hemos realizado correcciones al trabajo anterior que habían realizado algunos miembros de este grupo, y lo seguiremos mejorando a lo largo de este curso</p>
       <strong>TP:</strong> <p align="justify">Planificamos de forma ordenada las tareas a realizar para esta entrega, con tal de poder realizar un buen trabajo a tiempo y que cumpla con los lineamientos del curso.</p>
@@ -265,8 +271,9 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <td>
         <strong>TB1:</strong><br>
         Establecer metas para cada semana nos permitió realizar un avance constante en el reporte, revisando y asegurándonos que todos los miembros del grupo hayan cumplido sus objetivos planificados.
-      </td>
-            <strong>TP:</strong> <p align="justify">Trabajé de manera activa en un liderazgo compartido con mis compañeros. Participé en la toma de decisiones sobre prioridades, organización de sprints y revisión de avances, fomentando la comunicación constante dentro del equipo. </p><br>
+        <br><strong>TP:</strong> <p align="justify">Trabajamos de manera activa en un liderazgo compartido con nuestros compañeros. Participamos en la toma de decisiones sobre prioridades, organización de sprints y revisión de avances, fomentando la comunicación constante dentro del equipo. </p><br>
+        <strong>TB2:</strong><br>
+        Siguiendo las indicaciones mostradas durante el planeamiento de nuestro Sprint y las entrevistas hemos creado un ambiente de liderazgo y colaboración que nos permitirá seguir trabajando sin fallas.
       </td>
     </tr>
   </tbody>
