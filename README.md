@@ -4552,7 +4552,7 @@ Duración: 5:34
 
 <div id='9.'><h2>9. Anexo</h2></div>
 
-Video de exposición TP1: https://drive.google.com/file/d/1VKAwPyuGAFnuvQisHW4tDOHYlb68MVV2/view?usp=sharing
+Video de exposición TB2: https://drive.google.com/file/d/1n4Z_xc9ZYcjaBsTJgk5fCJ-8i7VpNUPl/view?usp=sharing
 
 
 
