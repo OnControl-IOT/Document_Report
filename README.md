@@ -4083,6 +4083,15 @@ En esta sección se muestra el avance correspondiente al Sprint 2, donde se plan
     <td>Integración de Provider como gestor de estado para autenticación y datos de usuario.</td>
     <td>2025-10-09</td>
   </tr>
+  <!-- ESP32 -->
+  <tr>
+    <td>Oncontrol-ESP32</td>
+    <td>main</td>
+    <td>90203da</td>
+    <td>Primer commit</td>
+    <td>Primera version sin conexion a dispositivos inteligentes con los sensores MAX30102 y MLX90614.</td>
+    <td>2025-11-14</td>
+  </tr>
 </table>
 
 
