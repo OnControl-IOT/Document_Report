@@ -3832,158 +3832,325 @@ En esta sección se muestra el avance correspondiente al Sprint 2, donde se plan
         <th>Assigned To</th>
         <th>Status</th>
     </tr>
-    <!-- US36 -->
+    <!-- US02 -->
     <tr>
-        <td rowspan="3">Sprint 1</td>
-        <td rowspan="3">US36: Visualizar landing page</td>
-        <td>TA01</td>
-        <td>#2025100801</td>
-        <td>Wireframe & Mockup (Figma)</td>
-        <td>Diseñar la landing (secciones principales) según el estilo del proyecto y dejar prototipo navegable.</td>
-        <td>6</td>
-        <td>Williams Gongora Castillejos</td>
-        <td>Done</td>
-    </tr>
-    <tr>
-        <td>TA02</td>
-        <td>#2025100802</td>
-        <td>Implementación responsive</td>
-        <td>Desarrollar la landing (HTML/CSS/JS) con cabecera, navegación por anclas y footer de contacto.</td>
-        <td>12</td>
-        <td>Williams Gongora Castillejos</td>
-        <td>To Do</td>
-    </tr>
-    <tr>
-        <td>TA03</td>
-        <td>#2025100803</td>
-        <td>SEO & Accesibilidad básica</td>
-        <td>Agregar meta tags, títulos, descripciones y mejoras de accesibilidad (alt, roles, focus).</td>
+        <td rowspan="3">Sprint 2</td>
+        <td rowspan="3">US02: Configurar pagos</td>
+        <td>TA15</td>
+        <td>#2025111401</td>
+        <td>Diseñar flujo de configuración de pagos</td>
+        <td>Definir pasos, escenarios y reglas para configurar métodos de pago (tarjeta, billeteras, etc.).</td>
         <td>6</td>
         <td>Williams Gongora Castillejos</td>
         <td>To Do</td>
     </tr>
-    <!-- US37 -->
     <tr>
-        <td rowspan="2">Sprint 1</td>
-        <td rowspan="2">US37: Acceso a la app</td>
-        <td>TA04</td>
-        <td>#2025100804</td>
-        <td>CTA “Acceder a la app”</td>
-        <td>Agregar botón/CTA que dirija a la sección de descarga/uso y explicar requisitos (Android/iOS).</td>
-        <td>4</td>
+        <td>TA16</td>
+        <td>#2025111402</td>
+        <td>UI Configuración de pagos (Flutter)</td>
+        <td>Implementar pantallas para agregar, editar y eliminar métodos de pago con validaciones básicas.</td>
+        <td>10</td>
         <td>Williams Gongora Castillejos</td>
         <td>To Do</td>
     </tr>
     <tr>
-        <td>TA05</td>
-        <td>#2025100805</td>
-        <td>Sección Descarga/Acceso</td>
-        <td>Crear sección con enlaces y pasos para instalar/abrir la app (APK/TestFlight o guía).</td>
+        <td>TA17</td>
+        <td>#2025111403</td>
+        <td>API métodos de pago</td>
+        <td>Crear endpoints para registrar, actualizar y listar métodos de pago; documentar en Swagger.</td>
+        <td>8</td>
+        <td>Williams Gongora Castillejos</td>
+        <td>To Do</td>
+    </tr>
+    <!-- US09 -->
+    <tr>
+        <td rowspan="2">Sprint 2</td>
+        <td rowspan="2">US09: Mandar solicitud de cita</td>
+        <td>TA18</td>
+        <td>#2025111404</td>
+        <td>Pantalla solicitud de cita (Flutter)</td>
+        <td>Diseñar e implementar la pantalla para seleccionar fecha, hora y motivo de la cita.</td>
+        <td>8</td>
+        <td>Williams Gongora Castillejos</td>
+        <td>To Do</td>
+    </tr>
+    <tr>
+        <td>TA19</td>
+        <td>#2025111405</td>
+        <td>API enviar solicitud de cita</td>
+        <td>Implementar endpoint para crear solicitudes de cita y guardarlas con estado inicial &quot;Pendiente&quot;.</td>
         <td>6</td>
         <td>Williams Gongora Castillejos</td>
         <td>To Do</td>
     </tr>
-    <!-- US38 -->
+    <!-- US10 -->
     <tr>
-        <td rowspan="2">Sprint 1</td>
-        <td rowspan="2">US38: Recibir información por correo</td>
-        <td>TA06</td>
-        <td>#2025100806</td>
-        <td>Formulario de suscripción</td>
-        <td>Implementar formulario (email) en la landing con validación y confirmación visual.</td>
+        <td rowspan="2">Sprint 2</td>
+        <td rowspan="2">US10: Aceptar cita</td>
+        <td>TA20</td>
+        <td>#2025111406</td>
+        <td>Listado de citas pendientes (Flutter)</td>
+        <td>Crear vista para que el profesional vea las citas pendientes y pueda seleccionar una para gestionarla.</td>
         <td>6</td>
         <td>Alejandro Eduardo Gray Hidalgo</td>
         <td>To Do</td>
     </tr>
     <tr>
-        <td>TA07</td>
-        <td>#2025100807</td>
-        <td>API de suscripciones (MVP)</td>
-        <td>Exponer endpoint simple para almacenar suscripciones y preparar documentación en Swagger.</td>
-        <td>8</td>
+        <td>TA21</td>
+        <td>#2025111407</td>
+        <td>API aceptar cita</td>
+        <td>Implementar endpoint para cambiar el estado de la cita a &quot;Aceptada&quot; y registrar fecha de confirmación.</td>
+        <td>6</td>
+        <td>Alejandro Eduardo Gray Hidalgo</td>
+        <td>To Do</td>
+    </tr>
+    <!-- US11 -->
+    <tr>
+        <td rowspan="2">Sprint 2</td>
+        <td rowspan="2">US11: Cancelar cita</td>
+        <td>TA22</td>
+        <td>#2025111408</td>
+        <td>Flujo de cancelación de cita (Flutter)</td>
+        <td>Agregar opción para que el usuario cancele una cita y seleccione el motivo de cancelación.</td>
+        <td>6</td>
         <td>Piero Mendoza Pimentel</td>
         <td>To Do</td>
     </tr>
-    <!-- US01 -->
     <tr>
-        <td rowspan="2">Sprint 1</td>
-        <td rowspan="2">US01: Registrar cuenta</td>
-        <td>TA08</td>
-        <td>#2025100808</td>
-        <td>POST /auth/register</td>
-        <td>Crear endpoint de registro con validaciones y manejo de errores (duplicados, 4xx).</td>
-        <td>10</td>
+        <td>TA23</td>
+        <td>#2025111409</td>
+        <td>API cancelar cita</td>
+        <td>Crear endpoint para actualizar el estado de la cita a &quot;Cancelada&quot; y registrar el motivo.</td>
+        <td>6</td>
         <td>Piero Mendoza Pimentel</td>
         <td>To Do</td>
     </tr>
+    <!-- US12 -->
     <tr>
-        <td>TA09</td>
-        <td>#2025100809</td>
-        <td>Pantalla Registro (Flutter)</td>
-        <td>Construir UI con validación de campos y flujo de éxito/error; integración con la API.</td>
-        <td>10</td>
-        <td>Quispe Roldan Michael Fred</td>
+        <td rowspan="3">Sprint 2</td>
+        <td rowspan="3">US12: Reprogramar cita</td>
+        <td>TA24</td>
+        <td>#2025111410</td>
+        <td>Diseñar flujo de reprogramación</td>
+        <td>Definir reglas para reprogramar citas (límites de tiempo, restricciones por estado, notificaciones).</td>
+        <td>4</td>
+        <td>Juan Pablo Ramos Mendoza</td>
         <td>To Do</td>
     </tr>
-    <!-- US03 -->
     <tr>
-        <td rowspan="2">Sprint 1</td>
-        <td rowspan="2">US03: Iniciar sesión</td>
-        <td>TA10</td>
-        <td>#2025100810</td>
-        <td>POST /auth/login</td>
-        <td>Crear endpoint de login con emisión de token y manejo de credenciales inválidas (401).</td>
+        <td>TA25</td>
+        <td>#2025111411</td>
+        <td>Pantalla reprogramar cita (Flutter)</td>
+        <td>Implementar UI para seleccionar nueva fecha/hora y mostrar resumen de la cita original.</td>
         <td>8</td>
         <td>Juan Pablo Ramos Mendoza</td>
         <td>To Do</td>
     </tr>
     <tr>
-        <td>TA11</td>
-        <td>#2025100811</td>
-        <td>Pantalla Login (Flutter)</td>
-        <td>Construir UI de login con almacenamiento seguro del token y estados de carga/errores.</td>
+        <td>TA26</td>
+        <td>#2025111412</td>
+        <td>API reprogramar cita</td>
+        <td>Crear endpoint para actualizar fecha y hora de la cita, manteniendo historial de cambios.</td>
         <td>8</td>
-        <td>Williams Gongora Castillejos</td>
+        <td>Juan Pablo Ramos Mendoza</td>
         <td>To Do</td>
     </tr>
-    <!-- US04 -->
+    <!-- US13 -->
     <tr>
-        <td>Sprint 1</td>
-        <td>US04: Cerrar sesión</td>
-        <td>TA12</td>
-        <td>#2025100812</td>
-        <td>Logout (Flutter)</td>
-        <td>Implementar limpieza de sesión (token/estado) y redirección al login.</td>
-        <td>4</td>
+        <td rowspan="2">Sprint 2</td>
+        <td rowspan="2">US13: Mandar solicitud de tratamiento</td>
+        <td>TA27</td>
+        <td>#2025111413</td>
+        <td>Formulario solicitud de tratamiento (Flutter)</td>
+        <td>Crear formulario para que el paciente envíe solicitud de tratamiento con diagnóstico y objetivo.</td>
+        <td>8</td>
         <td>Quispe Roldan Michael Fred</td>
         <td>To Do</td>
     </tr>
-    <!-- US05 -->
     <tr>
-        <td rowspan="2">Sprint 1</td>
-        <td rowspan="2">US05: Recuperación de cuenta</td>
-        <td>TA13</td>
-        <td>#2025100813</td>
-        <td>POST /auth/forgot-password</td>
-        <td>Exponer endpoint para solicitar recuperación con envío de código/correo.</td>
-        <td>10</td>
-        <td>Piero Mendoza Pimentel</td>
+        <td>TA28</td>
+        <td>#2025111414</td>
+        <td>API solicitud de tratamiento</td>
+        <td>Implementar endpoint para registrar solicitudes de tratamiento asociadas a la historia clínica del paciente.</td>
+        <td>6</td>
+        <td>Quispe Roldan Michael Fred</td>
+        <td>To Do</td>
+    </tr>
+    <!-- US14 -->
+    <tr>
+        <td rowspan="2">Sprint 2</td>
+        <td rowspan="2">US14: Aceptar/Rechazar cambios en tratamiento</td>
+        <td>TA29</td>
+        <td>#2025111415</td>
+        <td>Gestión de cambios de tratamiento (Flutter)</td>
+        <td>Construir vista para revisar propuestas de cambio de tratamiento y mostrar detalles relevantes.</td>
+        <td>8</td>
+        <td>Juan Pablo Ramos Mendoza</td>
         <td>To Do</td>
     </tr>
     <tr>
-        <td>TA14</td>
-        <td>#2025100814</td>
-        <td>Pantalla Recuperar cuenta (Flutter)</td>
-        <td>Crear flujo de ingreso de email/código y cambio de contraseña; manejo de errores.</td>
+        <td>TA30</td>
+        <td>#2025111416</td>
+        <td>API gestionar cambios de tratamiento</td>
+        <td>Implementar endpoint para aceptar o rechazar cambios, registrando comentarios y nuevo estado.</td>
         <td>8</td>
         <td>Juan Pablo Ramos Mendoza</td>
         <td>To Do</td>
     </tr>
 </table>
 
+
 <div id='6.2.2.4'><h4>6.2.2.4. Development Evidence for Sprint Review</h4></div>
 
+<table border="1">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on</th>
+  </tr>
+
+  <!-- MOBILE APP -->
+  <tr>
+    <td>Oncontrol-Movil</td>
+    <td>main</td>
+    <td>a1c3f2b</td>
+    <td>feat: Initial Flutter project setup</td>
+    <td>Se crea el proyecto base en Flutter, configuración inicial de paquetes y estructura mínima de carpetas.</td>
+    <td>2025-10-06</td>
+  </tr>
+  <tr>
+    <td>Oncontrol-Movil</td>
+    <td>main</td>
+    <td>c7e91da</td>
+    <td>feat: Implement core navigation and routes</td>
+    <td>Configuración de navegación principal con rutas base para login, registro y home.</td>
+    <td>2025-10-06</td>
+  </tr>
+  <tr>
+    <td>Oncontrol-Movil</td>
+    <td>main</td>
+    <td>f3b27e4</td>
+    <td>feat: Add authentication screens (login & register)</td>
+    <td>Implementación de pantallas de inicio de sesión y registro con validaciones básicas de formularios.</td>
+    <td>2025-10-07</td>
+  </tr>
+  <tr>
+    <td>Oncontrol-Movil</td>
+    <td>main</td>
+    <td>9d52ac1</td>
+    <td>feat: Configure API client and environment setup</td>
+    <td>Se agrega cliente HTTP, manejo de variables de entorno y capa base de servicios.</td>
+    <td>2025-10-07</td>
+  </tr>
+  <tr>
+    <td>Oncontrol-Movil</td>
+    <td>main</td>
+    <td>2e846b9</td>
+    <td>feat: Implement appointments basic UI</td>
+    <td>Pantallas iniciales para listar, crear y ver detalle de citas médicas (mock data).</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Oncontrol-Movil</td>
+    <td>main</td>
+    <td>d4f13a8</td>
+    <td>chore: Configure theming and global styles</td>
+    <td>Definición de tema de colores, tipografías y estilos globales para la app.</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Oncontrol-Movil</td>
+    <td>main</td>
+    <td>7b9c0e2</td>
+    <td>docs: Update README with setup and run instructions</td>
+    <td>Actualización del README con pasos para instalar dependencias, ejecutar la app y estructura del proyecto.</td>
+    <td>2025-10-08</td>
+  </tr>
+  <tr>
+    <td>Oncontrol-Movil</td>
+    <td>main</td>
+    <td>5ac8d30</td>
+    <td>feat: Add state management base (provider)</td>
+    <td>Integración de Provider como gestor de estado para autenticación y datos de usuario.</td>
+    <td>2025-10-09</td>
+  </tr>
+</table>
+
+
 <div id='6.2.2.5'><h4>6.2.2.5. Testing Suite Evidence for Sprint Review</h4></div>
+
+<table border="1">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on</th>
+  </tr>
+
+  <!-- Acceptance Tests Sprint 2 -->
+  <tr>
+    <td>Acceptance-Tests</td>
+    <td>main</td>
+    <td>f3e1c2f</td>
+    <td>Add feature US14 for treatment change acceptance/rejection</td>
+    <td>US14 — escenarios BDD para la aceptación y rechazo de cambios en el tratamiento, incluyendo comentarios del profesional y actualización de estados.</td>
+    <td>2025-11-14</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Tests</td>
+    <td>main</td>
+    <td>4f799df</td>
+    <td>Add US13 feature for treatment request submission</td>
+    <td>US13 — escenarios BDD para el envío de solicitudes de tratamiento: casos de éxito y validaciones de campos obligatorios.</td>
+    <td>2025-11-14</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Tests</td>
+    <td>main</td>
+    <td>0a72b3f</td>
+    <td>Create US12.feature for appointment rescheduling</td>
+    <td>US12 — escenarios BDD de reprogramación de citas: selección de nueva fecha/hora y restricciones por anticipación mínima.</td>
+    <td>2025-11-14</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Tests</td>
+    <td>main</td>
+    <td>0e627a2</td>
+    <td>Add feature for canceling appointments (US11)</td>
+    <td>US11 — escenarios BDD para cancelación de citas: cancelación dentro y fuera del plazo permitido, motivos y mensajes de error.</td>
+    <td>2025-11-14</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Tests</td>
+    <td>main</td>
+    <td>8c5a7ab</td>
+    <td>Add feature file for US10 Aceptar cita</td>
+    <td>US10 — escenarios BDD para aceptación de citas pendientes por el profesional, con actualización de estado y notificación al paciente.</td>
+    <td>2025-11-14</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Tests</td>
+    <td>main</td>
+    <td>70ddeaf</td>
+    <td>Add feature US09 for appointment request scenarios</td>
+    <td>US09 — escenarios BDD para el envío de solicitudes de cita: flujos de éxito y errores por datos incompletos o inválidos.</td>
+    <td>2025-11-14</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Tests</td>
+    <td>main</td>
+    <td>403e7ac</td>
+    <td>Create US02.feature for payment method configuration</td>
+    <td>US02 — escenarios BDD para configuración de métodos de pago: registro exitoso y fallos por datos de tarjeta inválidos.</td>
+    <td>2025-11-14</td>
+  </tr>
+</table>
+
 
 <div id='6.2.2.6'><h4>6.2.2.6. Execution Evidence for Sprint Review</h4></div>
 
