@@ -7,7 +7,7 @@ margin-right: auto;
 width=50%"/>
 <h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
 
-<h5 style="text-align: center"> Código y Nombre del Curso: 572 ; Desarrollo de Soluciones IOT </h5>
+<h5 style="text-align: center"> Código y Nombre del Curso: 1ASI0572 ; Desarrollo de Soluciones IOT </h5>
 
 <h5 style="text-align: center"> NRC: 3414 </h5>
 
