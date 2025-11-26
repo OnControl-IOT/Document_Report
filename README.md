@@ -4343,7 +4343,54 @@ El Sprint 3 se centró en la maduración de la plataforma OnControl, enfocándos
 
 <div id='6.2.3.1.'><h4>6.2.3.1. Sprint Planning 3</h4></div>
 
+<table>
+    <tr>
+        <th>Sprint 3</th>
+        <td>Sprint 3</td>
+    </tr>
+    <tr>
+        <th>Sprint Planning Date</th>
+        <td>2025-25-11</td>
+    </tr>
+    <tr>
+        <th>Time</th>
+        <td>8:00 PM</td>
+    </tr>
+    <tr>
+        <th>Location</th>
+        <td>Meet</td>
+    </tr>
+    <tr>
+        <th>Prepared By</th>
+        <td>Williams Gongora Castillejos</td>
+    </tr>
+    <tr>
+        <th>Attendees</th>
+        <td>Williams Gongora Castillejos / Piero Mendoza Pimentel / Quispe Roldan Michael Fred / Juan Pablo Ramos Mendoza / Alejandro Eduardo Gray Hidalgo</td>
+    </tr>
+    <tr>
+        <th>Sprint Goal</th>
+        <td>Integrar el hardware (ESP32) con la plataforma y desarrollar la versión funcional de la aplicación móvil de OnControl para pacientes.</td>
+    </tr>
+    <tr>
+        <th>Sprint Velocity</th>
+        <td>15</td>
+    </tr>
+    <tr>
+        <th>Sum of Story Points</th>
+        <td>24</td>
+    </tr>
+</table>
+
 <div id='6.2.3.2.'><h4>6.2.3.2. Aspect Leaders and Collaborators</h4></div>
+
+| Team Member (Last Name, First Name)               | GitHub Username | **Documentación (L/C)** | **Front end (L/C)** | **Landing Page (L/C)** |
+| ------------------------------------------------- | --------------- | ----------------------- | ------------------- | ---------------------- |
+| **Gongora Castillejos, Williams (Sprint Leader)** | WiJeGo          | C                       | **L**               | **L**                  |
+| **Mendoza Pimentel, Piero**                       | PieroM1         | C                       | C                   | C                      |
+| **Ramos Mendoza, Juan Pablo**                     | JJPPRRMM        | C                       | C                   | C                      |
+| **Quispe Roldan, Michael Fred**                   | MQRF123         | **L**                   | C                   | C                      |
+| **Gray Hidalgo, Alejandro Eduardo**               | alexgrayh       | **L**                   | C                   | C                      |
 
 <div id='6.2.3.3.'><h4>6.2.3.3. Sprint Backlog 3</h4></div>
 
@@ -4359,7 +4406,9 @@ El Sprint 3 se centró en la maduración de la plataforma OnControl, enfocándos
 
 <div id='6.2.3.9.'><h4>6.2.3.9. Team Collaboration Insights during Sprint</h4></div>
 
+<img width="1320" height="725" alt="image" src="https://github.com/user-attachments/assets/820add13-3566-4cc3-a42b-63a6941a02b2" />
 
+<img width="1228" height="951" alt="image" src="https://github.com/user-attachments/assets/8d4d202f-2e98-4e7d-a95f-b5485e52abef" />
 
 <div id='6.3'><h3>6.3. Validation Interviews</h3></div>
 
