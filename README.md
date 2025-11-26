@@ -4400,9 +4400,41 @@ El Sprint 3 se centró en la maduración de la plataforma OnControl, enfocándos
 
 <div id='6.2.3.6.'><h4>6.2.3.6. Execution Evidence for Sprint Review</h4></div>
 
+Durante el transcurso de este sprint se realizó la implementación final y funcional de las aplicaciones móviles, integrando una forma de los pacientes y médicos de comunicarse entre ellos y enviar la información obtenida por el dispositivo IoT realizado.
+
+Aplicación móvil flutter:
+
+![2](https://github.com/user-attachments/assets/cc8f366e-efbc-4bcb-be1c-1d4eeddcad98)
+
+![1](https://github.com/user-attachments/assets/857b7583-d1a1-4de4-9c67-29ae8cbf5bcb)
+
+![12](https://github.com/user-attachments/assets/d85577b7-20a2-4dc6-b965-b33937647fae)
+
+![11](https://github.com/user-attachments/assets/c3d002e4-84b6-44b6-aa2a-7d661ccd741c)
+
+![10](https://github.com/user-attachments/assets/196cf371-b379-425b-b7eb-57bb63cc3ca8)
+
+![9](https://github.com/user-attachments/assets/97b1f569-6434-40f5-a53e-6bb7d4044217)
+
+![8](https://github.com/user-attachments/assets/21ec4f89-892b-448c-ac2e-9f3e7c446a98)
+
+![7](https://github.com/user-attachments/assets/dacfa1eb-f941-46bd-8dda-1a4a9017801d)
+
+![6](https://github.com/user-attachments/assets/d890cb7b-e63e-4ffd-b89d-280043ef0f05)
+
+![5 2](https://github.com/user-attachments/assets/4fe3612b-3ff4-4f50-bd85-c2d1a2b027a8)
+
+![5 1](https://github.com/user-attachments/assets/6e6c425b-da6a-45ea-9816-4119ce8c7645)
+
+![4](https://github.com/user-attachments/assets/cf1f66b8-e90e-4911-a5ba-e7a9096a61db)
+
+![3](https://github.com/user-attachments/assets/55a45d8c-d89b-4a41-b5bb-ca61ce04b7aa)
+
 <div id='6.2.3.7.'><h4>6.2.3.7. Services Documentation Evidence for Sprint Review</h4></div>
 
 <div id='6.2.3.8.'><h4>6.2.3.8. Software Deployment Evidence for Sprint Review</h4></div>
+
+
 
 <div id='6.2.3.9.'><h4>6.2.3.9. Team Collaboration Insights during Sprint</h4></div>
 
