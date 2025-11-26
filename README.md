@@ -193,6 +193,16 @@ Github también presenta un timeline de las ramas principales y los procesos de 
          6.2.2.7. [Services Documentation Evidence for Sprint Review.](#6.2.2.7.)<br>
          6.2.2.8. [Software Deployment Evidence for Sprint Review.](#6.2.2.8.)<br>
          6.2.2.9. [Team Collaboration Insights during Sprint.](#6.2.2.9.)<br>
+      6.2.3. [Sprint 3.](#6.2.3.)<br>
+         6.2.3.1. [Sprint Planning 3.](#6.2.3.1.)<br>
+         6.2.3.2. [Aspect Leaders and Collaborators.](#6.2.3.2.)<br>
+         6.2.3.3. [Sprint Backlog 3.](#6.2.3.3.)<br>
+         6.2.3.4. [Development Evidence for Sprint Review.](#6.2.3.4.)<br>
+         6.2.3.5. [Testing Suite Evidence for Sprint Review.](#6.2.3.5.)<br>
+         6.2.3.6. [Execution Evidence for Sprint Review.](#6.2.3.6.)<br>
+         6.2.3.7. [Services Documentation Evidence for Sprint Review.](#6.2.3.7.)<br>
+         6.2.3.8. [Software Deployment Evidence for Sprint Review.](#6.2.3.8.)<br>
+         6.2.3.9. [Team Collaboration Insights during Sprint.](#6.2.3.9.)<br>
 
    6.3. [Validation Interviews.](#6.3.)<br>
       6.3.1. [Diseño de Entrevistas.](#6.3.1.)<br>
@@ -4327,7 +4337,33 @@ La aplicación cuenta con documentación generada automáticamente mediante Swag
 
 <img width="1228" height="951" alt="image" src="https://github.com/user-attachments/assets/8d4d202f-2e98-4e7d-a95f-b5485e52abef" />
 
+<div id='6.2.3.'><h4>6.2.3. Sprint 3</h4></div>
+
+El Sprint 3 se centró en la maduración de la plataforma OnControl, enfocándose principalmente en el desarrollo de la aplicación móvil para pacientes y la configuración de la infraestructura de hardware y software para el monitoreo de signos vitales mediante tecnología IoT.
+
+<div id='6.2.3.1.'><h4>6.2.3.1. Sprint Planning 3</h4></div>
+
+<div id='6.2.3.2.'><h4>6.2.3.2. Aspect Leaders and Collaborators</h4></div>
+
+<div id='6.2.3.3.'><h4>6.2.3.3. Sprint Backlog 3</h4></div>
+
+<div id='6.2.3.4.'><h4>6.2.3.4. Development Evidence for Sprint Review</h4></div>
+
+<div id='6.2.3.5.'><h4>6.2.3.5. Testing Suite Evidence for Sprint Review</h4></div>
+
+<div id='6.2.3.6.'><h4>6.2.3.6. Execution Evidence for Sprint Review</h4></div>
+
+<div id='6.2.3.7.'><h4>6.2.3.7. Services Documentation Evidence for Sprint Review</h4></div>
+
+<div id='6.2.3.8.'><h4>6.2.3.8. Software Deployment Evidence for Sprint Review</h4></div>
+
+<div id='6.2.3.9.'><h4>6.2.3.9. Team Collaboration Insights during Sprint</h4></div>
+
+
+
 <div id='6.3'><h3>6.3. Validation Interviews</h3></div>
+
+En esta sección se documenta el proceso de validación del producto con usuarios reales, fundamental para verificar que nuestra solución cumple con las expectativas y necesidades identificadas. A través de entrevistas estructuradas y evaluaciones heurísticas, recopilamos feedback crítico que nos permite iterar y mejorar la experiencia de usuario antes del lanzamiento final.
 
 <div id='6.3.1'><h4>6.3.1. Diseño de Entrevistas</h4></div>
 
