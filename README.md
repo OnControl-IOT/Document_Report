@@ -4394,15 +4394,208 @@ El Sprint 3 se centró en la maduración de la plataforma OnControl, enfocándos
 
 <div id='6.2.3.3.'><h4>6.2.3.3. Sprint Backlog 3</h4></div>
 
+<br>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Título</th>
+            <th>Épica</th>
+            <th>Responsable</th>
+            <th>Puntos</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>US39</td>
+            <td>Medir parámetros vitales (IoT)</td>
+            <td>Monitoreo IoT (EP04)</td>
+            <td>Piero Mendoza Pimentel</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <td>US40</td>
+            <td>Enviar datos de sensores</td>
+            <td>Monitoreo IoT (EP04)</td>
+            <td>Williams Gongora Castillejos</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>US41</td>
+            <td>Detectar umbrales anormales</td>
+            <td>Monitoreo IoT (EP04)</td>
+            <td>Williams Gongora Castillejos</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>US42</td>
+            <td>Activar LED indicador</td>
+            <td>Monitoreo IoT (EP04)</td>
+            <td>Piero Mendoza Pimentel</td>
+            <td>5</td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+
+<table border="1">
+    <tr>
+        <th>Sprint #</th>
+        <th>User Story</th>
+        <th>Work-item/Task</th>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Estimation (Hours)</th>
+        <th>Assigned To</th>
+        <th>Status</th>
+    </tr>
+    <tr>
+        <td rowspan="3">Sprint 3</td>
+        <td rowspan="3">US39: Medir parámetros vitales (IoT)</td>
+        <td>TA31</td>
+        <td>#2025112501</td>
+        <td>Integración Sensor MAX30102</td>
+        <td>Programar en C++ la lectura de ritmo cardíaco y oxigenación utilizando las librerías del sensor MAX30102 en el ESP32.</td>
+        <td>8</td>
+        <td>Piero Mendoza Pimentel</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TA32</td>
+        <td>#2025112502</td>
+        <td>Integración Sensor MLX90614</td>
+        <td>Implementar la lectura de temperatura corporal mediante el sensor infrarrojo MLX90614 y calibración de datos.</td>
+        <td>6</td>
+        <td>Piero Mendoza Pimentel</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TA33</td>
+        <td>#2025112503</td>
+        <td>Calibración y Filtrado HW</td>
+        <td>Implementar filtros de media móvil en el firmware para reducir el ruido en las lecturas de los sensores.</td>
+        <td>5</td>
+        <td>Juan Pablo Ramos Mendoza</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Sprint 3</td>
+        <td rowspan="3">US40: Enviar datos de sensores</td>
+        <td>TA34</td>
+        <td>#2025112504</td>
+        <td>Configuración Edge Server</td>
+        <td>Levantar servidor local (Edge) en Python/Node.js capaz de recibir tramas de datos vía HTTP/MQTT desde el ESP32.</td>
+        <td>8</td>
+        <td>Williams Gongora Castillejos</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TA35</td>
+        <td>#2025112505</td>
+        <td>Comunicación ESP32 -> Edge</td>
+        <td>Programar el módulo WiFi del ESP32 para enviar payload JSON con las lecturas al endpoint del Edge Server.</td>
+        <td>6</td>
+        <td>Piero Mendoza Pimentel</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TA36</td>
+        <td>#2025112506</td>
+        <td>Sincronización Edge -> Cloud</td>
+        <td>Desarrollar servicio en el Edge que envíe datos procesados al Backend principal solo cuando sea necesario para ahorrar ancho de banda.</td>
+        <td>8</td>
+        <td>Williams Gongora Castillejos</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Sprint 3</td>
+        <td rowspan="2">US41: Detectar umbrales anormales</td>
+        <td>TA37</td>
+        <td>#2025112507</td>
+        <td>Algoritmo de Umbrales en Edge</td>
+        <td>Implementar lógica en el Edge Server para comparar lecturas entrantes con rangos definidos (e.g., Temp > 38°C).</td>
+        <td>6</td>
+        <td>Williams Gongora Castillejos</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TA38</td>
+        <td>#2025112508</td>
+        <td>Generación de Alertas Locales</td>
+        <td>Crear estructura de eventos de alerta en el Edge para respuesta inmediata antes de confirmar con la nube.</td>
+        <td>5</td>
+        <td>Alejandro Eduardo Gray Hidalgo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>Sprint 3</td>
+        <td>US42: Activar LED indicador</td>
+        <td>TA39</td>
+        <td>#2025112509</td>
+        <td>Feedback Visual Hardware</td>
+        <td>Programar activación de LEDs RGB en el ESP32 según el estado recibido del Edge (Verde: Normal, Rojo: Alerta).</td>
+        <td>4</td>
+        <td>Piero Mendoza Pimentel</td>
+        <td>Done</td>
+    </tr>
+</table>
+
 <div id='6.2.3.4.'><h4>6.2.3.4. Development Evidence for Sprint Review</h4></div>
 
+
 <div id='6.2.3.5.'><h4>6.2.3.5. Testing Suite Evidence for Sprint Review</h4></div>
+
+<table border="1">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on</th>
+  </tr>
+  <tr>
+    <td>Acceptance-Tests</td>
+    <td>main</td>
+    <td>bd5acf6</td>
+    <td>Create US42.feature for LED alert functionality</td>
+    <td>US42 — escenarios BDD para la validación de feedback visual (LEDs) en el hardware ante estados de alerta crítica o funcionamiento normal.</td>
+    <td>2025-11-30</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Tests</td>
+    <td>main</td>
+    <td>7c07133</td>
+    <td>Create US41.feature for threshold detection scenarios</td>
+    <td>US41 — escenarios BDD para la lógica de detección de umbrales anormales en el Edge Server y la clasificación de alertas.</td>
+    <td>2025-11-30</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Tests</td>
+    <td>main</td>
+    <td>5a3b52e</td>
+    <td>Create US40.feature for sensor data transmission</td>
+    <td>US40 — escenarios BDD para probar la transmisión de datos JSON desde el dispositivo IoT hacia el servidor Edge y manejo de reintentos.</td>
+    <td>2025-11-30</td>
+  </tr>
+  <tr>
+    <td>Acceptance-Tests</td>
+    <td>main</td>
+    <td>eceb163</td>
+    <td>Create US39.feature for IoT vital parameters</td>
+    <td>US39 — escenarios BDD para verificar la lectura correcta de sensores biométricos (MAX30102 y MLX90614) y manejo de errores de hardware.</td>
+    <td>2025-11-30</td>
+  </tr>
+</table>
 
 <div id='6.2.3.6.'><h4>6.2.3.6. Execution Evidence for Sprint Review</h4></div>
 
 Durante el transcurso de este sprint se realizó la implementación final y funcional de las aplicaciones móviles, integrando una forma de los pacientes y médicos de comunicarse entre ellos y enviar la información obtenida por el dispositivo IoT realizado.
 
-Aplicación móvil flutter:
+### Aplicación móvil flutter:
 
 ![2](https://github.com/user-attachments/assets/cc8f366e-efbc-4bcb-be1c-1d4eeddcad98)
 
