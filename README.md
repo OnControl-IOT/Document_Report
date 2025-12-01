@@ -251,7 +251,8 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>Piero Mendoza</strong><br>
       <strong>TB1:</strong> <p align="justify">Diseñe las bases para crear la arquitectura de nuestro sistema en funcion a las necesidades de los usuarios, ademas de plantear las primeras versiones del diagrama de contexto. </p>
       <strong>TP:</strong> <p align="justify">Colaboré en la planificación de tareas dentro de Trello y en la definición de metas SMART, asegurando una distribución equitativa del trabajo. Además, participé en el seguimiento de los taskflows y la validación de los resultados, cumpliendo con los objetivos establecidos para cada sprint. </p>
-      <strong>TB2:</strong> <p align="justify">Diseñe, implemente y probe la primera versión funcional de un sistema embebido, demostrando la capacidad del equipo en de desarrollar módulos de hardware autónomos que operan sin dependencia inicial de una interfaz de comunicación externa.</p><br>
+      <strong>TB2:</strong> <p align="justify">Diseñe, implemente y probe la primera versión funcional de un sistema embebido, demostrando la capacidad del equipo en de desarrollar módulos de hardware autónomos que operan sin dependencia inicial de una interfaz de comunicación externa.</p>
+      <strong>TF:</strong> <p align="justify">Complete, implemente y probe la version final de un sistema embebido de signos vitales, demostrando la capacidad del equipo en de desarrollar módulos de hardware autónomos que operan sin dependencia inicial de una interfaz de comunicación externa.</p><br>
       </td>
       <td>
         <strong>TB1:</strong><br>
@@ -285,6 +286,7 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>TB1:</strong> <p align="justify">Lidere las bases implementar los diagramas C4, de clase y base de datos de la nueva funcion IOT y ademas de pensar en como podemos aportar algo nuevo.</p>
       <strong>TP:</strong> <p align="justify">Lidere las bases implementar los diagramas C4, de clase y base de datos de la nueva funcion IOT y ademas de pensar en como podemos aportar algo nuevo. </p>
       <strong>TB2:</strong> <p align="justify">Establecí y promoví activamente un entorno colaborativo para el equipo del proyecto. Definí y planifiqué meticulosamente todas las tareas de desarrollo, lo que me permitió cumplir el objetivo de desarrollar la primera versión del sistema embebido, garantizando su funcionamiento autónomo antes de integrar la conectividad móvil.</p>
+      <strong>TF:</strong> <p align="justify">Establecí y promoví activamente un entorno colaborativo para la entrega final del proyecto. Definí y planifiqué meticulosamente todas las tareas de desarrollo enfocadas en el sistema de embebido, lo que me permitió cumplir el objetivo de desarrollar la versión final del sistema embebido, garantizando su funcionamiento autónomo antes de integrar la conectividad móvil.</p>
       </td>
       <td>
         <strong>TB1:</strong><br>
