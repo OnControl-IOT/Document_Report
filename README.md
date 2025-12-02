@@ -4550,6 +4550,21 @@ El Sprint 3 se centró en la maduración de la plataforma OnControl, enfocándos
 
 <div id='6.2.3.4.'><h4>6.2.3.4. Development Evidence for Sprint Review</h4></div>
 
+La siguiente tabla detalla los commits clave realizados para implementar la funcionalidad de Monitoreo de Parámetros Vitales (IoT) de extremo a extremo, abarcando el dispositivo embebido, el servidor Edge, el Backend principal y el Frontend Móvil/Web.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Date |
+|------------|--------|-----------|----------------|---------------------|------|
+| **OnControlESP32** | main | `102c8d4` | **feat:** MAX30102 sensor reading and Wi-Fi logic | Código C++ para lectura de datos de oximetría y ritmo cardíaco, con lógica de conexión Wi-Fi. | 2025-11-16 |
+| **OnControlESP32** | main | `f6d8a01` | **feat:** HTTP POST to EdgeService with vital data | Configuración para enviar datos vitales vía HTTP POST al Servidor Edge. | 2025-11-17 |
+| **EdgeService** | main | `a3b7c21` | **feat:** Initial Flask server setup with Flasgger | Estructura del Servidor Edge en Python con Flasgger para documentación de API. | 2025-11-17 |
+| **EdgeService** | main | `c4e9f18` | **feat:** Implement `/parameters` POST for data ingestion | Endpoint que recibe y valida los datos crudos del dispositivo IoT. | 2025-11-18 |
+| **OnControlBackend** | develop | `7d2b1a0` | **feat:** New Service Layer for IoT Data Processing | Capa de servicio en Java para manejar y persistir datos desde el EdgeService. | 2025-11-18 |
+| **OnControlBackend** | develop | `8e3a4b9` | **feat:** Implement `/OnControl/parameters/latest` endpoint | Endpoint para consultar el último registro vital de un paciente. | 2025-11-19 |
+| **OnControlFronted** | main | `6c1e5d2` | **feat:** Implement IoT Dashboard Component (TypeScript) | Componente en Next.js/TypeScript para mostrar gráficos e indicadores de parámetros vitales. | 2025-11-20 |
+| **OnControlFronted** | main | `9f0b2a3` | **feat:** API integration and automatic data refresh | Conexión del Dashboard Web al Backend para recuperar y mostrar datos IoT. | 2025-11-20 |
+| **Oncontrol-Movil** | main | `2d4f6e1` | **feat:** Mobile UI for vital signs and API integration | Vista móvil en Flutter para monitoreo de signos vitales con integración API. | 2025-11-21 |
+| **Acceptance-Tests** | feature/iot | `5e8c1f0` | **test:** BDD scenario for end-to-end data flow | Archivos .feature para validar flujo de datos completo del ESP32 a la interfaz. | 2025-11-22 |
+| **Document_Report** | main | `f3b1c8d` | **docs:** Update Sprint Review with IoT implementation evidence | Actualización de secciones con evidencia de desarrollo y despliegue del flujo IoT. | 2025-11-22 |
 
 <div id='6.2.3.5.'><h4>6.2.3.5. Testing Suite Evidence for Sprint Review</h4></div>
 
@@ -4628,9 +4643,72 @@ Durante el transcurso de este sprint se realizó la implementación final y func
 
 ![3](https://github.com/user-attachments/assets/55a45d8c-d89b-4a41-b5bb-ca61ce04b7aa)
 
+
+La interfaz de usuario de Swagger (Flagger) para la documentación del Servidor Edge se encuentra disponible en https://carrie-resorptive-lorelei.ngrok-free.dev/apidocs/ y a continuación se muestra una captura de la misma:
+
+Esta evidencia confirma que la capa de Servidor Edge está implementada y documentada para soportar:
+
+Ingesta de Datos (POST /OnControl/parameters): El mecanismo para recibir datos de salud (parámetros vitales) desde los dispositivos IoT.
+
+Consulta de Datos (GET): La funcionalidad para que los usuarios finales (pacientes/médicos) accedan a los datos de monitoreo en tiempo real.
+
+Registro de Pertenencia (POST /devices/claim): El proceso de seguridad que permite a un paciente asegurar la propiedad de un dispositivo para la trazabilidad de los datos.
+
+<img width="932" height="692" alt="image" src="https://github.com/user-attachments/assets/645a2b3f-13b1-480d-8c77-daf492b7fb36" />
+
+Por ultimo, se completo con la codificación e implementación del emebebido.
+
+<img width="658" height="454" alt="image" src="https://github.com/user-attachments/assets/c411041a-dc49-46e8-96ad-0912525eaa9e" />
+
+
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/c35d201d-97cf-4e1a-8dc1-631f7a969a23" />
+
+
 <div id='6.2.3.7.'><h4>6.2.3.7. Services Documentation Evidence for Sprint Review</h4></div>
 
+La documentación del API RESTful principal (Spring Boot) se encuentra en la ruta indicada en el informe. Sin embargo, como evidencia de la implementación de la capa de integración de IoT (Servidor Edge), se incluye la documentación del API que maneja la ingesta de datos de los dispositivos, generada por Flasgger.
+
+Esta API es crucial para validar el Hypothesis 1 y la funcionalidad de Monitoreo de signos vitales.
+
+La siguiente tabla detalla los endpoints expuestos por el Servidor Edge, los cuales son responsables de la lectura y gestión de los datos de salud provenientes de los dispositivos IoT:
+
+| Módulo                   | Acción                 | Verbo HTTP | Endpoint                        | Descripción                                                                                                       |
+|--------------------------|------------------------|------------|---------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| Monitoreo de Salud (Usuarios) | Consulta de Registros  | GET        | `/OnControl/parameters`         | Obtiene registros de salud filtrados según el rol del usuario autenticado (JWT).                                  |
+| Monitoreo de Salud (Usuarios) | Último Registro        | GET        | `/OnControl/parameters/latest`  | Obtiene el registro de salud más reciente para el paciente autenticado.                                           |
+| Monitoreo de Salud (Dispositivos) | Creación de Registro   | POST       | `/OnControl/parameters`         | Crea un nuevo registro de salud a partir de la telemetría enviada por un dispositivo.                            |
+| Gestión de Dispositivos  | Reclamación de Dispositivo | POST       | `/devices/claim`                | Permite a los pacientes asociar un dispositivo IoT específico a su perfil.                                        |
+
+<img width="932" height="692" alt="image" src="https://github.com/user-attachments/assets/645a2b3f-13b1-480d-8c77-daf492b7fb36" />
+
+
 <div id='6.2.3.8.'><h4>6.2.3.8. Software Deployment Evidence for Sprint Review</h4></div>
+
+En esta sección se documentan las actividades realizadas en relación con el Deployment del componente de Servidor Edge (IoT Data Ingestion) durante el Sprint de verificación. El proceso se centró en lograr la conectividad de extremo a extremo entre el dispositivo embebido, el servidor de ingesta de datos y la red de pruebas.
+
+Proceso de Despliegue del Servidor Edge (IoT Data Ingestion)
+El Servidor Edge (mencionado en la documentación como el servicio de ingesta de telemetría de dispositivos IoT), fue inicialmente configurado para operación local y posteriormente se implementó un canal de exposición pública para pruebas en un entorno simulado, facilitando la validación de la arquitectura completa.
+
+| Etapa | Descripción de la Actividad | Herramientas/Servicios | Evidencia |
+|-------|-----------------------------|------------------------|-----------|
+| **Configuración Local** | Despliegue inicial del servicio Edge en entorno de desarrollo local (puerto 5000/8080) para verificación de funcionalidades de Monitoreo de Salud y Gestión de Dispositivos. | - Python/Flask<br>- Flasgger<br>- Entorno Local | - Verificación de logs<br>- Acceso local a Swagger UI |
+| **Exposición Pública** | Creación de túnel seguro con Ngrok para simular red de operación real y permitir conexión de dispositivos remotos (sistema embebido vía Wi-Fi). | Ngrok | URL temporal de pruebas:<br>https://carrie-resorptive-lorelei.ngrok-free.dev/apidocs/ |
+
+<img width="1101" height="617" alt="image" src="https://github.com/user-attachments/assets/83daf63f-333d-4290-9333-b57603437866" />
+
+<img width="866" height="786" alt="image" src="https://github.com/user-attachments/assets/0439b00e-81ee-4ce5-bf54-910c19ae6ee0" />
+
+
+Integración del Dispositivo Embebido (IoT)
+El dispositivo embebido (IoT), responsable de la medición de parámetros vitales, se configuró para comunicarse con la instancia desplegada del Servidor Edge.
+
+| Aspecto | Detalles de la Configuración |
+|---------|-----------------------------|
+| **Despliegue Físico** | El sistema embebido se mantiene en un entorno local para el desarrollo y la simulación. |
+| **Protocolo de Comunicación** | Utiliza conectividad Wi-Fi para acceder a la red local y alcanzar el endpoint público proporcionado por Ngrok. |
+| **Target Endpoint** | El dispositivo se programó para enviar la telemetría (e.g., POST a `/OnControl/parameters`) a la URL generada por Ngrok, asegurando la prueba de la integración de la cadena de valor completa: **Dispositivo → Servidor Edge → Backend principal**. |
+
+<img width="658" height="454" alt="image" src="https://github.com/user-attachments/assets/81b267e8-d7ae-4011-8871-aa22e916d4cc" />
 
 
 
