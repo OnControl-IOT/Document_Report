@@ -4928,16 +4928,17 @@ Duración: 7:04
 <div id='7.'><h2>7. Conclusiones</h2></div>
 
 
-1. **Ecosistema Integral con Modelo Sostenible:** OnControl trasciende una simple aplicación al integrar gestión médica, acompañamiento emocional y herramientas de autocontrol bajo un modelo freemium que balancea accesibilidad para pacientes con valor tangible para profesionales, asegurando viabilidad económica.
+1. **Consolidación de un Ecosistema Digital y Físico Unificado:** Se logró la integración técnica total entre el hardware IoT (sensores y ESP32), el procesamiento en el borde (Edge Server) y la plataforma en la nube, cerrando exitosamente la brecha entre el monitoreo físico remoto y la gestión clínica digital para ofrecer una solución End-to-End completamente funcional.
 
-2. **Experiencia de Usuario Empática y Técnicamente Sólida:** El diseño prioriza interfaces intuitivas y reducción de carga cognitiva para pacientes oncológicos, respaldado por una arquitectura escalable con Flutter, microservicios en Spring Boot e infraestructura cloud que garantiza seguridad, rendimiento y cumplimiento normativo.
+2. **Innovación en Monitoreo Remoto con Arquitectura Edge:** La implementación final del sistema embebido y el servidor Edge validó la capacidad de procesar telemetría crítica en tiempo real, permitiendo la generación de alertas inmediatas (visuales mediante LEDs y digitales vía API) que optimizan la respuesta médica ante anomalías vitales sin depender exclusivamente de la conectividad a la nube.
 
-3. **Desarrollo Ágil con Enfoque Estratégico:** La metodología Scrum permite entregas incrementales validadas continuamente, mientras que el backlog priorizado mediante story points asegura que el desarrollo avance sobre funcionalidades críticas primero, manteniendo flexibilidad y enfoque en el valor central.
+3. **Validación de Usabilidad y Aceptación en el Nicho Oncológico:** Las pruebas finales y entrevistas con pacientes y especialistas confirmaron que la interfaz móvil y web cumple con los estándares de accesibilidad requeridos, reduciendo efectivamente la carga cognitiva y el estrés organizacional, lo que valida la hipótesis de que una experiencia de usuario empática es determinante para la adherencia al uso de la plataforma.
 
-4. **Seguridad Integrada y Confianza del Usuario:** La protección de datos médicos sensibles se incorpora desde el diseño inicial mediante cifrado y adherencia a estándares HIPAA y GDPR, generando la confianza necesaria para que pacientes y médicos adopten la plataforma.
+4. **Madurez Técnica y Despliegue Escalable:** La transición exitosa de prototipos a un entorno de producción completamente desplegado (Render, Netlify, GitHub Pages) demuestra la solidez del ciclo de desarrollo (CI/CD) y la gestión del código fuente, asegurando una arquitectura robusta, documentada vía Swagger y técnicamente preparada para escalar a múltiples usuarios y dispositivos.
 
-5. **Impacto Transformador en Telemedicina Oncológica:** La plataforma democratiza el acceso a especialistas y optimiza el manejo de tratamientos mediante tecnología, equilibrando soluciones técnicas avanzadas con sensibilidad humana para mejorar genuinamente la calidad de vida durante el proceso oncológico.
+5. **Solución Integral Verificada de Alto Impacto:** OnControl ha evolucionado de una propuesta conceptual a un producto funcional validado que resuelve la desconexión entre las consultas médicas, demostrando mediante su implementación que la tecnología accesible puede mejorar tangiblemente la calidad de vida del paciente y la eficiencia operativa del médico oncólogo.
 
+   
 <div id='8.'><h2>8. Bibliografía</h2></div>
 
 - Congreso de la República del Perú. (2011, 3 de julio). Ley N.° 29733, Ley de Protección de Datos Personales. Diario Oficial El Peruano. https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/243470-29733
