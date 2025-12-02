@@ -50,6 +50,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 |    1.0    |   20/09/25   |   Grupo   | Finalización de TB1 |
 |    1.5    |   09/10/25   |   Grupo   | Finalización de TP1 y correciones pasadas |
 |    2.0    |   13/11/25   |   Grupo   | Finalización de TB2 y correciones pasadas |
+|    3.0    |   30/11/25   |   Grupo   | Finalización de TF y correciones pasadas |
 
 # Project Report Collaboration Insights
 
@@ -73,6 +74,11 @@ URL del repositorio para el reporte del proyecto: https://github.com/OnControl-I
   <img width="778" height="897" alt="image" src="https://github.com/user-attachments/assets/8d4d202f-2e98-4e7d-a95f-b5485e52abef" />
 </div>
 
+**TF**
+
+<div align="center">
+<img width="745" height="879" alt="image" src="https://github.com/user-attachments/assets/fea52158-c088-44e4-9091-32805b8c108f" />
+</div>
 
 **Github Collaboration Insights**
 
@@ -250,6 +256,7 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>TB1:</strong> <p align="justify">Lideré la integración del BC Monitoreo (perfil, ingesta, reglas y alertas) y preparé el Event Storming/Context Mapping para incluirlo. Ademas de revisar el documento y el trabajo en equipo. </p>
       <strong>TP:</strong> <p align="justify">En este trabajo realicé los Application Wireframes y conduje el Sprint 1: definí flujos y criterios de diseño, prioricé el backlog, coordiné revisiones y cerré acuerdos de navegación y alcance. Con ello evidencio el Student Outcome de liderazgo conjunto, ya que lideré desde mi rol, integré feedback técnico/UX y habilité decisiones oportunas para asegurar la coherencia entre wireframes y objetivos del producto.</p>
       <strong>TB2:</strong> <p align="justify"> Desarrollé el front en Flutter y ejercí liderazgo conjunto desde mi rol: definí estándares de UI/arquitectura de componentes, coordiné integraciones con backend, guié revisiones de PR y resolví bloqueos para alinear diseño, accesibilidad y performance con los objetivos del equipo. </p><br>
+        <strong>TF:</strong> <p align="justify"> En esta entrega final organicé el trabajo y repartí las partes según fortalezas, definí hitos y responsables, coordiné dependencias y verifiqué la integración de los entregables, ejerciendo liderazgo desde mi rol para asegurar el cierre a tiempo. </p><br>
       <strong>Piero Mendoza</strong><br>
       <strong>TB1:</strong> <p align="justify">Diseñe las bases para crear la arquitectura de nuestro sistema en funcion a las necesidades de los usuarios, ademas de plantear las primeras versiones del diagrama de contexto. </p>
       <strong>TP:</strong> <p align="justify">Colaboré en la planificación de tareas dentro de Trello y en la definición de metas SMART, asegurando una distribución equitativa del trabajo. Además, participé en el seguimiento de los taskflows y la validación de los resultados, cumpliendo con los objetivos establecidos para cada sprint. </p>
@@ -286,6 +293,7 @@ Github también presenta un timeline de las ramas principales y los procesos de 
       <strong>TB1:</strong> <p align="justify">Facilité el Event Storming y el Context Mapping, definí roles por subdominio y una Definition of Done común; promoví acuerdos asincrónicos y lenguaje ubicuo para reducir ambigüedad. </p>
       <strong>TP:</strong> <p align="justify">En este trabajo aseguré un entorno colaborativo e inclusivo (facilité sesiones, recogí todas las voces y documenté acuerdos), establecí metas del Sprint 1, planifiqué tareas en el backlog con criterios de aceptación y tiempos, y cumplí los objetivos entregando los Application Wireframes validados al cierre del sprint.</p>
       <strong>TB2:</strong> <p align="justify"> Fomenté un entorno colaborativo e inclusivo (revisiones abiertas, feedback de todos y criterios de accesibilidad en el front Flutter). Definí metas de sprint, planifiqué tareas en el backlog con DoR/DoD y cumplí objetivos entregando vistas e integraciones funcionales a tiempo. </p><br>
+        <strong>TF:</strong> <p align="justify"> Creé un entorno colaborativo e inclusivo al facilitar espacios de opinión y acordar criterios comunes (DoR/DoD y accesibilidad). Establecí metas e hitos, planifiqué tareas y responsables según fortalezas, di seguimiento a dependencias y resolví bloqueos. Con ello cumplí los objetivos integrando y entregando la versión final a tiempo. </p><br>
       <strong>Piero Mendoza</strong><br>
       <strong>TB1:</strong> <p align="justify">Lidere las bases implementar los diagramas C4, de clase y base de datos de la nueva funcion IOT y ademas de pensar en como podemos aportar algo nuevo.</p>
       <strong>TP:</strong> <p align="justify">Lidere las bases implementar los diagramas C4, de clase y base de datos de la nueva funcion IOT y ademas de pensar en como podemos aportar algo nuevo. </p>
@@ -4715,9 +4723,10 @@ El dispositivo embebido (IoT), responsable de la medición de parámetros vitale
 
 <div id='6.2.3.9.'><h4>6.2.3.9. Team Collaboration Insights during Sprint</h4></div>
 
-<img width="1320" height="725" alt="image" src="https://github.com/user-attachments/assets/820add13-3566-4cc3-a42b-63a6941a02b2" />
+<img width="921" height="480" alt="image" src="https://github.com/user-attachments/assets/1893ff04-b114-426e-917e-746c08e27bcd" />
 
-<img width="1228" height="951" alt="image" src="https://github.com/user-attachments/assets/8d4d202f-2e98-4e7d-a95f-b5485e52abef" />
+<img width="745" height="879" alt="image" src="https://github.com/user-attachments/assets/8510c5ba-3316-48a1-bac8-67bc12bcb8b5" />
+
 
 <div id='6.3'><h3>6.3. Validation Interviews</h3></div>
 
