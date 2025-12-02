@@ -4908,18 +4908,13 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 La sección proporciona un panorama general del producto, resaltando su objetivo, características principales y el valor que brinda a sus usuarios. Esta introducción facilita la comprensión del contexto del producto y su orientación a cubrir las demandas de los usuarios, sincronizando sus características y habilidades con las metas de la solución sugerida.
 
-![image](https://github.com/user-attachments/assets/ffb512ad-c7ca-46ee-aa80-7f421fde5da8)
-
-URL en youtube: [https://youtu.be/CWmXz7oLo78](https://youtu.be/CWmXz7oLo78)
-
-Duración: 3:04
-
-<img width="731" height="718" alt="image" src="https://github.com/user-attachments/assets/be288a0b-4926-48db-a7e8-7a13dea0e45b" />
+<img width="1893" height="935" alt="image" src="https://github.com/user-attachments/assets/fe9d7855-ad93-4d0b-8f0f-705ef600567f" />
 
 
-URL en youtube: [https://youtu.be/1R_rNvDC_hI](https://youtu.be/1R_rNvDC_hI)
+URL en youtube: [https://www.youtube.com/watch?v=qFvFEMXzqAc](https://www.youtube.com/watch?v=qFvFEMXzqAc)
 
-Duración: 5:34
+Duración: 7:04
+
 
 <div id='7.'><h2>7. Conclusiones</h2></div>
 
