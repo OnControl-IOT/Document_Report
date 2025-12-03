@@ -34,7 +34,7 @@ width=50%"/>
 | u201618549 | Alejandro Eduardo Gray Hidalgo |
 
 
-<h5 style="text-align: center"> Noviembre, 2025 </h5>
+<h5 style="text-align: center"> Diciembre, 2025 </h5>
 
 </div>
 
